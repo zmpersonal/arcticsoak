@@ -1,6 +1,86 @@
 [
-  {"title":"Dreampod Ice Bath Flex with Chiller","url":"https://inhousewellness.com/products/dreampod-ice-bath-flex-with-chiller","price":null,"image":null,"source":"InHouse Wellness"},
-  {"title":"Dundalk LeisureCraft The Polar Cold Plunge Tub","url":"https://inhousewellness.com/products/dundalk-leisurecraft-cold-plunge","price":null,"image":null,"source":"InHouse Wellness"},
-  {"title":"Dynamic Cold Therapy PVC Barrel Cold Plunge","url":"https://inhousewellness.com/products/dynamic-cold-therapy-pvc-barrel-cold-plunge","price":null,"image":null,"source":"InHouse Wellness"},
-  {"title":"Medical Frozen 9 Cold Plunge","url":"https://inhousewellness.com/products/medical-frozen-9-cold-plunge","price":null,"image":null,"source":"InHouse Wellness"}
+  {
+    "title": "Dundalk LeisureCraft The Polar Cold Plunge Tub",
+    "url": "https://inhousewellness.com/products/dundalk-leisurecraft-cold-plunge",
+    "price": 3315.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/dundalk-leisurecraft-the-polar-cold-plunge-tub-premium-cold-plunge-for-recovery-wellness-ct362pp-784985.jpg?v=1770880356",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "The Dreampod Ice Series: Ice Bath Flex",
+    "url": "https://inhousewellness.com/products/ice-bath-flex",
+    "price": 760.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/IBFlex.jpg?v=1770876676",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Finnmark SoulCold\u2122 180-Gallon Cold/Hot Plunge",
+    "url": "https://inhousewellness.com/products/finnmark-soulcold-plunge",
+    "price": 9320.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/finnmark-designs-soulcold.png?v=1785337846",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Icetubs IceBath XL 2.18 kW Thermowood Stainless Cold Therapy Bath 96 in",
+    "url": "https://inhousewellness.com/products/icetubs-icebath-xl",
+    "price": 14995.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/Icetubs-IceBath-Cold-Plunge-patio.png?v=1778606755",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Icetubs IceBath 2.18 kW Thermowood Stainless Cold Therapy Bath 89 in",
+    "url": "https://inhousewellness.com/products/icetubs-icebath",
+    "price": 11495.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/Icetubs-IceBath-Cold-Plunge-patio.png?v=1778606755",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Icetubs IceBarrel XL 2.18 kW Thermowood Fiberglass Cold Plunge with Stairs",
+    "url": "https://inhousewellness.com/products/icetubs-icebarrel-xl-stairs",
+    "price": 14990.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/icetubs-barrel-xl-stairs-bathroom.png?v=1778604677",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Icetubs IceBarrel XL 2.18 kW Thermowood Fiberglass Cold Plunge 63 in",
+    "url": "https://inhousewellness.com/products/icetubs-icebarrel-xl",
+    "price": 11995.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/icetubs-barrel-inside.png?v=1778604223",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Icetubs IceBarrel 2.18 kW Thermowood Stainless Cold Plunge 53 in with Stairs",
+    "url": "https://inhousewellness.com/products/icetubs-icebarrel-stairs",
+    "price": 12999.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/icetubs-barrel-stairs.png?v=1778601354",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Icetubs IceBarrel 2.18 kW Thermowood Stainless Cold Plunge 53 in",
+    "url": "https://inhousewellness.com/products/icetubs-icebarrel-cold-plunge",
+    "price": 9800.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/icetubs-barrel.png?v=1778599474",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "SaunaLife Model S2N \u2013 2\u2011Person Hot & Cold Immersion Tub, Natural Thermo\u2011Pine Finish",
+    "url": "https://inhousewellness.com/products/saunalife-s2n-coldplunge",
+    "price": 3790.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/saunalife-plunge_d771c9c1-43dd-42f9-99e2-1f2248598f42.jpg?v=1786542567",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "SaunaLife Model\u202fS2B \u2013 2\u2011Person Hot\u202f&\u202fCold Immersion Tub (Black Thermo\u2011Pine)",
+    "url": "https://inhousewellness.com/products/saunalife-s2b-coldplunge",
+    "price": 3990.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/FINSAUNA_IMMERSIA_200B.jpg?v=1770883580",
+    "source": "InHouse Wellness"
+  },
+  {
+    "title": "Medical Frozen 4 Cold Plunge \u2013 X-Large Size (Up to 6'6\", 350 lbs) for Ultimate Cold Therapy",
+    "url": "https://inhousewellness.com/products/medical-frozen-4-cold-plunge-xl",
+    "price": 12649.0,
+    "image": "https://cdn.shopify.com/s/files/1/0672/9757/4979/files/medical-frozen-4-cold-plunge-x-large-size-up-to-66-350-lbs-for-ultimate-cold-therapy-883326.jpg?v=1770880425",
+    "source": "InHouse Wellness"
+  }
 ]
