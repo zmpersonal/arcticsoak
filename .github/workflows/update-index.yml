@@ -1,0 +1,41 @@
+name: Update ArcticSoak Index and deploy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 12 * * 1'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: arcticsoak-data
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh NOAA, EIA and product data
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: python scripts/update_index.py
+      - name: Commit refreshed datasets and generated pages
+        run: |
+          git config user.name "arcticsoak-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data cities rankings sitemap.xml
+          git diff --cached --quiet || git commit -m "Update ArcticSoak index data"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy refreshed site
+        id: deployment
+        uses: actions/deploy-pages@v4
