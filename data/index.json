@@ -1,0 +1,8130 @@
+{
+  "generated_at": "2026-08-15T20:35:37.402328+00:00",
+  "updated_label": "August 15, 2026",
+  "reference_model": {
+    "target_f": 50.0,
+    "gallons": 100,
+    "effective_ua_btu_hr_f": 11.0,
+    "chiller_cop": 2.2,
+    "base_kwh_day": 0.84
+  },
+  "climate_source": "NOAA NCEI 1991\u20132020 Monthly Climate Normals where refresh succeeded; seed approximations otherwise",
+  "recent_source": "NOAA NCEI Daily Summaries, recent 30-day average where available",
+  "electricity_source": "Bundled planning rates",
+  "cities": [
+    {
+      "city": "Anchorage",
+      "state": "AK",
+      "slug": "anchorage-ak",
+      "lat": 61.2181,
+      "lon": -149.9003,
+      "score": 88.0,
+      "annual_kwh": 338.3,
+      "annual_cost": 82.9,
+      "rate": 0.245,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 2.5,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 12.0,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "February",
+          "temp_f": 15.3,
+          "kwh": 23.5,
+          "cost": 5.76
+        },
+        {
+          "month": "March",
+          "temp_f": 24.5,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "April",
+          "temp_f": 37.0,
+          "kwh": 25.2,
+          "cost": 6.17
+        },
+        {
+          "month": "May",
+          "temp_f": 49.5,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "June",
+          "temp_f": 58.7,
+          "kwh": 34.4,
+          "cost": 8.42
+        },
+        {
+          "month": "July",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 9.59
+        },
+        {
+          "month": "August",
+          "temp_f": 58.7,
+          "kwh": 35.5,
+          "cost": 8.7
+        },
+        {
+          "month": "September",
+          "temp_f": 49.5,
+          "kwh": 25.2,
+          "cost": 6.17
+        },
+        {
+          "month": "October",
+          "temp_f": 37.0,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "November",
+          "temp_f": 24.5,
+          "kwh": 25.2,
+          "cost": 6.17
+        },
+        {
+          "month": "December",
+          "temp_f": 15.3,
+          "kwh": 26.0,
+          "cost": 6.38
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 1
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "slug": "seattle-wa",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "score": 86.2,
+      "annual_kwh": 381.5,
+      "annual_cost": 44.26,
+      "rate": 0.116,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 5.8,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 3.02
+        },
+        {
+          "month": "February",
+          "temp_f": 41.7,
+          "kwh": 23.5,
+          "cost": 2.73
+        },
+        {
+          "month": "March",
+          "temp_f": 46.5,
+          "kwh": 26.0,
+          "cost": 3.02
+        },
+        {
+          "month": "April",
+          "temp_f": 53.0,
+          "kwh": 28.4,
+          "cost": 3.29
+        },
+        {
+          "month": "May",
+          "temp_f": 59.5,
+          "kwh": 36.4,
+          "cost": 4.22
+        },
+        {
+          "month": "June",
+          "temp_f": 64.3,
+          "kwh": 40.3,
+          "cost": 4.67
+        },
+        {
+          "month": "July",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 5.04
+        },
+        {
+          "month": "August",
+          "temp_f": 64.3,
+          "kwh": 41.6,
+          "cost": 4.83
+        },
+        {
+          "month": "September",
+          "temp_f": 59.5,
+          "kwh": 35.2,
+          "cost": 4.09
+        },
+        {
+          "month": "October",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 3.4
+        },
+        {
+          "month": "November",
+          "temp_f": 46.5,
+          "kwh": 25.2,
+          "cost": 2.92
+        },
+        {
+          "month": "December",
+          "temp_f": 41.7,
+          "kwh": 26.0,
+          "cost": 3.02
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 2
+    },
+    {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "slug": "colorado-springs-co",
+      "lat": 38.8339,
+      "lon": -104.8214,
+      "score": 82.0,
+      "annual_kwh": 393.7,
+      "annual_cost": 59.84,
+      "rate": 0.152,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 6.8,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 26.0,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "February",
+          "temp_f": 29.1,
+          "kwh": 23.5,
+          "cost": 3.58
+        },
+        {
+          "month": "March",
+          "temp_f": 37.5,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "April",
+          "temp_f": 49.0,
+          "kwh": 25.2,
+          "cost": 3.83
+        },
+        {
+          "month": "May",
+          "temp_f": 60.5,
+          "kwh": 37.5,
+          "cost": 5.7
+        },
+        {
+          "month": "June",
+          "temp_f": 68.9,
+          "kwh": 45.1,
+          "cost": 6.86
+        },
+        {
+          "month": "July",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 7.6
+        },
+        {
+          "month": "August",
+          "temp_f": 68.9,
+          "kwh": 46.6,
+          "cost": 7.09
+        },
+        {
+          "month": "September",
+          "temp_f": 60.5,
+          "kwh": 36.3,
+          "cost": 5.51
+        },
+        {
+          "month": "October",
+          "temp_f": 49.0,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "November",
+          "temp_f": 37.5,
+          "kwh": 25.2,
+          "cost": 3.83
+        },
+        {
+          "month": "December",
+          "temp_f": 29.1,
+          "kwh": 26.0,
+          "cost": 3.96
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 3
+    },
+    {
+      "city": "Fargo",
+      "state": "ND",
+      "slug": "fargo-nd",
+      "lat": 46.8772,
+      "lon": -96.7898,
+      "score": 82.0,
+      "annual_kwh": 405.5,
+      "annual_cost": 45.42,
+      "rate": 0.112,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 7.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 9.0,
+          "kwh": 26.0,
+          "cost": 2.92
+        },
+        {
+          "month": "February",
+          "temp_f": 13.6,
+          "kwh": 23.5,
+          "cost": 2.63
+        },
+        {
+          "month": "March",
+          "temp_f": 26.0,
+          "kwh": 26.0,
+          "cost": 2.92
+        },
+        {
+          "month": "April",
+          "temp_f": 43.0,
+          "kwh": 25.2,
+          "cost": 2.82
+        },
+        {
+          "month": "May",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 4.14
+        },
+        {
+          "month": "June",
+          "temp_f": 72.4,
+          "kwh": 48.8,
+          "cost": 5.47
+        },
+        {
+          "month": "July",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 6.21
+        },
+        {
+          "month": "August",
+          "temp_f": 72.4,
+          "kwh": 50.5,
+          "cost": 5.65
+        },
+        {
+          "month": "September",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 4.0
+        },
+        {
+          "month": "October",
+          "temp_f": 43.0,
+          "kwh": 26.0,
+          "cost": 2.92
+        },
+        {
+          "month": "November",
+          "temp_f": 26.0,
+          "kwh": 25.2,
+          "cost": 2.82
+        },
+        {
+          "month": "December",
+          "temp_f": 13.6,
+          "kwh": 26.0,
+          "cost": 2.92
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 4
+    },
+    {
+      "city": "Portland",
+      "state": "OR",
+      "slug": "portland-or",
+      "lat": 45.5152,
+      "lon": -122.6784,
+      "score": 80.5,
+      "annual_kwh": 404.6,
+      "annual_cost": 57.45,
+      "rate": 0.142,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 7.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 3.7
+        },
+        {
+          "month": "February",
+          "temp_f": 42.0,
+          "kwh": 23.5,
+          "cost": 3.34
+        },
+        {
+          "month": "March",
+          "temp_f": 47.5,
+          "kwh": 26.0,
+          "cost": 3.7
+        },
+        {
+          "month": "April",
+          "temp_f": 55.0,
+          "kwh": 30.5,
+          "cost": 4.33
+        },
+        {
+          "month": "May",
+          "temp_f": 62.5,
+          "kwh": 39.7,
+          "cost": 5.63
+        },
+        {
+          "month": "June",
+          "temp_f": 68.0,
+          "kwh": 44.2,
+          "cost": 6.28
+        },
+        {
+          "month": "July",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 6.79
+        },
+        {
+          "month": "August",
+          "temp_f": 68.0,
+          "kwh": 45.7,
+          "cost": 6.48
+        },
+        {
+          "month": "September",
+          "temp_f": 62.5,
+          "kwh": 38.4,
+          "cost": 5.45
+        },
+        {
+          "month": "October",
+          "temp_f": 55.0,
+          "kwh": 31.5,
+          "cost": 4.47
+        },
+        {
+          "month": "November",
+          "temp_f": 47.5,
+          "kwh": 25.2,
+          "cost": 3.58
+        },
+        {
+          "month": "December",
+          "temp_f": 42.0,
+          "kwh": 26.0,
+          "cost": 3.7
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 5
+    },
+    {
+      "city": "Aurora",
+      "state": "CO",
+      "slug": "aurora-co",
+      "lat": 39.7294,
+      "lon": -104.8319,
+      "score": 80.2,
+      "annual_kwh": 403.1,
+      "annual_cost": 61.28,
+      "rate": 0.152,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 7.5,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 26.0,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "February",
+          "temp_f": 29.2,
+          "kwh": 23.5,
+          "cost": 3.58
+        },
+        {
+          "month": "March",
+          "temp_f": 38.0,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "April",
+          "temp_f": 50.0,
+          "kwh": 25.2,
+          "cost": 3.83
+        },
+        {
+          "month": "May",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 5.95
+        },
+        {
+          "month": "June",
+          "temp_f": 70.8,
+          "kwh": 47.1,
+          "cost": 7.17
+        },
+        {
+          "month": "July",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 7.94
+        },
+        {
+          "month": "August",
+          "temp_f": 70.8,
+          "kwh": 48.7,
+          "cost": 7.41
+        },
+        {
+          "month": "September",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 5.75
+        },
+        {
+          "month": "October",
+          "temp_f": 50.0,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "November",
+          "temp_f": 38.0,
+          "kwh": 25.2,
+          "cost": 3.83
+        },
+        {
+          "month": "December",
+          "temp_f": 29.2,
+          "kwh": 26.0,
+          "cost": 3.96
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 6
+    },
+    {
+      "city": "Sioux Falls",
+      "state": "SD",
+      "slug": "sioux-falls-sd",
+      "lat": 43.5446,
+      "lon": -96.7311,
+      "score": 79.4,
+      "annual_kwh": 413.7,
+      "annual_cost": 54.61,
+      "rate": 0.132,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.3,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 14.0,
+          "kwh": 26.0,
+          "cost": 3.44
+        },
+        {
+          "month": "February",
+          "temp_f": 18.3,
+          "kwh": 23.5,
+          "cost": 3.1
+        },
+        {
+          "month": "March",
+          "temp_f": 30.0,
+          "kwh": 26.0,
+          "cost": 3.44
+        },
+        {
+          "month": "April",
+          "temp_f": 46.0,
+          "kwh": 25.2,
+          "cost": 3.33
+        },
+        {
+          "month": "May",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 5.16
+        },
+        {
+          "month": "June",
+          "temp_f": 73.7,
+          "kwh": 50.2,
+          "cost": 6.63
+        },
+        {
+          "month": "July",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 7.47
+        },
+        {
+          "month": "August",
+          "temp_f": 73.7,
+          "kwh": 51.9,
+          "cost": 6.85
+        },
+        {
+          "month": "September",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 5.0
+        },
+        {
+          "month": "October",
+          "temp_f": 46.0,
+          "kwh": 26.0,
+          "cost": 3.44
+        },
+        {
+          "month": "November",
+          "temp_f": 30.0,
+          "kwh": 25.2,
+          "cost": 3.33
+        },
+        {
+          "month": "December",
+          "temp_f": 18.3,
+          "kwh": 26.0,
+          "cost": 3.44
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 7
+    },
+    {
+      "city": "Cleveland",
+      "state": "OH",
+      "slug": "cleveland-oh",
+      "lat": 41.4993,
+      "lon": -81.6944,
+      "score": 78.4,
+      "annual_kwh": 407.2,
+      "annual_cost": 69.23,
+      "rate": 0.17,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 7.8,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 25.0,
+          "kwh": 26.0,
+          "cost": 4.43
+        },
+        {
+          "month": "February",
+          "temp_f": 28.3,
+          "kwh": 23.5,
+          "cost": 4.0
+        },
+        {
+          "month": "March",
+          "temp_f": 37.5,
+          "kwh": 26.0,
+          "cost": 4.43
+        },
+        {
+          "month": "April",
+          "temp_f": 50.0,
+          "kwh": 25.2,
+          "cost": 4.28
+        },
+        {
+          "month": "May",
+          "temp_f": 62.5,
+          "kwh": 39.7,
+          "cost": 6.74
+        },
+        {
+          "month": "June",
+          "temp_f": 71.7,
+          "kwh": 48.1,
+          "cost": 8.18
+        },
+        {
+          "month": "July",
+          "temp_f": 75.0,
+          "kwh": 53.3,
+          "cost": 9.06
+        },
+        {
+          "month": "August",
+          "temp_f": 71.7,
+          "kwh": 49.7,
+          "cost": 8.45
+        },
+        {
+          "month": "September",
+          "temp_f": 62.5,
+          "kwh": 38.4,
+          "cost": 6.53
+        },
+        {
+          "month": "October",
+          "temp_f": 50.0,
+          "kwh": 26.0,
+          "cost": 4.43
+        },
+        {
+          "month": "November",
+          "temp_f": 37.5,
+          "kwh": 25.2,
+          "cost": 4.28
+        },
+        {
+          "month": "December",
+          "temp_f": 28.3,
+          "kwh": 26.0,
+          "cost": 4.43
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 8
+    },
+    {
+      "city": "Denver",
+      "state": "CO",
+      "slug": "denver-co",
+      "lat": 39.7392,
+      "lon": -104.9903,
+      "score": 78.1,
+      "annual_kwh": 414.8,
+      "annual_cost": 63.04,
+      "rate": 0.152,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.4,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 26.0,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "February",
+          "temp_f": 29.3,
+          "kwh": 23.5,
+          "cost": 3.58
+        },
+        {
+          "month": "March",
+          "temp_f": 38.5,
+          "kwh": 26.0,
+          "cost": 3.96
+        },
+        {
+          "month": "April",
+          "temp_f": 51.0,
+          "kwh": 26.3,
+          "cost": 3.99
+        },
+        {
+          "month": "May",
+          "temp_f": 63.5,
+          "kwh": 40.8,
+          "cost": 6.2
+        },
+        {
+          "month": "June",
+          "temp_f": 72.7,
+          "kwh": 49.2,
+          "cost": 7.47
+        },
+        {
+          "month": "July",
+          "temp_f": 76.0,
+          "kwh": 54.4,
+          "cost": 8.27
+        },
+        {
+          "month": "August",
+          "temp_f": 72.7,
+          "kwh": 50.8,
+          "cost": 7.72
+        },
+        {
+          "month": "September",
+          "temp_f": 63.5,
+          "kwh": 39.4,
+          "cost": 6.0
+        },
+        {
+          "month": "October",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 4.12
+        },
+        {
+          "month": "November",
+          "temp_f": 38.5,
+          "kwh": 25.2,
+          "cost": 3.83
+        },
+        {
+          "month": "December",
+          "temp_f": 29.3,
+          "kwh": 26.0,
+          "cost": 3.96
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 9
+    },
+    {
+      "city": "Milwaukee",
+      "state": "WI",
+      "slug": "milwaukee-wi",
+      "lat": 43.0389,
+      "lon": -87.9065,
+      "score": 77.9,
+      "annual_kwh": 409.8,
+      "annual_cost": 70.08,
+      "rate": 0.171,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 22.0,
+          "kwh": 26.0,
+          "cost": 4.45
+        },
+        {
+          "month": "February",
+          "temp_f": 25.6,
+          "kwh": 23.5,
+          "cost": 4.02
+        },
+        {
+          "month": "March",
+          "temp_f": 35.5,
+          "kwh": 26.0,
+          "cost": 4.45
+        },
+        {
+          "month": "April",
+          "temp_f": 49.0,
+          "kwh": 25.2,
+          "cost": 4.31
+        },
+        {
+          "month": "May",
+          "temp_f": 62.5,
+          "kwh": 39.7,
+          "cost": 6.78
+        },
+        {
+          "month": "June",
+          "temp_f": 72.4,
+          "kwh": 48.8,
+          "cost": 8.35
+        },
+        {
+          "month": "July",
+          "temp_f": 76.0,
+          "kwh": 54.4,
+          "cost": 9.3
+        },
+        {
+          "month": "August",
+          "temp_f": 72.4,
+          "kwh": 50.5,
+          "cost": 8.63
+        },
+        {
+          "month": "September",
+          "temp_f": 62.5,
+          "kwh": 38.4,
+          "cost": 6.56
+        },
+        {
+          "month": "October",
+          "temp_f": 49.0,
+          "kwh": 26.0,
+          "cost": 4.45
+        },
+        {
+          "month": "November",
+          "temp_f": 35.5,
+          "kwh": 25.2,
+          "cost": 4.31
+        },
+        {
+          "month": "December",
+          "temp_f": 25.6,
+          "kwh": 26.0,
+          "cost": 4.45
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 10
+    },
+    {
+      "city": "Madison",
+      "state": "WI",
+      "slug": "madison-wi",
+      "lat": 43.0731,
+      "lon": -89.4012,
+      "score": 77.6,
+      "annual_kwh": 411.1,
+      "annual_cost": 70.3,
+      "rate": 0.171,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 17.0,
+          "kwh": 26.0,
+          "cost": 4.45
+        },
+        {
+          "month": "February",
+          "temp_f": 21.0,
+          "kwh": 23.5,
+          "cost": 4.02
+        },
+        {
+          "month": "March",
+          "temp_f": 32.0,
+          "kwh": 26.0,
+          "cost": 4.45
+        },
+        {
+          "month": "April",
+          "temp_f": 47.0,
+          "kwh": 25.2,
+          "cost": 4.31
+        },
+        {
+          "month": "May",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 6.69
+        },
+        {
+          "month": "June",
+          "temp_f": 73.0,
+          "kwh": 49.5,
+          "cost": 8.46
+        },
+        {
+          "month": "July",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 9.49
+        },
+        {
+          "month": "August",
+          "temp_f": 73.0,
+          "kwh": 51.1,
+          "cost": 8.74
+        },
+        {
+          "month": "September",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 6.47
+        },
+        {
+          "month": "October",
+          "temp_f": 47.0,
+          "kwh": 26.0,
+          "cost": 4.45
+        },
+        {
+          "month": "November",
+          "temp_f": 32.0,
+          "kwh": 25.2,
+          "cost": 4.31
+        },
+        {
+          "month": "December",
+          "temp_f": 21.0,
+          "kwh": 26.0,
+          "cost": 4.45
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 11
+    },
+    {
+      "city": "Burlington",
+      "state": "VT",
+      "slug": "burlington-vt",
+      "lat": 44.4759,
+      "lon": -73.2121,
+      "score": 77.5,
+      "annual_kwh": 397.6,
+      "annual_cost": 87.46,
+      "rate": 0.22,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 7.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 18.0,
+          "kwh": 26.0,
+          "cost": 5.73
+        },
+        {
+          "month": "February",
+          "temp_f": 21.8,
+          "kwh": 23.5,
+          "cost": 5.17
+        },
+        {
+          "month": "March",
+          "temp_f": 32.0,
+          "kwh": 26.0,
+          "cost": 5.73
+        },
+        {
+          "month": "April",
+          "temp_f": 46.0,
+          "kwh": 25.2,
+          "cost": 5.54
+        },
+        {
+          "month": "May",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 8.13
+        },
+        {
+          "month": "June",
+          "temp_f": 70.2,
+          "kwh": 46.5,
+          "cost": 10.23
+        },
+        {
+          "month": "July",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 11.49
+        },
+        {
+          "month": "August",
+          "temp_f": 70.2,
+          "kwh": 48.1,
+          "cost": 10.57
+        },
+        {
+          "month": "September",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 7.87
+        },
+        {
+          "month": "October",
+          "temp_f": 46.0,
+          "kwh": 26.0,
+          "cost": 5.73
+        },
+        {
+          "month": "November",
+          "temp_f": 32.0,
+          "kwh": 25.2,
+          "cost": 5.54
+        },
+        {
+          "month": "December",
+          "temp_f": 21.8,
+          "kwh": 26.0,
+          "cost": 5.73
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 12
+    },
+    {
+      "city": "Portland",
+      "state": "ME",
+      "slug": "portland-me",
+      "lat": 43.6591,
+      "lon": -70.2568,
+      "score": 77.5,
+      "annual_kwh": 391.1,
+      "annual_cost": 95.82,
+      "rate": 0.245,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 6.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 22.0,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "February",
+          "temp_f": 25.3,
+          "kwh": 23.5,
+          "cost": 5.76
+        },
+        {
+          "month": "March",
+          "temp_f": 34.5,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "April",
+          "temp_f": 47.0,
+          "kwh": 25.2,
+          "cost": 6.17
+        },
+        {
+          "month": "May",
+          "temp_f": 59.5,
+          "kwh": 36.4,
+          "cost": 8.92
+        },
+        {
+          "month": "June",
+          "temp_f": 68.7,
+          "kwh": 44.9,
+          "cost": 11.01
+        },
+        {
+          "month": "July",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 12.26
+        },
+        {
+          "month": "August",
+          "temp_f": 68.7,
+          "kwh": 46.4,
+          "cost": 11.37
+        },
+        {
+          "month": "September",
+          "temp_f": 59.5,
+          "kwh": 35.2,
+          "cost": 8.63
+        },
+        {
+          "month": "October",
+          "temp_f": 47.0,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "November",
+          "temp_f": 34.5,
+          "kwh": 25.2,
+          "cost": 6.17
+        },
+        {
+          "month": "December",
+          "temp_f": 25.3,
+          "kwh": 26.0,
+          "cost": 6.38
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 13
+    },
+    {
+      "city": "Minneapolis",
+      "state": "MN",
+      "slug": "minneapolis-mn",
+      "lat": 44.9778,
+      "lon": -93.265,
+      "score": 76.9,
+      "annual_kwh": 419.1,
+      "annual_cost": 66.22,
+      "rate": 0.158,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.8,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 15.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "February",
+          "temp_f": 19.3,
+          "kwh": 23.5,
+          "cost": 3.72
+        },
+        {
+          "month": "March",
+          "temp_f": 31.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "April",
+          "temp_f": 47.0,
+          "kwh": 25.2,
+          "cost": 3.98
+        },
+        {
+          "month": "May",
+          "temp_f": 63.0,
+          "kwh": 40.2,
+          "cost": 6.35
+        },
+        {
+          "month": "June",
+          "temp_f": 74.7,
+          "kwh": 51.3,
+          "cost": 8.1
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 9.11
+        },
+        {
+          "month": "August",
+          "temp_f": 74.7,
+          "kwh": 53.0,
+          "cost": 8.37
+        },
+        {
+          "month": "September",
+          "temp_f": 63.0,
+          "kwh": 38.9,
+          "cost": 6.15
+        },
+        {
+          "month": "October",
+          "temp_f": 47.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "November",
+          "temp_f": 31.0,
+          "kwh": 25.2,
+          "cost": 3.98
+        },
+        {
+          "month": "December",
+          "temp_f": 19.3,
+          "kwh": 26.0,
+          "cost": 4.11
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 14
+    },
+    {
+      "city": "Saint Paul",
+      "state": "MN",
+      "slug": "saint-paul-mn",
+      "lat": 44.9537,
+      "lon": -93.09,
+      "score": 76.9,
+      "annual_kwh": 419.1,
+      "annual_cost": 66.22,
+      "rate": 0.158,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.8,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 15.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "February",
+          "temp_f": 19.3,
+          "kwh": 23.5,
+          "cost": 3.72
+        },
+        {
+          "month": "March",
+          "temp_f": 31.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "April",
+          "temp_f": 47.0,
+          "kwh": 25.2,
+          "cost": 3.98
+        },
+        {
+          "month": "May",
+          "temp_f": 63.0,
+          "kwh": 40.2,
+          "cost": 6.35
+        },
+        {
+          "month": "June",
+          "temp_f": 74.7,
+          "kwh": 51.3,
+          "cost": 8.1
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 9.11
+        },
+        {
+          "month": "August",
+          "temp_f": 74.7,
+          "kwh": 53.0,
+          "cost": 8.37
+        },
+        {
+          "month": "September",
+          "temp_f": 63.0,
+          "kwh": 38.9,
+          "cost": 6.15
+        },
+        {
+          "month": "October",
+          "temp_f": 47.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "November",
+          "temp_f": 31.0,
+          "kwh": 25.2,
+          "cost": 3.98
+        },
+        {
+          "month": "December",
+          "temp_f": 19.3,
+          "kwh": 26.0,
+          "cost": 4.11
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 15
+    },
+    {
+      "city": "Omaha",
+      "state": "NE",
+      "slug": "omaha-ne",
+      "lat": 41.2565,
+      "lon": -95.9345,
+      "score": 76.8,
+      "annual_kwh": 430.7,
+      "annual_cost": 52.55,
+      "rate": 0.122,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 9.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 22.0,
+          "kwh": 26.0,
+          "cost": 3.18
+        },
+        {
+          "month": "February",
+          "temp_f": 25.9,
+          "kwh": 23.5,
+          "cost": 2.87
+        },
+        {
+          "month": "March",
+          "temp_f": 36.5,
+          "kwh": 26.0,
+          "cost": 3.18
+        },
+        {
+          "month": "April",
+          "temp_f": 51.0,
+          "kwh": 26.3,
+          "cost": 3.2
+        },
+        {
+          "month": "May",
+          "temp_f": 65.5,
+          "kwh": 42.9,
+          "cost": 5.24
+        },
+        {
+          "month": "June",
+          "temp_f": 76.1,
+          "kwh": 52.7,
+          "cost": 6.43
+        },
+        {
+          "month": "July",
+          "temp_f": 80.0,
+          "kwh": 58.7,
+          "cost": 7.17
+        },
+        {
+          "month": "August",
+          "temp_f": 76.1,
+          "kwh": 54.5,
+          "cost": 6.65
+        },
+        {
+          "month": "September",
+          "temp_f": 65.5,
+          "kwh": 41.6,
+          "cost": 5.07
+        },
+        {
+          "month": "October",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 3.31
+        },
+        {
+          "month": "November",
+          "temp_f": 36.5,
+          "kwh": 25.2,
+          "cost": 3.07
+        },
+        {
+          "month": "December",
+          "temp_f": 25.9,
+          "kwh": 26.0,
+          "cost": 3.18
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 16
+    },
+    {
+      "city": "Boise",
+      "state": "ID",
+      "slug": "boise-id",
+      "lat": 43.615,
+      "lon": -116.2023,
+      "score": 76.7,
+      "annual_kwh": 433.7,
+      "annual_cost": 49.87,
+      "rate": 0.115,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 9.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 27.0,
+          "kwh": 26.0,
+          "cost": 2.99
+        },
+        {
+          "month": "February",
+          "temp_f": 30.5,
+          "kwh": 23.5,
+          "cost": 2.7
+        },
+        {
+          "month": "March",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 2.99
+        },
+        {
+          "month": "April",
+          "temp_f": 53.0,
+          "kwh": 28.4,
+          "cost": 3.26
+        },
+        {
+          "month": "May",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 5.0
+        },
+        {
+          "month": "June",
+          "temp_f": 75.5,
+          "kwh": 52.1,
+          "cost": 5.99
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 6.63
+        },
+        {
+          "month": "August",
+          "temp_f": 75.5,
+          "kwh": 53.8,
+          "cost": 6.19
+        },
+        {
+          "month": "September",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 4.84
+        },
+        {
+          "month": "October",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 3.37
+        },
+        {
+          "month": "November",
+          "temp_f": 40.0,
+          "kwh": 25.2,
+          "cost": 2.9
+        },
+        {
+          "month": "December",
+          "temp_f": 30.5,
+          "kwh": 26.0,
+          "cost": 2.99
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 17
+    },
+    {
+      "city": "Des Moines",
+      "state": "IA",
+      "slug": "des-moines-ia",
+      "lat": 41.5868,
+      "lon": -93.625,
+      "score": 76.7,
+      "annual_kwh": 427.3,
+      "annual_cost": 57.68,
+      "rate": 0.135,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 9.4,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 20.0,
+          "kwh": 26.0,
+          "cost": 3.52
+        },
+        {
+          "month": "February",
+          "temp_f": 24.0,
+          "kwh": 23.5,
+          "cost": 3.18
+        },
+        {
+          "month": "March",
+          "temp_f": 35.0,
+          "kwh": 26.0,
+          "cost": 3.52
+        },
+        {
+          "month": "April",
+          "temp_f": 50.0,
+          "kwh": 25.2,
+          "cost": 3.4
+        },
+        {
+          "month": "May",
+          "temp_f": 65.0,
+          "kwh": 42.4,
+          "cost": 5.72
+        },
+        {
+          "month": "June",
+          "temp_f": 76.0,
+          "kwh": 52.6,
+          "cost": 7.11
+        },
+        {
+          "month": "July",
+          "temp_f": 80.0,
+          "kwh": 58.7,
+          "cost": 7.93
+        },
+        {
+          "month": "August",
+          "temp_f": 76.0,
+          "kwh": 54.4,
+          "cost": 7.34
+        },
+        {
+          "month": "September",
+          "temp_f": 65.0,
+          "kwh": 41.0,
+          "cost": 5.54
+        },
+        {
+          "month": "October",
+          "temp_f": 50.0,
+          "kwh": 26.0,
+          "cost": 3.52
+        },
+        {
+          "month": "November",
+          "temp_f": 35.0,
+          "kwh": 25.2,
+          "cost": 3.4
+        },
+        {
+          "month": "December",
+          "temp_f": 24.0,
+          "kwh": 26.0,
+          "cost": 3.52
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 18
+    },
+    {
+      "city": "Buffalo",
+      "state": "NY",
+      "slug": "buffalo-ny",
+      "lat": 42.8864,
+      "lon": -78.8784,
+      "score": 76.2,
+      "annual_kwh": 396.5,
+      "annual_cost": 98.32,
+      "rate": 0.248,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 7.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 23.0,
+          "kwh": 26.0,
+          "cost": 6.46
+        },
+        {
+          "month": "February",
+          "temp_f": 26.3,
+          "kwh": 23.5,
+          "cost": 5.83
+        },
+        {
+          "month": "March",
+          "temp_f": 35.5,
+          "kwh": 26.0,
+          "cost": 6.46
+        },
+        {
+          "month": "April",
+          "temp_f": 48.0,
+          "kwh": 25.2,
+          "cost": 6.25
+        },
+        {
+          "month": "May",
+          "temp_f": 60.5,
+          "kwh": 37.5,
+          "cost": 9.3
+        },
+        {
+          "month": "June",
+          "temp_f": 69.7,
+          "kwh": 46.0,
+          "cost": 11.4
+        },
+        {
+          "month": "July",
+          "temp_f": 73.0,
+          "kwh": 51.1,
+          "cost": 12.68
+        },
+        {
+          "month": "August",
+          "temp_f": 69.7,
+          "kwh": 47.5,
+          "cost": 11.78
+        },
+        {
+          "month": "September",
+          "temp_f": 60.5,
+          "kwh": 36.3,
+          "cost": 9.0
+        },
+        {
+          "month": "October",
+          "temp_f": 48.0,
+          "kwh": 26.0,
+          "cost": 6.46
+        },
+        {
+          "month": "November",
+          "temp_f": 35.5,
+          "kwh": 25.2,
+          "cost": 6.25
+        },
+        {
+          "month": "December",
+          "temp_f": 26.3,
+          "kwh": 26.0,
+          "cost": 6.46
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 19
+    },
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "slug": "detroit-mi",
+      "lat": 42.3314,
+      "lon": -83.0458,
+      "score": 75.5,
+      "annual_kwh": 415.2,
+      "annual_cost": 80.96,
+      "rate": 0.195,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.5,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 23.0,
+          "kwh": 26.0,
+          "cost": 5.08
+        },
+        {
+          "month": "February",
+          "temp_f": 26.6,
+          "kwh": 23.5,
+          "cost": 4.59
+        },
+        {
+          "month": "March",
+          "temp_f": 36.5,
+          "kwh": 26.0,
+          "cost": 5.08
+        },
+        {
+          "month": "April",
+          "temp_f": 50.0,
+          "kwh": 25.2,
+          "cost": 4.91
+        },
+        {
+          "month": "May",
+          "temp_f": 63.5,
+          "kwh": 40.8,
+          "cost": 7.95
+        },
+        {
+          "month": "June",
+          "temp_f": 73.4,
+          "kwh": 49.9,
+          "cost": 9.73
+        },
+        {
+          "month": "July",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 10.82
+        },
+        {
+          "month": "August",
+          "temp_f": 73.4,
+          "kwh": 51.6,
+          "cost": 10.05
+        },
+        {
+          "month": "September",
+          "temp_f": 63.5,
+          "kwh": 39.4,
+          "cost": 7.69
+        },
+        {
+          "month": "October",
+          "temp_f": 50.0,
+          "kwh": 26.0,
+          "cost": 5.08
+        },
+        {
+          "month": "November",
+          "temp_f": 36.5,
+          "kwh": 25.2,
+          "cost": 4.91
+        },
+        {
+          "month": "December",
+          "temp_f": 26.6,
+          "kwh": 26.0,
+          "cost": 5.08
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 20
+    },
+    {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "slug": "pittsburgh-pa",
+      "lat": 40.4406,
+      "lon": -79.9959,
+      "score": 75.2,
+      "annual_kwh": 418.2,
+      "annual_cost": 79.46,
+      "rate": 0.19,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 28.0,
+          "kwh": 26.0,
+          "cost": 4.95
+        },
+        {
+          "month": "February",
+          "temp_f": 31.2,
+          "kwh": 23.5,
+          "cost": 4.47
+        },
+        {
+          "month": "March",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 4.95
+        },
+        {
+          "month": "April",
+          "temp_f": 52.0,
+          "kwh": 27.3,
+          "cost": 5.19
+        },
+        {
+          "month": "May",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 7.85
+        },
+        {
+          "month": "June",
+          "temp_f": 72.8,
+          "kwh": 49.3,
+          "cost": 9.36
+        },
+        {
+          "month": "July",
+          "temp_f": 76.0,
+          "kwh": 54.4,
+          "cost": 10.33
+        },
+        {
+          "month": "August",
+          "temp_f": 72.8,
+          "kwh": 50.9,
+          "cost": 9.67
+        },
+        {
+          "month": "September",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 7.59
+        },
+        {
+          "month": "October",
+          "temp_f": 52.0,
+          "kwh": 28.2,
+          "cost": 5.36
+        },
+        {
+          "month": "November",
+          "temp_f": 40.0,
+          "kwh": 25.2,
+          "cost": 4.79
+        },
+        {
+          "month": "December",
+          "temp_f": 31.2,
+          "kwh": 26.0,
+          "cost": 4.95
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 21
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "slug": "chicago-il",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "score": 74.9,
+      "annual_kwh": 422.7,
+      "annual_cost": 76.09,
+      "rate": 0.18,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 9.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 24.0,
+          "kwh": 26.0,
+          "cost": 4.69
+        },
+        {
+          "month": "February",
+          "temp_f": 27.6,
+          "kwh": 23.5,
+          "cost": 4.23
+        },
+        {
+          "month": "March",
+          "temp_f": 37.5,
+          "kwh": 26.0,
+          "cost": 4.69
+        },
+        {
+          "month": "April",
+          "temp_f": 51.0,
+          "kwh": 26.3,
+          "cost": 4.73
+        },
+        {
+          "month": "May",
+          "temp_f": 64.5,
+          "kwh": 41.8,
+          "cost": 7.53
+        },
+        {
+          "month": "June",
+          "temp_f": 74.4,
+          "kwh": 50.9,
+          "cost": 9.17
+        },
+        {
+          "month": "July",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 10.18
+        },
+        {
+          "month": "August",
+          "temp_f": 74.4,
+          "kwh": 52.6,
+          "cost": 9.48
+        },
+        {
+          "month": "September",
+          "temp_f": 64.5,
+          "kwh": 40.5,
+          "cost": 7.29
+        },
+        {
+          "month": "October",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 4.88
+        },
+        {
+          "month": "November",
+          "temp_f": 37.5,
+          "kwh": 25.2,
+          "cost": 4.54
+        },
+        {
+          "month": "December",
+          "temp_f": 27.6,
+          "kwh": 26.0,
+          "cost": 4.69
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 22
+    },
+    {
+      "city": "Salt Lake City",
+      "state": "UT",
+      "slug": "salt-lake-city-ut",
+      "lat": 40.7608,
+      "lon": -111.891,
+      "score": 74.8,
+      "annual_kwh": 441.7,
+      "annual_cost": 54.32,
+      "rate": 0.123,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 10.5,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 25.0,
+          "kwh": 26.0,
+          "cost": 3.2
+        },
+        {
+          "month": "February",
+          "temp_f": 28.8,
+          "kwh": 23.5,
+          "cost": 2.89
+        },
+        {
+          "month": "March",
+          "temp_f": 39.0,
+          "kwh": 26.0,
+          "cost": 3.2
+        },
+        {
+          "month": "April",
+          "temp_f": 53.0,
+          "kwh": 28.4,
+          "cost": 3.49
+        },
+        {
+          "month": "May",
+          "temp_f": 67.0,
+          "kwh": 44.6,
+          "cost": 5.48
+        },
+        {
+          "month": "June",
+          "temp_f": 77.2,
+          "kwh": 53.9,
+          "cost": 6.63
+        },
+        {
+          "month": "July",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 7.36
+        },
+        {
+          "month": "August",
+          "temp_f": 77.2,
+          "kwh": 55.7,
+          "cost": 6.85
+        },
+        {
+          "month": "September",
+          "temp_f": 67.0,
+          "kwh": 43.1,
+          "cost": 5.31
+        },
+        {
+          "month": "October",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 3.61
+        },
+        {
+          "month": "November",
+          "temp_f": 39.0,
+          "kwh": 25.2,
+          "cost": 3.1
+        },
+        {
+          "month": "December",
+          "temp_f": 28.8,
+          "kwh": 26.0,
+          "cost": 3.2
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 23
+    },
+    {
+      "city": "Indianapolis",
+      "state": "IN",
+      "slug": "indianapolis-in",
+      "lat": 39.7684,
+      "lon": -86.1581,
+      "score": 74.6,
+      "annual_kwh": 433.7,
+      "annual_cost": 65.49,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 9.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 27.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "February",
+          "temp_f": 30.5,
+          "kwh": 23.5,
+          "cost": 3.55
+        },
+        {
+          "month": "March",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "April",
+          "temp_f": 53.0,
+          "kwh": 28.4,
+          "cost": 4.28
+        },
+        {
+          "month": "May",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 6.57
+        },
+        {
+          "month": "June",
+          "temp_f": 75.5,
+          "kwh": 52.1,
+          "cost": 7.87
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 8.71
+        },
+        {
+          "month": "August",
+          "temp_f": 75.5,
+          "kwh": 53.8,
+          "cost": 8.13
+        },
+        {
+          "month": "September",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 6.35
+        },
+        {
+          "month": "October",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 4.43
+        },
+        {
+          "month": "November",
+          "temp_f": 40.0,
+          "kwh": 25.2,
+          "cost": 3.81
+        },
+        {
+          "month": "December",
+          "temp_f": 30.5,
+          "kwh": 26.0,
+          "cost": 3.93
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 24
+    },
+    {
+      "city": "Manchester",
+      "state": "NH",
+      "slug": "manchester-nh",
+      "lat": 42.9956,
+      "lon": -71.4548,
+      "score": 74.5,
+      "annual_kwh": 405.7,
+      "annual_cost": 99.4,
+      "rate": 0.245,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 7.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 23.0,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "February",
+          "temp_f": 26.5,
+          "kwh": 23.5,
+          "cost": 5.76
+        },
+        {
+          "month": "March",
+          "temp_f": 36.0,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "April",
+          "temp_f": 49.0,
+          "kwh": 25.2,
+          "cost": 6.17
+        },
+        {
+          "month": "May",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 9.59
+        },
+        {
+          "month": "June",
+          "temp_f": 71.5,
+          "kwh": 47.9,
+          "cost": 11.73
+        },
+        {
+          "month": "July",
+          "temp_f": 75.0,
+          "kwh": 53.3,
+          "cost": 13.06
+        },
+        {
+          "month": "August",
+          "temp_f": 71.5,
+          "kwh": 49.5,
+          "cost": 12.12
+        },
+        {
+          "month": "September",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 9.28
+        },
+        {
+          "month": "October",
+          "temp_f": 49.0,
+          "kwh": 26.0,
+          "cost": 6.38
+        },
+        {
+          "month": "November",
+          "temp_f": 36.0,
+          "kwh": 25.2,
+          "cost": 6.17
+        },
+        {
+          "month": "December",
+          "temp_f": 26.5,
+          "kwh": 26.0,
+          "cost": 6.38
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 25
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "slug": "columbus-oh",
+      "lat": 39.9612,
+      "lon": -82.9988,
+      "score": 74.1,
+      "annual_kwh": 429.8,
+      "annual_cost": 73.07,
+      "rate": 0.17,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 9.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 28.0,
+          "kwh": 26.0,
+          "cost": 4.43
+        },
+        {
+          "month": "February",
+          "temp_f": 31.3,
+          "kwh": 23.5,
+          "cost": 4.0
+        },
+        {
+          "month": "March",
+          "temp_f": 40.5,
+          "kwh": 26.0,
+          "cost": 4.43
+        },
+        {
+          "month": "April",
+          "temp_f": 53.0,
+          "kwh": 28.4,
+          "cost": 4.82
+        },
+        {
+          "month": "May",
+          "temp_f": 65.5,
+          "kwh": 42.9,
+          "cost": 7.3
+        },
+        {
+          "month": "June",
+          "temp_f": 74.7,
+          "kwh": 51.3,
+          "cost": 8.71
+        },
+        {
+          "month": "July",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 9.62
+        },
+        {
+          "month": "August",
+          "temp_f": 74.7,
+          "kwh": 53.0,
+          "cost": 9.0
+        },
+        {
+          "month": "September",
+          "temp_f": 65.5,
+          "kwh": 41.6,
+          "cost": 7.06
+        },
+        {
+          "month": "October",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 4.98
+        },
+        {
+          "month": "November",
+          "temp_f": 40.5,
+          "kwh": 25.2,
+          "cost": 4.28
+        },
+        {
+          "month": "December",
+          "temp_f": 31.3,
+          "kwh": 26.0,
+          "cost": 4.43
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 26
+    },
+    {
+      "city": "Lexington",
+      "state": "KY",
+      "slug": "lexington-ky",
+      "lat": 38.0406,
+      "lon": -84.5037,
+      "score": 73.6,
+      "annual_kwh": 444.2,
+      "annual_cost": 59.52,
+      "rate": 0.134,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 10.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 33.0,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "February",
+          "temp_f": 36.1,
+          "kwh": 23.5,
+          "cost": 3.15
+        },
+        {
+          "month": "March",
+          "temp_f": 44.5,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "April",
+          "temp_f": 56.0,
+          "kwh": 31.5,
+          "cost": 4.23
+        },
+        {
+          "month": "May",
+          "temp_f": 67.5,
+          "kwh": 45.1,
+          "cost": 6.05
+        },
+        {
+          "month": "June",
+          "temp_f": 75.9,
+          "kwh": 52.5,
+          "cost": 7.04
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 7.73
+        },
+        {
+          "month": "August",
+          "temp_f": 75.9,
+          "kwh": 54.3,
+          "cost": 7.27
+        },
+        {
+          "month": "September",
+          "temp_f": 67.5,
+          "kwh": 43.7,
+          "cost": 5.85
+        },
+        {
+          "month": "October",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 4.37
+        },
+        {
+          "month": "November",
+          "temp_f": 44.5,
+          "kwh": 25.2,
+          "cost": 3.38
+        },
+        {
+          "month": "December",
+          "temp_f": 36.1,
+          "kwh": 26.0,
+          "cost": 3.49
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 27
+    },
+    {
+      "city": "Charleston",
+      "state": "WV",
+      "slug": "charleston-wv",
+      "lat": 38.3498,
+      "lon": -81.6326,
+      "score": 72.8,
+      "annual_kwh": 444.2,
+      "annual_cost": 65.3,
+      "rate": 0.147,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 10.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 33.0,
+          "kwh": 26.0,
+          "cost": 3.83
+        },
+        {
+          "month": "February",
+          "temp_f": 36.1,
+          "kwh": 23.5,
+          "cost": 3.46
+        },
+        {
+          "month": "March",
+          "temp_f": 44.5,
+          "kwh": 26.0,
+          "cost": 3.83
+        },
+        {
+          "month": "April",
+          "temp_f": 56.0,
+          "kwh": 31.5,
+          "cost": 4.63
+        },
+        {
+          "month": "May",
+          "temp_f": 67.5,
+          "kwh": 45.1,
+          "cost": 6.63
+        },
+        {
+          "month": "June",
+          "temp_f": 75.9,
+          "kwh": 52.5,
+          "cost": 7.72
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 8.48
+        },
+        {
+          "month": "August",
+          "temp_f": 75.9,
+          "kwh": 54.3,
+          "cost": 7.98
+        },
+        {
+          "month": "September",
+          "temp_f": 67.5,
+          "kwh": 43.7,
+          "cost": 6.42
+        },
+        {
+          "month": "October",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 4.79
+        },
+        {
+          "month": "November",
+          "temp_f": 44.5,
+          "kwh": 25.2,
+          "cost": 3.7
+        },
+        {
+          "month": "December",
+          "temp_f": 36.1,
+          "kwh": 26.0,
+          "cost": 3.83
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 28
+    },
+    {
+      "city": "Cincinnati",
+      "state": "OH",
+      "slug": "cincinnati-oh",
+      "lat": 39.1031,
+      "lon": -84.512,
+      "score": 72.1,
+      "annual_kwh": 440.8,
+      "annual_cost": 74.93,
+      "rate": 0.17,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 10.5,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 31.0,
+          "kwh": 26.0,
+          "cost": 4.43
+        },
+        {
+          "month": "February",
+          "temp_f": 34.2,
+          "kwh": 23.5,
+          "cost": 4.0
+        },
+        {
+          "month": "March",
+          "temp_f": 43.0,
+          "kwh": 26.0,
+          "cost": 4.43
+        },
+        {
+          "month": "April",
+          "temp_f": 55.0,
+          "kwh": 30.5,
+          "cost": 5.18
+        },
+        {
+          "month": "May",
+          "temp_f": 67.0,
+          "kwh": 44.6,
+          "cost": 7.58
+        },
+        {
+          "month": "June",
+          "temp_f": 75.8,
+          "kwh": 52.4,
+          "cost": 8.91
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 9.8
+        },
+        {
+          "month": "August",
+          "temp_f": 75.8,
+          "kwh": 54.2,
+          "cost": 9.21
+        },
+        {
+          "month": "September",
+          "temp_f": 67.0,
+          "kwh": 43.1,
+          "cost": 7.33
+        },
+        {
+          "month": "October",
+          "temp_f": 55.0,
+          "kwh": 31.5,
+          "cost": 5.35
+        },
+        {
+          "month": "November",
+          "temp_f": 43.0,
+          "kwh": 25.2,
+          "cost": 4.28
+        },
+        {
+          "month": "December",
+          "temp_f": 34.2,
+          "kwh": 26.0,
+          "cost": 4.43
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 29
+    },
+    {
+      "city": "Albuquerque",
+      "state": "NM",
+      "slug": "albuquerque-nm",
+      "lat": 35.0844,
+      "lon": -106.6504,
+      "score": 71.9,
+      "annual_kwh": 447.8,
+      "annual_cost": 67.62,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 11.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 35.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "February",
+          "temp_f": 37.9,
+          "kwh": 23.5,
+          "cost": 3.55
+        },
+        {
+          "month": "March",
+          "temp_f": 46.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "April",
+          "temp_f": 57.0,
+          "kwh": 32.6,
+          "cost": 4.92
+        },
+        {
+          "month": "May",
+          "temp_f": 68.0,
+          "kwh": 45.7,
+          "cost": 6.9
+        },
+        {
+          "month": "June",
+          "temp_f": 76.1,
+          "kwh": 52.7,
+          "cost": 7.96
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 8.71
+        },
+        {
+          "month": "August",
+          "temp_f": 76.1,
+          "kwh": 54.5,
+          "cost": 8.23
+        },
+        {
+          "month": "September",
+          "temp_f": 68.0,
+          "kwh": 44.2,
+          "cost": 6.67
+        },
+        {
+          "month": "October",
+          "temp_f": 57.0,
+          "kwh": 33.7,
+          "cost": 5.08
+        },
+        {
+          "month": "November",
+          "temp_f": 46.0,
+          "kwh": 25.2,
+          "cost": 3.81
+        },
+        {
+          "month": "December",
+          "temp_f": 37.9,
+          "kwh": 26.0,
+          "cost": 3.93
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 30
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "slug": "philadelphia-pa",
+      "lat": 39.9526,
+      "lon": -75.1652,
+      "score": 70.9,
+      "annual_kwh": 440.3,
+      "annual_cost": 83.66,
+      "rate": 0.19,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 10.4,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 34.0,
+          "kwh": 26.0,
+          "cost": 4.95
+        },
+        {
+          "month": "February",
+          "temp_f": 36.9,
+          "kwh": 23.5,
+          "cost": 4.47
+        },
+        {
+          "month": "March",
+          "temp_f": 45.0,
+          "kwh": 26.0,
+          "cost": 4.95
+        },
+        {
+          "month": "April",
+          "temp_f": 56.0,
+          "kwh": 31.5,
+          "cost": 5.99
+        },
+        {
+          "month": "May",
+          "temp_f": 67.0,
+          "kwh": 44.6,
+          "cost": 8.47
+        },
+        {
+          "month": "June",
+          "temp_f": 75.1,
+          "kwh": 51.7,
+          "cost": 9.82
+        },
+        {
+          "month": "July",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 10.75
+        },
+        {
+          "month": "August",
+          "temp_f": 75.1,
+          "kwh": 53.4,
+          "cost": 10.15
+        },
+        {
+          "month": "September",
+          "temp_f": 67.0,
+          "kwh": 43.1,
+          "cost": 8.2
+        },
+        {
+          "month": "October",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 6.19
+        },
+        {
+          "month": "November",
+          "temp_f": 45.0,
+          "kwh": 25.2,
+          "cost": 4.79
+        },
+        {
+          "month": "December",
+          "temp_f": 36.9,
+          "kwh": 26.0,
+          "cost": 4.95
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 31
+    },
+    {
+      "city": "Kansas City",
+      "state": "MO",
+      "slug": "kansas-city-mo",
+      "lat": 39.0997,
+      "lon": -94.5786,
+      "score": 70.6,
+      "annual_kwh": 460.4,
+      "annual_cost": 61.69,
+      "rate": 0.134,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 29.0,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "February",
+          "temp_f": 32.6,
+          "kwh": 23.5,
+          "cost": 3.15
+        },
+        {
+          "month": "March",
+          "temp_f": 42.5,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "April",
+          "temp_f": 56.0,
+          "kwh": 31.5,
+          "cost": 4.23
+        },
+        {
+          "month": "May",
+          "temp_f": 69.5,
+          "kwh": 47.3,
+          "cost": 6.34
+        },
+        {
+          "month": "June",
+          "temp_f": 79.4,
+          "kwh": 56.2,
+          "cost": 7.53
+        },
+        {
+          "month": "July",
+          "temp_f": 83.0,
+          "kwh": 62.0,
+          "cost": 8.31
+        },
+        {
+          "month": "August",
+          "temp_f": 79.4,
+          "kwh": 58.1,
+          "cost": 7.78
+        },
+        {
+          "month": "September",
+          "temp_f": 69.5,
+          "kwh": 45.8,
+          "cost": 6.13
+        },
+        {
+          "month": "October",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 4.37
+        },
+        {
+          "month": "November",
+          "temp_f": 42.5,
+          "kwh": 25.2,
+          "cost": 3.38
+        },
+        {
+          "month": "December",
+          "temp_f": 32.6,
+          "kwh": 26.0,
+          "cost": 3.49
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 32
+    },
+    {
+      "city": "Greensboro",
+      "state": "NC",
+      "slug": "greensboro-nc",
+      "lat": 36.0726,
+      "lon": -79.792,
+      "score": 70.4,
+      "annual_kwh": 458.8,
+      "annual_cost": 65.15,
+      "rate": 0.142,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 11.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 38.0,
+          "kwh": 26.0,
+          "cost": 3.7
+        },
+        {
+          "month": "February",
+          "temp_f": 40.8,
+          "kwh": 23.5,
+          "cost": 3.34
+        },
+        {
+          "month": "March",
+          "temp_f": 48.5,
+          "kwh": 26.0,
+          "cost": 3.7
+        },
+        {
+          "month": "April",
+          "temp_f": 59.0,
+          "kwh": 34.7,
+          "cost": 4.93
+        },
+        {
+          "month": "May",
+          "temp_f": 69.5,
+          "kwh": 47.3,
+          "cost": 6.72
+        },
+        {
+          "month": "June",
+          "temp_f": 77.2,
+          "kwh": 53.9,
+          "cost": 7.65
+        },
+        {
+          "month": "July",
+          "temp_f": 80.0,
+          "kwh": 58.7,
+          "cost": 8.34
+        },
+        {
+          "month": "August",
+          "temp_f": 77.2,
+          "kwh": 55.7,
+          "cost": 7.91
+        },
+        {
+          "month": "September",
+          "temp_f": 69.5,
+          "kwh": 45.8,
+          "cost": 6.5
+        },
+        {
+          "month": "October",
+          "temp_f": 59.0,
+          "kwh": 35.9,
+          "cost": 5.09
+        },
+        {
+          "month": "November",
+          "temp_f": 48.5,
+          "kwh": 25.2,
+          "cost": 3.58
+        },
+        {
+          "month": "December",
+          "temp_f": 40.8,
+          "kwh": 26.0,
+          "cost": 3.7
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 33
+    },
+    {
+      "city": "Louisville",
+      "state": "KY",
+      "slug": "louisville-ky",
+      "lat": 38.2527,
+      "lon": -85.7585,
+      "score": 70.1,
+      "annual_kwh": 463.3,
+      "annual_cost": 62.09,
+      "rate": 0.134,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.2,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 34.0,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "February",
+          "temp_f": 37.2,
+          "kwh": 23.5,
+          "cost": 3.15
+        },
+        {
+          "month": "March",
+          "temp_f": 46.0,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "April",
+          "temp_f": 58.0,
+          "kwh": 33.6,
+          "cost": 4.51
+        },
+        {
+          "month": "May",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 6.41
+        },
+        {
+          "month": "June",
+          "temp_f": 78.8,
+          "kwh": 55.6,
+          "cost": 7.45
+        },
+        {
+          "month": "July",
+          "temp_f": 82.0,
+          "kwh": 60.9,
+          "cost": 8.16
+        },
+        {
+          "month": "August",
+          "temp_f": 78.8,
+          "kwh": 57.4,
+          "cost": 7.7
+        },
+        {
+          "month": "September",
+          "temp_f": 70.0,
+          "kwh": 46.3,
+          "cost": 6.2
+        },
+        {
+          "month": "October",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 4.66
+        },
+        {
+          "month": "November",
+          "temp_f": 46.0,
+          "kwh": 25.2,
+          "cost": 3.38
+        },
+        {
+          "month": "December",
+          "temp_f": 37.2,
+          "kwh": 26.0,
+          "cost": 3.49
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 34
+    },
+    {
+      "city": "Virginia Beach",
+      "state": "VA",
+      "slug": "virginia-beach-va",
+      "lat": 36.8529,
+      "lon": -75.978,
+      "score": 69.9,
+      "annual_kwh": 459.4,
+      "annual_cost": 68.0,
+      "rate": 0.148,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 11.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 41.0,
+          "kwh": 26.0,
+          "cost": 3.85
+        },
+        {
+          "month": "February",
+          "temp_f": 43.5,
+          "kwh": 23.5,
+          "cost": 3.48
+        },
+        {
+          "month": "March",
+          "temp_f": 50.5,
+          "kwh": 26.6,
+          "cost": 3.93
+        },
+        {
+          "month": "April",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 5.29
+        },
+        {
+          "month": "May",
+          "temp_f": 69.5,
+          "kwh": 47.3,
+          "cost": 7.0
+        },
+        {
+          "month": "June",
+          "temp_f": 76.5,
+          "kwh": 53.2,
+          "cost": 7.87
+        },
+        {
+          "month": "July",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 8.53
+        },
+        {
+          "month": "August",
+          "temp_f": 76.5,
+          "kwh": 54.9,
+          "cost": 8.13
+        },
+        {
+          "month": "September",
+          "temp_f": 69.5,
+          "kwh": 45.8,
+          "cost": 6.77
+        },
+        {
+          "month": "October",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 5.47
+        },
+        {
+          "month": "November",
+          "temp_f": 50.5,
+          "kwh": 25.7,
+          "cost": 3.81
+        },
+        {
+          "month": "December",
+          "temp_f": 43.5,
+          "kwh": 26.0,
+          "cost": 3.85
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 35
+    },
+    {
+      "city": "Nashville",
+      "state": "TN",
+      "slug": "nashville-tn",
+      "lat": 36.1627,
+      "lon": -86.7816,
+      "score": 69.8,
+      "annual_kwh": 466.8,
+      "annual_cost": 60.21,
+      "rate": 0.129,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.5,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 36.0,
+          "kwh": 26.0,
+          "cost": 3.36
+        },
+        {
+          "month": "February",
+          "temp_f": 39.1,
+          "kwh": 23.5,
+          "cost": 3.03
+        },
+        {
+          "month": "March",
+          "temp_f": 47.5,
+          "kwh": 26.0,
+          "cost": 3.36
+        },
+        {
+          "month": "April",
+          "temp_f": 59.0,
+          "kwh": 34.7,
+          "cost": 4.48
+        },
+        {
+          "month": "May",
+          "temp_f": 70.5,
+          "kwh": 48.4,
+          "cost": 6.24
+        },
+        {
+          "month": "June",
+          "temp_f": 78.9,
+          "kwh": 55.7,
+          "cost": 7.18
+        },
+        {
+          "month": "July",
+          "temp_f": 82.0,
+          "kwh": 60.9,
+          "cost": 7.86
+        },
+        {
+          "month": "August",
+          "temp_f": 78.9,
+          "kwh": 57.5,
+          "cost": 7.42
+        },
+        {
+          "month": "September",
+          "temp_f": 70.5,
+          "kwh": 46.8,
+          "cost": 6.04
+        },
+        {
+          "month": "October",
+          "temp_f": 59.0,
+          "kwh": 35.9,
+          "cost": 4.62
+        },
+        {
+          "month": "November",
+          "temp_f": 47.5,
+          "kwh": 25.2,
+          "cost": 3.25
+        },
+        {
+          "month": "December",
+          "temp_f": 39.1,
+          "kwh": 26.0,
+          "cost": 3.36
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 36
+    },
+    {
+      "city": "Providence",
+      "state": "RI",
+      "slug": "providence-ri",
+      "lat": 41.824,
+      "lon": -71.4128,
+      "score": 69.4,
+      "annual_kwh": 418.2,
+      "annual_cost": 121.27,
+      "rate": 0.29,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 28.0,
+          "kwh": 26.0,
+          "cost": 7.55
+        },
+        {
+          "month": "February",
+          "temp_f": 31.2,
+          "kwh": 23.5,
+          "cost": 6.82
+        },
+        {
+          "month": "March",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 7.55
+        },
+        {
+          "month": "April",
+          "temp_f": 52.0,
+          "kwh": 27.3,
+          "cost": 7.92
+        },
+        {
+          "month": "May",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 11.98
+        },
+        {
+          "month": "June",
+          "temp_f": 72.8,
+          "kwh": 49.3,
+          "cost": 14.28
+        },
+        {
+          "month": "July",
+          "temp_f": 76.0,
+          "kwh": 54.4,
+          "cost": 15.77
+        },
+        {
+          "month": "August",
+          "temp_f": 72.8,
+          "kwh": 50.9,
+          "cost": 14.76
+        },
+        {
+          "month": "September",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 11.59
+        },
+        {
+          "month": "October",
+          "temp_f": 52.0,
+          "kwh": 28.2,
+          "cost": 8.18
+        },
+        {
+          "month": "November",
+          "temp_f": 40.0,
+          "kwh": 25.2,
+          "cost": 7.31
+        },
+        {
+          "month": "December",
+          "temp_f": 31.2,
+          "kwh": 26.0,
+          "cost": 7.55
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 37
+    },
+    {
+      "city": "Richmond",
+      "state": "VA",
+      "slug": "richmond-va",
+      "lat": 37.5407,
+      "lon": -77.436,
+      "score": 69.3,
+      "annual_kwh": 462.9,
+      "annual_cost": 68.51,
+      "rate": 0.148,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.2,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 37.0,
+          "kwh": 26.0,
+          "cost": 3.85
+        },
+        {
+          "month": "February",
+          "temp_f": 39.9,
+          "kwh": 23.5,
+          "cost": 3.48
+        },
+        {
+          "month": "March",
+          "temp_f": 48.0,
+          "kwh": 26.0,
+          "cost": 3.85
+        },
+        {
+          "month": "April",
+          "temp_f": 59.0,
+          "kwh": 34.7,
+          "cost": 5.13
+        },
+        {
+          "month": "May",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 7.08
+        },
+        {
+          "month": "June",
+          "temp_f": 78.1,
+          "kwh": 54.8,
+          "cost": 8.12
+        },
+        {
+          "month": "July",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 8.86
+        },
+        {
+          "month": "August",
+          "temp_f": 78.1,
+          "kwh": 56.7,
+          "cost": 8.39
+        },
+        {
+          "month": "September",
+          "temp_f": 70.0,
+          "kwh": 46.3,
+          "cost": 6.85
+        },
+        {
+          "month": "October",
+          "temp_f": 59.0,
+          "kwh": 35.9,
+          "cost": 5.31
+        },
+        {
+          "month": "November",
+          "temp_f": 48.0,
+          "kwh": 25.2,
+          "cost": 3.73
+        },
+        {
+          "month": "December",
+          "temp_f": 39.9,
+          "kwh": 26.0,
+          "cost": 3.85
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 38
+    },
+    {
+      "city": "Hartford",
+      "state": "CT",
+      "slug": "hartford-ct",
+      "lat": 41.7658,
+      "lon": -72.6734,
+      "score": 69.0,
+      "annual_kwh": 418.6,
+      "annual_cost": 123.5,
+      "rate": 0.295,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 25.0,
+          "kwh": 26.0,
+          "cost": 7.68
+        },
+        {
+          "month": "February",
+          "temp_f": 28.5,
+          "kwh": 23.5,
+          "cost": 6.94
+        },
+        {
+          "month": "March",
+          "temp_f": 38.0,
+          "kwh": 26.0,
+          "cost": 7.68
+        },
+        {
+          "month": "April",
+          "temp_f": 51.0,
+          "kwh": 26.3,
+          "cost": 7.75
+        },
+        {
+          "month": "May",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 12.18
+        },
+        {
+          "month": "June",
+          "temp_f": 73.5,
+          "kwh": 50.0,
+          "cost": 14.75
+        },
+        {
+          "month": "July",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 16.37
+        },
+        {
+          "month": "August",
+          "temp_f": 73.5,
+          "kwh": 51.7,
+          "cost": 15.24
+        },
+        {
+          "month": "September",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 11.79
+        },
+        {
+          "month": "October",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 8.0
+        },
+        {
+          "month": "November",
+          "temp_f": 38.0,
+          "kwh": 25.2,
+          "cost": 7.43
+        },
+        {
+          "month": "December",
+          "temp_f": 28.5,
+          "kwh": 26.0,
+          "cost": 7.68
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 39
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "slug": "new-york-ny",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "score": 68.9,
+      "annual_kwh": 432.8,
+      "annual_cost": 107.33,
+      "rate": 0.248,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 9.8,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 33.0,
+          "kwh": 26.0,
+          "cost": 6.46
+        },
+        {
+          "month": "February",
+          "temp_f": 35.9,
+          "kwh": 23.5,
+          "cost": 5.83
+        },
+        {
+          "month": "March",
+          "temp_f": 44.0,
+          "kwh": 26.0,
+          "cost": 6.46
+        },
+        {
+          "month": "April",
+          "temp_f": 55.0,
+          "kwh": 30.5,
+          "cost": 7.56
+        },
+        {
+          "month": "May",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 10.78
+        },
+        {
+          "month": "June",
+          "temp_f": 74.1,
+          "kwh": 50.6,
+          "cost": 12.56
+        },
+        {
+          "month": "July",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 13.76
+        },
+        {
+          "month": "August",
+          "temp_f": 74.1,
+          "kwh": 52.3,
+          "cost": 12.97
+        },
+        {
+          "month": "September",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 10.44
+        },
+        {
+          "month": "October",
+          "temp_f": 55.0,
+          "kwh": 31.5,
+          "cost": 7.81
+        },
+        {
+          "month": "November",
+          "temp_f": 44.0,
+          "kwh": 25.2,
+          "cost": 6.25
+        },
+        {
+          "month": "December",
+          "temp_f": 35.9,
+          "kwh": 26.0,
+          "cost": 6.46
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 40
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "slug": "boston-ma",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "score": 68.8,
+      "annual_kwh": 418.2,
+      "annual_cost": 125.46,
+      "rate": 0.3,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 8.7,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 28.0,
+          "kwh": 26.0,
+          "cost": 7.81
+        },
+        {
+          "month": "February",
+          "temp_f": 31.2,
+          "kwh": 23.5,
+          "cost": 7.06
+        },
+        {
+          "month": "March",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 7.81
+        },
+        {
+          "month": "April",
+          "temp_f": 52.0,
+          "kwh": 27.3,
+          "cost": 8.19
+        },
+        {
+          "month": "May",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 12.39
+        },
+        {
+          "month": "June",
+          "temp_f": 72.8,
+          "kwh": 49.3,
+          "cost": 14.78
+        },
+        {
+          "month": "July",
+          "temp_f": 76.0,
+          "kwh": 54.4,
+          "cost": 16.32
+        },
+        {
+          "month": "August",
+          "temp_f": 72.8,
+          "kwh": 50.9,
+          "cost": 15.27
+        },
+        {
+          "month": "September",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 11.99
+        },
+        {
+          "month": "October",
+          "temp_f": 52.0,
+          "kwh": 28.2,
+          "cost": 8.47
+        },
+        {
+          "month": "November",
+          "temp_f": 40.0,
+          "kwh": 25.2,
+          "cost": 7.56
+        },
+        {
+          "month": "December",
+          "temp_f": 31.2,
+          "kwh": 26.0,
+          "cost": 7.81
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 41
+    },
+    {
+      "city": "Wichita",
+      "state": "KS",
+      "slug": "wichita-ks",
+      "lat": 37.6872,
+      "lon": -97.3301,
+      "score": 68.5,
+      "annual_kwh": 467.9,
+      "annual_cost": 67.84,
+      "rate": 0.145,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 30.0,
+          "kwh": 26.0,
+          "cost": 3.78
+        },
+        {
+          "month": "February",
+          "temp_f": 33.6,
+          "kwh": 23.5,
+          "cost": 3.41
+        },
+        {
+          "month": "March",
+          "temp_f": 43.5,
+          "kwh": 26.0,
+          "cost": 3.78
+        },
+        {
+          "month": "April",
+          "temp_f": 57.0,
+          "kwh": 32.6,
+          "cost": 4.72
+        },
+        {
+          "month": "May",
+          "temp_f": 70.5,
+          "kwh": 48.4,
+          "cost": 7.02
+        },
+        {
+          "month": "June",
+          "temp_f": 80.4,
+          "kwh": 57.3,
+          "cost": 8.3
+        },
+        {
+          "month": "July",
+          "temp_f": 84.0,
+          "kwh": 63.1,
+          "cost": 9.15
+        },
+        {
+          "month": "August",
+          "temp_f": 80.4,
+          "kwh": 59.2,
+          "cost": 8.58
+        },
+        {
+          "month": "September",
+          "temp_f": 70.5,
+          "kwh": 46.8,
+          "cost": 6.79
+        },
+        {
+          "month": "October",
+          "temp_f": 57.0,
+          "kwh": 33.7,
+          "cost": 4.88
+        },
+        {
+          "month": "November",
+          "temp_f": 43.5,
+          "kwh": 25.2,
+          "cost": 3.65
+        },
+        {
+          "month": "December",
+          "temp_f": 33.6,
+          "kwh": 26.0,
+          "cost": 3.78
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 42
+    },
+    {
+      "city": "Baltimore",
+      "state": "MD",
+      "slug": "baltimore-md",
+      "lat": 39.2904,
+      "lon": -76.6122,
+      "score": 68.3,
+      "annual_kwh": 455.4,
+      "annual_cost": 84.24,
+      "rate": 0.185,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 11.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 36.0,
+          "kwh": 26.0,
+          "cost": 4.82
+        },
+        {
+          "month": "February",
+          "temp_f": 38.9,
+          "kwh": 23.5,
+          "cost": 4.35
+        },
+        {
+          "month": "March",
+          "temp_f": 47.0,
+          "kwh": 26.0,
+          "cost": 4.82
+        },
+        {
+          "month": "April",
+          "temp_f": 58.0,
+          "kwh": 33.6,
+          "cost": 6.22
+        },
+        {
+          "month": "May",
+          "temp_f": 69.0,
+          "kwh": 46.8,
+          "cost": 8.65
+        },
+        {
+          "month": "June",
+          "temp_f": 77.1,
+          "kwh": 53.8,
+          "cost": 9.95
+        },
+        {
+          "month": "July",
+          "temp_f": 80.0,
+          "kwh": 58.7,
+          "cost": 10.87
+        },
+        {
+          "month": "August",
+          "temp_f": 77.1,
+          "kwh": 55.6,
+          "cost": 10.28
+        },
+        {
+          "month": "September",
+          "temp_f": 69.0,
+          "kwh": 45.2,
+          "cost": 8.37
+        },
+        {
+          "month": "October",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 6.43
+        },
+        {
+          "month": "November",
+          "temp_f": 47.0,
+          "kwh": 25.2,
+          "cost": 4.66
+        },
+        {
+          "month": "December",
+          "temp_f": 38.9,
+          "kwh": 26.0,
+          "cost": 4.82
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 43
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "slug": "charlotte-nc",
+      "lat": 35.2271,
+      "lon": -80.8431,
+      "score": 68.0,
+      "annual_kwh": 471.9,
+      "annual_cost": 67.01,
+      "rate": 0.142,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 41.0,
+          "kwh": 26.0,
+          "cost": 3.7
+        },
+        {
+          "month": "February",
+          "temp_f": 43.7,
+          "kwh": 23.5,
+          "cost": 3.34
+        },
+        {
+          "month": "March",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 3.85
+        },
+        {
+          "month": "April",
+          "temp_f": 61.0,
+          "kwh": 36.8,
+          "cost": 5.23
+        },
+        {
+          "month": "May",
+          "temp_f": 71.0,
+          "kwh": 48.9,
+          "cost": 6.95
+        },
+        {
+          "month": "June",
+          "temp_f": 78.3,
+          "kwh": 55.1,
+          "cost": 7.82
+        },
+        {
+          "month": "July",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 8.5
+        },
+        {
+          "month": "August",
+          "temp_f": 78.3,
+          "kwh": 56.9,
+          "cost": 8.08
+        },
+        {
+          "month": "September",
+          "temp_f": 71.0,
+          "kwh": 47.4,
+          "cost": 6.72
+        },
+        {
+          "month": "October",
+          "temp_f": 61.0,
+          "kwh": 38.0,
+          "cost": 5.4
+        },
+        {
+          "month": "November",
+          "temp_f": 51.0,
+          "kwh": 26.3,
+          "cost": 3.73
+        },
+        {
+          "month": "December",
+          "temp_f": 43.7,
+          "kwh": 26.0,
+          "cost": 3.7
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 44
+    },
+    {
+      "city": "Raleigh",
+      "state": "NC",
+      "slug": "raleigh-nc",
+      "lat": 35.7796,
+      "lon": -78.6382,
+      "score": 68.0,
+      "annual_kwh": 471.9,
+      "annual_cost": 67.01,
+      "rate": 0.142,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 41.0,
+          "kwh": 26.0,
+          "cost": 3.7
+        },
+        {
+          "month": "February",
+          "temp_f": 43.7,
+          "kwh": 23.5,
+          "cost": 3.34
+        },
+        {
+          "month": "March",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 3.85
+        },
+        {
+          "month": "April",
+          "temp_f": 61.0,
+          "kwh": 36.8,
+          "cost": 5.23
+        },
+        {
+          "month": "May",
+          "temp_f": 71.0,
+          "kwh": 48.9,
+          "cost": 6.95
+        },
+        {
+          "month": "June",
+          "temp_f": 78.3,
+          "kwh": 55.1,
+          "cost": 7.82
+        },
+        {
+          "month": "July",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 8.5
+        },
+        {
+          "month": "August",
+          "temp_f": 78.3,
+          "kwh": 56.9,
+          "cost": 8.08
+        },
+        {
+          "month": "September",
+          "temp_f": 71.0,
+          "kwh": 47.4,
+          "cost": 6.72
+        },
+        {
+          "month": "October",
+          "temp_f": 61.0,
+          "kwh": 38.0,
+          "cost": 5.4
+        },
+        {
+          "month": "November",
+          "temp_f": 51.0,
+          "kwh": 26.3,
+          "cost": 3.73
+        },
+        {
+          "month": "December",
+          "temp_f": 43.7,
+          "kwh": 26.0,
+          "cost": 3.7
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 45
+    },
+    {
+      "city": "St. Louis",
+      "state": "MO",
+      "slug": "st-louis-mo",
+      "lat": 38.627,
+      "lon": -90.1994,
+      "score": 67.8,
+      "annual_kwh": 475.4,
+      "annual_cost": 63.71,
+      "rate": 0.134,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 13.2,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 31.0,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "February",
+          "temp_f": 34.6,
+          "kwh": 23.5,
+          "cost": 3.15
+        },
+        {
+          "month": "March",
+          "temp_f": 44.5,
+          "kwh": 26.0,
+          "cost": 3.49
+        },
+        {
+          "month": "April",
+          "temp_f": 58.0,
+          "kwh": 33.6,
+          "cost": 4.51
+        },
+        {
+          "month": "May",
+          "temp_f": 71.5,
+          "kwh": 49.5,
+          "cost": 6.63
+        },
+        {
+          "month": "June",
+          "temp_f": 81.4,
+          "kwh": 58.3,
+          "cost": 7.82
+        },
+        {
+          "month": "July",
+          "temp_f": 85.0,
+          "kwh": 64.2,
+          "cost": 8.6
+        },
+        {
+          "month": "August",
+          "temp_f": 81.4,
+          "kwh": 60.3,
+          "cost": 8.08
+        },
+        {
+          "month": "September",
+          "temp_f": 71.5,
+          "kwh": 47.9,
+          "cost": 6.42
+        },
+        {
+          "month": "October",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 4.66
+        },
+        {
+          "month": "November",
+          "temp_f": 44.5,
+          "kwh": 25.2,
+          "cost": 3.38
+        },
+        {
+          "month": "December",
+          "temp_f": 34.6,
+          "kwh": 26.0,
+          "cost": 3.49
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 46
+    },
+    {
+      "city": "Washington",
+      "state": "DC",
+      "slug": "washington-dc",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "score": 66.4,
+      "annual_kwh": 462.9,
+      "annual_cost": 88.88,
+      "rate": 0.192,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 12.2,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 37.0,
+          "kwh": 26.0,
+          "cost": 5.0
+        },
+        {
+          "month": "February",
+          "temp_f": 39.9,
+          "kwh": 23.5,
+          "cost": 4.52
+        },
+        {
+          "month": "March",
+          "temp_f": 48.0,
+          "kwh": 26.0,
+          "cost": 5.0
+        },
+        {
+          "month": "April",
+          "temp_f": 59.0,
+          "kwh": 34.7,
+          "cost": 6.66
+        },
+        {
+          "month": "May",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 9.19
+        },
+        {
+          "month": "June",
+          "temp_f": 78.1,
+          "kwh": 54.8,
+          "cost": 10.53
+        },
+        {
+          "month": "July",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 11.49
+        },
+        {
+          "month": "August",
+          "temp_f": 78.1,
+          "kwh": 56.7,
+          "cost": 10.88
+        },
+        {
+          "month": "September",
+          "temp_f": 70.0,
+          "kwh": 46.3,
+          "cost": 8.89
+        },
+        {
+          "month": "October",
+          "temp_f": 59.0,
+          "kwh": 35.9,
+          "cost": 6.88
+        },
+        {
+          "month": "November",
+          "temp_f": 48.0,
+          "kwh": 25.2,
+          "cost": 4.84
+        },
+        {
+          "month": "December",
+          "temp_f": 39.9,
+          "kwh": 26.0,
+          "cost": 5.0
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 47
+    },
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "slug": "atlanta-ga",
+      "lat": 33.749,
+      "lon": -84.388,
+      "score": 66.2,
+      "annual_kwh": 478.8,
+      "annual_cost": 71.34,
+      "rate": 0.149,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 13.4,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 43.0,
+          "kwh": 26.0,
+          "cost": 3.88
+        },
+        {
+          "month": "February",
+          "temp_f": 45.5,
+          "kwh": 23.5,
+          "cost": 3.5
+        },
+        {
+          "month": "March",
+          "temp_f": 52.5,
+          "kwh": 28.8,
+          "cost": 4.29
+        },
+        {
+          "month": "April",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 5.64
+        },
+        {
+          "month": "May",
+          "temp_f": 71.5,
+          "kwh": 49.5,
+          "cost": 7.37
+        },
+        {
+          "month": "June",
+          "temp_f": 78.5,
+          "kwh": 55.3,
+          "cost": 8.24
+        },
+        {
+          "month": "July",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 8.92
+        },
+        {
+          "month": "August",
+          "temp_f": 78.5,
+          "kwh": 57.1,
+          "cost": 8.51
+        },
+        {
+          "month": "September",
+          "temp_f": 71.5,
+          "kwh": 47.9,
+          "cost": 7.13
+        },
+        {
+          "month": "October",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 5.83
+        },
+        {
+          "month": "November",
+          "temp_f": 52.5,
+          "kwh": 27.8,
+          "cost": 4.15
+        },
+        {
+          "month": "December",
+          "temp_f": 45.5,
+          "kwh": 26.0,
+          "cost": 3.88
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 48
+    },
+    {
+      "city": "Little Rock",
+      "state": "AR",
+      "slug": "little-rock-ar",
+      "lat": 34.7465,
+      "lon": -92.2896,
+      "score": 65.7,
+      "annual_kwh": 487.6,
+      "annual_cost": 64.37,
+      "rate": 0.132,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 14.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 40.0,
+          "kwh": 26.0,
+          "cost": 3.44
+        },
+        {
+          "month": "February",
+          "temp_f": 42.9,
+          "kwh": 23.5,
+          "cost": 3.1
+        },
+        {
+          "month": "March",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 3.58
+        },
+        {
+          "month": "April",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 5.0
+        },
+        {
+          "month": "May",
+          "temp_f": 73.0,
+          "kwh": 51.1,
+          "cost": 6.75
+        },
+        {
+          "month": "June",
+          "temp_f": 81.1,
+          "kwh": 58.0,
+          "cost": 7.66
+        },
+        {
+          "month": "July",
+          "temp_f": 84.0,
+          "kwh": 63.1,
+          "cost": 8.33
+        },
+        {
+          "month": "August",
+          "temp_f": 81.1,
+          "kwh": 59.9,
+          "cost": 7.91
+        },
+        {
+          "month": "September",
+          "temp_f": 73.0,
+          "kwh": 49.5,
+          "cost": 6.53
+        },
+        {
+          "month": "October",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 5.16
+        },
+        {
+          "month": "November",
+          "temp_f": 51.0,
+          "kwh": 26.3,
+          "cost": 3.47
+        },
+        {
+          "month": "December",
+          "temp_f": 42.9,
+          "kwh": 26.0,
+          "cost": 3.44
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 49
+    },
+    {
+      "city": "Oklahoma City",
+      "state": "OK",
+      "slug": "oklahoma-city-ok",
+      "lat": 35.4676,
+      "lon": -97.5164,
+      "score": 65.5,
+      "annual_kwh": 490.0,
+      "annual_cost": 62.72,
+      "rate": 0.128,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 14.3,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 36.0,
+          "kwh": 26.0,
+          "cost": 3.33
+        },
+        {
+          "month": "February",
+          "temp_f": 39.3,
+          "kwh": 23.5,
+          "cost": 3.01
+        },
+        {
+          "month": "March",
+          "temp_f": 48.5,
+          "kwh": 26.0,
+          "cost": 3.33
+        },
+        {
+          "month": "April",
+          "temp_f": 61.0,
+          "kwh": 36.8,
+          "cost": 4.71
+        },
+        {
+          "month": "May",
+          "temp_f": 73.5,
+          "kwh": 51.7,
+          "cost": 6.61
+        },
+        {
+          "month": "June",
+          "temp_f": 82.7,
+          "kwh": 59.7,
+          "cost": 7.64
+        },
+        {
+          "month": "July",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 8.36
+        },
+        {
+          "month": "August",
+          "temp_f": 82.7,
+          "kwh": 61.7,
+          "cost": 7.9
+        },
+        {
+          "month": "September",
+          "temp_f": 73.5,
+          "kwh": 50.0,
+          "cost": 6.4
+        },
+        {
+          "month": "October",
+          "temp_f": 61.0,
+          "kwh": 38.0,
+          "cost": 4.87
+        },
+        {
+          "month": "November",
+          "temp_f": 48.5,
+          "kwh": 25.2,
+          "cost": 3.23
+        },
+        {
+          "month": "December",
+          "temp_f": 39.3,
+          "kwh": 26.0,
+          "cost": 3.33
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 50
+    },
+    {
+      "city": "Birmingham",
+      "state": "AL",
+      "slug": "birmingham-al",
+      "lat": 33.5186,
+      "lon": -86.8104,
+      "score": 65.4,
+      "annual_kwh": 481.6,
+      "annual_cost": 73.68,
+      "rate": 0.153,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 13.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 42.0,
+          "kwh": 26.0,
+          "cost": 3.98
+        },
+        {
+          "month": "February",
+          "temp_f": 44.7,
+          "kwh": 23.5,
+          "cost": 3.6
+        },
+        {
+          "month": "March",
+          "temp_f": 52.0,
+          "kwh": 28.2,
+          "cost": 4.32
+        },
+        {
+          "month": "April",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 5.79
+        },
+        {
+          "month": "May",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 7.65
+        },
+        {
+          "month": "June",
+          "temp_f": 79.3,
+          "kwh": 56.1,
+          "cost": 8.59
+        },
+        {
+          "month": "July",
+          "temp_f": 82.0,
+          "kwh": 60.9,
+          "cost": 9.32
+        },
+        {
+          "month": "August",
+          "temp_f": 79.3,
+          "kwh": 58.0,
+          "cost": 8.87
+        },
+        {
+          "month": "September",
+          "temp_f": 72.0,
+          "kwh": 48.4,
+          "cost": 7.41
+        },
+        {
+          "month": "October",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 5.99
+        },
+        {
+          "month": "November",
+          "temp_f": 52.0,
+          "kwh": 27.3,
+          "cost": 4.18
+        },
+        {
+          "month": "December",
+          "temp_f": 44.7,
+          "kwh": 26.0,
+          "cost": 3.98
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 51
+    },
+    {
+      "city": "Tulsa",
+      "state": "OK",
+      "slug": "tulsa-ok",
+      "lat": 36.15398,
+      "lon": -95.9928,
+      "score": 64.8,
+      "annual_kwh": 493.9,
+      "annual_cost": 63.22,
+      "rate": 0.128,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 14.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 35.0,
+          "kwh": 26.0,
+          "cost": 3.33
+        },
+        {
+          "month": "February",
+          "temp_f": 38.5,
+          "kwh": 23.5,
+          "cost": 3.01
+        },
+        {
+          "month": "March",
+          "temp_f": 48.0,
+          "kwh": 26.0,
+          "cost": 3.33
+        },
+        {
+          "month": "April",
+          "temp_f": 61.0,
+          "kwh": 36.8,
+          "cost": 4.71
+        },
+        {
+          "month": "May",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 6.68
+        },
+        {
+          "month": "June",
+          "temp_f": 83.5,
+          "kwh": 60.5,
+          "cost": 7.75
+        },
+        {
+          "month": "July",
+          "temp_f": 87.0,
+          "kwh": 66.4,
+          "cost": 8.5
+        },
+        {
+          "month": "August",
+          "temp_f": 83.5,
+          "kwh": 62.6,
+          "cost": 8.01
+        },
+        {
+          "month": "September",
+          "temp_f": 74.0,
+          "kwh": 50.5,
+          "cost": 6.47
+        },
+        {
+          "month": "October",
+          "temp_f": 61.0,
+          "kwh": 38.0,
+          "cost": 4.87
+        },
+        {
+          "month": "November",
+          "temp_f": 48.0,
+          "kwh": 25.2,
+          "cost": 3.23
+        },
+        {
+          "month": "December",
+          "temp_f": 38.5,
+          "kwh": 26.0,
+          "cost": 3.33
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 52
+    },
+    {
+      "city": "Memphis",
+      "state": "TN",
+      "slug": "memphis-tn",
+      "lat": 35.1495,
+      "lon": -90.049,
+      "score": 64.1,
+      "annual_kwh": 497.3,
+      "annual_cost": 64.15,
+      "rate": 0.129,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 14.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 41.0,
+          "kwh": 26.0,
+          "cost": 3.36
+        },
+        {
+          "month": "February",
+          "temp_f": 43.9,
+          "kwh": 23.5,
+          "cost": 3.03
+        },
+        {
+          "month": "March",
+          "temp_f": 52.0,
+          "kwh": 28.2,
+          "cost": 3.64
+        },
+        {
+          "month": "April",
+          "temp_f": 63.0,
+          "kwh": 38.9,
+          "cost": 5.02
+        },
+        {
+          "month": "May",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 6.73
+        },
+        {
+          "month": "June",
+          "temp_f": 82.1,
+          "kwh": 59.1,
+          "cost": 7.62
+        },
+        {
+          "month": "July",
+          "temp_f": 85.0,
+          "kwh": 64.2,
+          "cost": 8.28
+        },
+        {
+          "month": "August",
+          "temp_f": 82.1,
+          "kwh": 61.0,
+          "cost": 7.87
+        },
+        {
+          "month": "September",
+          "temp_f": 74.0,
+          "kwh": 50.5,
+          "cost": 6.52
+        },
+        {
+          "month": "October",
+          "temp_f": 63.0,
+          "kwh": 40.2,
+          "cost": 5.19
+        },
+        {
+          "month": "November",
+          "temp_f": 52.0,
+          "kwh": 27.3,
+          "cost": 3.52
+        },
+        {
+          "month": "December",
+          "temp_f": 43.9,
+          "kwh": 26.0,
+          "cost": 3.36
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 53
+    },
+    {
+      "city": "Oakland",
+      "state": "CA",
+      "slug": "oakland-ca",
+      "lat": 37.8044,
+      "lon": -122.2711,
+      "score": 63.8,
+      "annual_kwh": 435.5,
+      "annual_cost": 140.65,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 10.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 52.0,
+          "kwh": 28.2,
+          "cost": 9.12
+        },
+        {
+          "month": "February",
+          "temp_f": 53.1,
+          "kwh": 26.6,
+          "cost": 8.58
+        },
+        {
+          "month": "March",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 10.52
+        },
+        {
+          "month": "April",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 11.55
+        },
+        {
+          "month": "May",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 13.34
+        },
+        {
+          "month": "June",
+          "temp_f": 66.9,
+          "kwh": 43.0,
+          "cost": 13.9
+        },
+        {
+          "month": "July",
+          "temp_f": 68.0,
+          "kwh": 45.7,
+          "cost": 14.75
+        },
+        {
+          "month": "August",
+          "temp_f": 66.9,
+          "kwh": 44.5,
+          "cost": 14.36
+        },
+        {
+          "month": "September",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 12.91
+        },
+        {
+          "month": "October",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 11.93
+        },
+        {
+          "month": "November",
+          "temp_f": 56.0,
+          "kwh": 31.5,
+          "cost": 10.18
+        },
+        {
+          "month": "December",
+          "temp_f": 53.1,
+          "kwh": 29.4,
+          "cost": 9.5
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 54
+    },
+    {
+      "city": "Jackson",
+      "state": "MS",
+      "slug": "jackson-ms",
+      "lat": 32.2988,
+      "lon": -90.1848,
+      "score": 61.2,
+      "annual_kwh": 510.6,
+      "annual_cost": 68.93,
+      "rate": 0.135,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 15.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 45.0,
+          "kwh": 26.0,
+          "cost": 3.52
+        },
+        {
+          "month": "February",
+          "temp_f": 47.7,
+          "kwh": 23.5,
+          "cost": 3.18
+        },
+        {
+          "month": "March",
+          "temp_f": 55.0,
+          "kwh": 31.5,
+          "cost": 4.25
+        },
+        {
+          "month": "April",
+          "temp_f": 65.0,
+          "kwh": 41.0,
+          "cost": 5.54
+        },
+        {
+          "month": "May",
+          "temp_f": 75.0,
+          "kwh": 53.3,
+          "cost": 7.2
+        },
+        {
+          "month": "June",
+          "temp_f": 82.3,
+          "kwh": 59.3,
+          "cost": 8.0
+        },
+        {
+          "month": "July",
+          "temp_f": 85.0,
+          "kwh": 64.2,
+          "cost": 8.67
+        },
+        {
+          "month": "August",
+          "temp_f": 82.3,
+          "kwh": 61.3,
+          "cost": 8.27
+        },
+        {
+          "month": "September",
+          "temp_f": 75.0,
+          "kwh": 51.6,
+          "cost": 6.96
+        },
+        {
+          "month": "October",
+          "temp_f": 65.0,
+          "kwh": 42.4,
+          "cost": 5.72
+        },
+        {
+          "month": "November",
+          "temp_f": 55.0,
+          "kwh": 30.5,
+          "cost": 4.11
+        },
+        {
+          "month": "December",
+          "temp_f": 47.7,
+          "kwh": 26.0,
+          "cost": 3.52
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 55
+    },
+    {
+      "city": "San Jose",
+      "state": "CA",
+      "slug": "san-jose-ca",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "score": 61.1,
+      "annual_kwh": 448.5,
+      "annual_cost": 144.86,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 11.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 50.0,
+          "kwh": 26.0,
+          "cost": 8.41
+        },
+        {
+          "month": "February",
+          "temp_f": 51.5,
+          "kwh": 25.0,
+          "cost": 8.07
+        },
+        {
+          "month": "March",
+          "temp_f": 55.5,
+          "kwh": 32.0,
+          "cost": 10.35
+        },
+        {
+          "month": "April",
+          "temp_f": 61.0,
+          "kwh": 36.8,
+          "cost": 11.89
+        },
+        {
+          "month": "May",
+          "temp_f": 66.5,
+          "kwh": 44.0,
+          "cost": 14.22
+        },
+        {
+          "month": "June",
+          "temp_f": 70.5,
+          "kwh": 46.8,
+          "cost": 15.13
+        },
+        {
+          "month": "July",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 16.16
+        },
+        {
+          "month": "August",
+          "temp_f": 70.5,
+          "kwh": 48.4,
+          "cost": 15.63
+        },
+        {
+          "month": "September",
+          "temp_f": 66.5,
+          "kwh": 42.6,
+          "cost": 13.76
+        },
+        {
+          "month": "October",
+          "temp_f": 61.0,
+          "kwh": 38.0,
+          "cost": 12.28
+        },
+        {
+          "month": "November",
+          "temp_f": 55.5,
+          "kwh": 31.0,
+          "cost": 10.01
+        },
+        {
+          "month": "December",
+          "temp_f": 51.5,
+          "kwh": 27.7,
+          "cost": 8.94
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 56
+    },
+    {
+      "city": "El Paso",
+      "state": "TX",
+      "slug": "el-paso-tx",
+      "lat": 31.7619,
+      "lon": -106.485,
+      "score": 60.8,
+      "annual_kwh": 507.0,
+      "annual_cost": 76.55,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 15.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 42.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "February",
+          "temp_f": 44.9,
+          "kwh": 23.5,
+          "cost": 3.55
+        },
+        {
+          "month": "March",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 4.43
+        },
+        {
+          "month": "April",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 6.04
+        },
+        {
+          "month": "May",
+          "temp_f": 75.0,
+          "kwh": 53.3,
+          "cost": 8.05
+        },
+        {
+          "month": "June",
+          "temp_f": 83.1,
+          "kwh": 60.1,
+          "cost": 9.08
+        },
+        {
+          "month": "July",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 9.86
+        },
+        {
+          "month": "August",
+          "temp_f": 83.1,
+          "kwh": 62.1,
+          "cost": 9.38
+        },
+        {
+          "month": "September",
+          "temp_f": 75.0,
+          "kwh": 51.6,
+          "cost": 7.79
+        },
+        {
+          "month": "October",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 6.24
+        },
+        {
+          "month": "November",
+          "temp_f": 53.0,
+          "kwh": 28.4,
+          "cost": 4.28
+        },
+        {
+          "month": "December",
+          "temp_f": 44.9,
+          "kwh": 26.0,
+          "cost": 3.93
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 57
+    },
+    {
+      "city": "Charleston",
+      "state": "SC",
+      "slug": "charleston-sc",
+      "lat": 32.7765,
+      "lon": -79.9311,
+      "score": 59.9,
+      "annual_kwh": 514.1,
+      "annual_cost": 74.55,
+      "rate": 0.145,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 16.2,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 49.0,
+          "kwh": 26.0,
+          "cost": 3.78
+        },
+        {
+          "month": "February",
+          "temp_f": 51.3,
+          "kwh": 24.8,
+          "cost": 3.6
+        },
+        {
+          "month": "March",
+          "temp_f": 57.5,
+          "kwh": 34.2,
+          "cost": 4.96
+        },
+        {
+          "month": "April",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 6.1
+        },
+        {
+          "month": "May",
+          "temp_f": 74.5,
+          "kwh": 52.8,
+          "cost": 7.65
+        },
+        {
+          "month": "June",
+          "temp_f": 80.7,
+          "kwh": 57.6,
+          "cost": 8.35
+        },
+        {
+          "month": "July",
+          "temp_f": 83.0,
+          "kwh": 62.0,
+          "cost": 8.99
+        },
+        {
+          "month": "August",
+          "temp_f": 80.7,
+          "kwh": 59.5,
+          "cost": 8.63
+        },
+        {
+          "month": "September",
+          "temp_f": 74.5,
+          "kwh": 51.0,
+          "cost": 7.4
+        },
+        {
+          "month": "October",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 6.31
+        },
+        {
+          "month": "November",
+          "temp_f": 57.5,
+          "kwh": 33.1,
+          "cost": 4.8
+        },
+        {
+          "month": "December",
+          "temp_f": 51.3,
+          "kwh": 27.5,
+          "cost": 3.98
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 58
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "slug": "dallas-tx",
+      "lat": 32.7767,
+      "lon": -96.797,
+      "score": 57.1,
+      "annual_kwh": 526.3,
+      "annual_cost": 79.47,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 17.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 44.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "February",
+          "temp_f": 46.9,
+          "kwh": 23.5,
+          "cost": 3.55
+        },
+        {
+          "month": "March",
+          "temp_f": 55.0,
+          "kwh": 31.5,
+          "cost": 4.76
+        },
+        {
+          "month": "April",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 6.35
+        },
+        {
+          "month": "May",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 8.38
+        },
+        {
+          "month": "June",
+          "temp_f": 85.1,
+          "kwh": 62.2,
+          "cost": 9.4
+        },
+        {
+          "month": "July",
+          "temp_f": 88.0,
+          "kwh": 67.5,
+          "cost": 10.19
+        },
+        {
+          "month": "August",
+          "temp_f": 85.1,
+          "kwh": 64.3,
+          "cost": 9.71
+        },
+        {
+          "month": "September",
+          "temp_f": 77.0,
+          "kwh": 53.7,
+          "cost": 8.11
+        },
+        {
+          "month": "October",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 6.57
+        },
+        {
+          "month": "November",
+          "temp_f": 55.0,
+          "kwh": 30.5,
+          "cost": 4.6
+        },
+        {
+          "month": "December",
+          "temp_f": 46.9,
+          "kwh": 26.0,
+          "cost": 3.93
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 59
+    },
+    {
+      "city": "Fort Worth",
+      "state": "TX",
+      "slug": "fort-worth-tx",
+      "lat": 32.7555,
+      "lon": -97.3308,
+      "score": 57.1,
+      "annual_kwh": 526.3,
+      "annual_cost": 79.47,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 17.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 44.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "February",
+          "temp_f": 46.9,
+          "kwh": 23.5,
+          "cost": 3.55
+        },
+        {
+          "month": "March",
+          "temp_f": 55.0,
+          "kwh": 31.5,
+          "cost": 4.76
+        },
+        {
+          "month": "April",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 6.35
+        },
+        {
+          "month": "May",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 8.38
+        },
+        {
+          "month": "June",
+          "temp_f": 85.1,
+          "kwh": 62.2,
+          "cost": 9.4
+        },
+        {
+          "month": "July",
+          "temp_f": 88.0,
+          "kwh": 67.5,
+          "cost": 10.19
+        },
+        {
+          "month": "August",
+          "temp_f": 85.1,
+          "kwh": 64.3,
+          "cost": 9.71
+        },
+        {
+          "month": "September",
+          "temp_f": 77.0,
+          "kwh": 53.7,
+          "cost": 8.11
+        },
+        {
+          "month": "October",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 6.57
+        },
+        {
+          "month": "November",
+          "temp_f": 55.0,
+          "kwh": 30.5,
+          "cost": 4.6
+        },
+        {
+          "month": "December",
+          "temp_f": 46.9,
+          "kwh": 26.0,
+          "cost": 3.93
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 60
+    },
+    {
+      "city": "Arlington",
+      "state": "TX",
+      "slug": "arlington-tx",
+      "lat": 32.7357,
+      "lon": -97.1081,
+      "score": 57.1,
+      "annual_kwh": 526.3,
+      "annual_cost": 79.47,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 17.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 44.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "February",
+          "temp_f": 46.9,
+          "kwh": 23.5,
+          "cost": 3.55
+        },
+        {
+          "month": "March",
+          "temp_f": 55.0,
+          "kwh": 31.5,
+          "cost": 4.76
+        },
+        {
+          "month": "April",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 6.35
+        },
+        {
+          "month": "May",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 8.38
+        },
+        {
+          "month": "June",
+          "temp_f": 85.1,
+          "kwh": 62.2,
+          "cost": 9.4
+        },
+        {
+          "month": "July",
+          "temp_f": 88.0,
+          "kwh": 67.5,
+          "cost": 10.19
+        },
+        {
+          "month": "August",
+          "temp_f": 85.1,
+          "kwh": 64.3,
+          "cost": 9.71
+        },
+        {
+          "month": "September",
+          "temp_f": 77.0,
+          "kwh": 53.7,
+          "cost": 8.11
+        },
+        {
+          "month": "October",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 6.57
+        },
+        {
+          "month": "November",
+          "temp_f": 55.0,
+          "kwh": 30.5,
+          "cost": 4.6
+        },
+        {
+          "month": "December",
+          "temp_f": 46.9,
+          "kwh": 26.0,
+          "cost": 3.93
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 61
+    },
+    {
+      "city": "Sacramento",
+      "state": "CA",
+      "slug": "sacramento-ca",
+      "lat": 38.5816,
+      "lon": -121.4944,
+      "score": 55.3,
+      "annual_kwh": 475.8,
+      "annual_cost": 153.67,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 13.2,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 44.0,
+          "kwh": 26.0,
+          "cost": 8.41
+        },
+        {
+          "month": "February",
+          "temp_f": 46.4,
+          "kwh": 23.5,
+          "cost": 7.6
+        },
+        {
+          "month": "March",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 9.47
+        },
+        {
+          "month": "April",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 12.23
+        },
+        {
+          "month": "May",
+          "temp_f": 71.0,
+          "kwh": 48.9,
+          "cost": 15.81
+        },
+        {
+          "month": "June",
+          "temp_f": 77.6,
+          "kwh": 54.3,
+          "cost": 17.55
+        },
+        {
+          "month": "July",
+          "temp_f": 80.0,
+          "kwh": 58.7,
+          "cost": 18.98
+        },
+        {
+          "month": "August",
+          "temp_f": 77.6,
+          "kwh": 56.1,
+          "cost": 18.13
+        },
+        {
+          "month": "September",
+          "temp_f": 71.0,
+          "kwh": 47.4,
+          "cost": 15.3
+        },
+        {
+          "month": "October",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 12.64
+        },
+        {
+          "month": "November",
+          "temp_f": 53.0,
+          "kwh": 28.4,
+          "cost": 9.16
+        },
+        {
+          "month": "December",
+          "temp_f": 46.4,
+          "kwh": 26.0,
+          "cost": 8.41
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 62
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "slug": "austin-tx",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "score": 54.4,
+      "annual_kwh": 541.1,
+      "annual_cost": 81.7,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 18.3,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 48.0,
+          "kwh": 26.0,
+          "cost": 3.93
+        },
+        {
+          "month": "February",
+          "temp_f": 50.7,
+          "kwh": 24.2,
+          "cost": 3.66
+        },
+        {
+          "month": "March",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 5.25
+        },
+        {
+          "month": "April",
+          "temp_f": 68.0,
+          "kwh": 44.2,
+          "cost": 6.67
+        },
+        {
+          "month": "May",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 8.54
+        },
+        {
+          "month": "June",
+          "temp_f": 85.3,
+          "kwh": 62.4,
+          "cost": 9.43
+        },
+        {
+          "month": "July",
+          "temp_f": 88.0,
+          "kwh": 67.5,
+          "cost": 10.19
+        },
+        {
+          "month": "August",
+          "temp_f": 85.3,
+          "kwh": 64.5,
+          "cost": 9.74
+        },
+        {
+          "month": "September",
+          "temp_f": 78.0,
+          "kwh": 54.7,
+          "cost": 8.27
+        },
+        {
+          "month": "October",
+          "temp_f": 68.0,
+          "kwh": 45.7,
+          "cost": 6.9
+        },
+        {
+          "month": "November",
+          "temp_f": 58.0,
+          "kwh": 33.6,
+          "cost": 5.08
+        },
+        {
+          "month": "December",
+          "temp_f": 50.7,
+          "kwh": 26.8,
+          "cost": 4.05
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 63
+    },
+    {
+      "city": "Stockton",
+      "state": "CA",
+      "slug": "stockton-ca",
+      "lat": 37.9577,
+      "lon": -121.2908,
+      "score": 53.2,
+      "annual_kwh": 485.4,
+      "annual_cost": 156.79,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 13.9,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 45.0,
+          "kwh": 26.0,
+          "cost": 8.41
+        },
+        {
+          "month": "February",
+          "temp_f": 47.4,
+          "kwh": 23.5,
+          "cost": 7.6
+        },
+        {
+          "month": "March",
+          "temp_f": 54.0,
+          "kwh": 30.4,
+          "cost": 9.82
+        },
+        {
+          "month": "April",
+          "temp_f": 63.0,
+          "kwh": 38.9,
+          "cost": 12.57
+        },
+        {
+          "month": "May",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 16.16
+        },
+        {
+          "month": "June",
+          "temp_f": 78.6,
+          "kwh": 55.4,
+          "cost": 17.89
+        },
+        {
+          "month": "July",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 19.33
+        },
+        {
+          "month": "August",
+          "temp_f": 78.6,
+          "kwh": 57.2,
+          "cost": 18.48
+        },
+        {
+          "month": "September",
+          "temp_f": 72.0,
+          "kwh": 48.4,
+          "cost": 15.64
+        },
+        {
+          "month": "October",
+          "temp_f": 63.0,
+          "kwh": 40.2,
+          "cost": 12.99
+        },
+        {
+          "month": "November",
+          "temp_f": 54.0,
+          "kwh": 29.4,
+          "cost": 9.5
+        },
+        {
+          "month": "December",
+          "temp_f": 47.4,
+          "kwh": 26.0,
+          "cost": 8.41
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 64
+    },
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "slug": "san-diego-ca",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "score": 53.0,
+      "annual_kwh": 486.7,
+      "annual_cost": 157.2,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 14.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 11.23
+        },
+        {
+          "month": "February",
+          "temp_f": 58.8,
+          "kwh": 32.2,
+          "cost": 10.4
+        },
+        {
+          "month": "March",
+          "temp_f": 61.0,
+          "kwh": 38.0,
+          "cost": 12.28
+        },
+        {
+          "month": "April",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 12.91
+        },
+        {
+          "month": "May",
+          "temp_f": 67.0,
+          "kwh": 44.6,
+          "cost": 14.4
+        },
+        {
+          "month": "June",
+          "temp_f": 69.2,
+          "kwh": 45.5,
+          "cost": 14.68
+        },
+        {
+          "month": "July",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 15.45
+        },
+        {
+          "month": "August",
+          "temp_f": 69.2,
+          "kwh": 47.0,
+          "cost": 15.17
+        },
+        {
+          "month": "September",
+          "temp_f": 67.0,
+          "kwh": 43.1,
+          "cost": 13.93
+        },
+        {
+          "month": "October",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 13.34
+        },
+        {
+          "month": "November",
+          "temp_f": 61.0,
+          "kwh": 36.8,
+          "cost": 11.89
+        },
+        {
+          "month": "December",
+          "temp_f": 58.8,
+          "kwh": 35.6,
+          "cost": 11.51
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 65
+    },
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "slug": "los-angeles-ca",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "score": 52.9,
+      "annual_kwh": 486.8,
+      "annual_cost": 157.24,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 14.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 10.52
+        },
+        {
+          "month": "February",
+          "temp_f": 57.1,
+          "kwh": 30.5,
+          "cost": 9.86
+        },
+        {
+          "month": "March",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 11.93
+        },
+        {
+          "month": "April",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 12.91
+        },
+        {
+          "month": "May",
+          "temp_f": 68.0,
+          "kwh": 45.7,
+          "cost": 14.75
+        },
+        {
+          "month": "June",
+          "temp_f": 70.9,
+          "kwh": 47.3,
+          "cost": 15.26
+        },
+        {
+          "month": "July",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 16.16
+        },
+        {
+          "month": "August",
+          "temp_f": 70.9,
+          "kwh": 48.8,
+          "cost": 15.77
+        },
+        {
+          "month": "September",
+          "temp_f": 68.0,
+          "kwh": 44.2,
+          "cost": 14.27
+        },
+        {
+          "month": "October",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 13.34
+        },
+        {
+          "month": "November",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 11.55
+        },
+        {
+          "month": "December",
+          "temp_f": 57.1,
+          "kwh": 33.8,
+          "cost": 10.91
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 66
+    },
+    {
+      "city": "Jacksonville",
+      "state": "FL",
+      "slug": "jacksonville-fl",
+      "lat": 30.3322,
+      "lon": -81.6557,
+      "score": 52.9,
+      "annual_kwh": 551.4,
+      "annual_cost": 79.96,
+      "rate": 0.145,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 19.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 54.0,
+          "kwh": 30.4,
+          "cost": 4.41
+        },
+        {
+          "month": "February",
+          "temp_f": 56.0,
+          "kwh": 29.4,
+          "cost": 4.27
+        },
+        {
+          "month": "March",
+          "temp_f": 61.5,
+          "kwh": 38.6,
+          "cost": 5.59
+        },
+        {
+          "month": "April",
+          "temp_f": 69.0,
+          "kwh": 45.2,
+          "cost": 6.56
+        },
+        {
+          "month": "May",
+          "temp_f": 76.5,
+          "kwh": 54.9,
+          "cost": 7.97
+        },
+        {
+          "month": "June",
+          "temp_f": 82.0,
+          "kwh": 59.0,
+          "cost": 8.55
+        },
+        {
+          "month": "July",
+          "temp_f": 84.0,
+          "kwh": 63.1,
+          "cost": 9.15
+        },
+        {
+          "month": "August",
+          "temp_f": 82.0,
+          "kwh": 60.9,
+          "cost": 8.83
+        },
+        {
+          "month": "September",
+          "temp_f": 76.5,
+          "kwh": 53.2,
+          "cost": 7.71
+        },
+        {
+          "month": "October",
+          "temp_f": 69.0,
+          "kwh": 46.8,
+          "cost": 6.78
+        },
+        {
+          "month": "November",
+          "temp_f": 61.5,
+          "kwh": 37.3,
+          "cost": 5.41
+        },
+        {
+          "month": "December",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 4.72
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 67
+    },
+    {
+      "city": "Long Beach",
+      "state": "CA",
+      "slug": "long-beach-ca",
+      "lat": 33.7701,
+      "lon": -118.1937,
+      "score": 52.9,
+      "annual_kwh": 486.8,
+      "annual_cost": 157.24,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 14.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 10.52
+        },
+        {
+          "month": "February",
+          "temp_f": 57.1,
+          "kwh": 30.5,
+          "cost": 9.86
+        },
+        {
+          "month": "March",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 11.93
+        },
+        {
+          "month": "April",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 12.91
+        },
+        {
+          "month": "May",
+          "temp_f": 68.0,
+          "kwh": 45.7,
+          "cost": 14.75
+        },
+        {
+          "month": "June",
+          "temp_f": 70.9,
+          "kwh": 47.3,
+          "cost": 15.26
+        },
+        {
+          "month": "July",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 16.16
+        },
+        {
+          "month": "August",
+          "temp_f": 70.9,
+          "kwh": 48.8,
+          "cost": 15.77
+        },
+        {
+          "month": "September",
+          "temp_f": 68.0,
+          "kwh": 44.2,
+          "cost": 14.27
+        },
+        {
+          "month": "October",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 13.34
+        },
+        {
+          "month": "November",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 11.55
+        },
+        {
+          "month": "December",
+          "temp_f": 57.1,
+          "kwh": 33.8,
+          "cost": 10.91
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 68
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "slug": "san-antonio-tx",
+      "lat": 29.4241,
+      "lon": -98.4936,
+      "score": 52.4,
+      "annual_kwh": 551.6,
+      "annual_cost": 83.29,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 19.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 51.0,
+          "kwh": 27.1,
+          "cost": 4.1
+        },
+        {
+          "month": "February",
+          "temp_f": 53.4,
+          "kwh": 26.9,
+          "cost": 4.06
+        },
+        {
+          "month": "March",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 5.58
+        },
+        {
+          "month": "April",
+          "temp_f": 69.0,
+          "kwh": 45.2,
+          "cost": 6.83
+        },
+        {
+          "month": "May",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 8.54
+        },
+        {
+          "month": "June",
+          "temp_f": 84.6,
+          "kwh": 61.7,
+          "cost": 9.32
+        },
+        {
+          "month": "July",
+          "temp_f": 87.0,
+          "kwh": 66.4,
+          "cost": 10.02
+        },
+        {
+          "month": "August",
+          "temp_f": 84.6,
+          "kwh": 63.8,
+          "cost": 9.63
+        },
+        {
+          "month": "September",
+          "temp_f": 78.0,
+          "kwh": 54.7,
+          "cost": 8.27
+        },
+        {
+          "month": "October",
+          "temp_f": 69.0,
+          "kwh": 46.8,
+          "cost": 7.06
+        },
+        {
+          "month": "November",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 5.4
+        },
+        {
+          "month": "December",
+          "temp_f": 53.4,
+          "kwh": 29.7,
+          "cost": 4.49
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 69
+    },
+    {
+      "city": "New Orleans",
+      "state": "LA",
+      "slug": "new-orleans-la",
+      "lat": 29.9511,
+      "lon": -90.0715,
+      "score": 52.3,
+      "annual_kwh": 564.3,
+      "annual_cost": 68.85,
+      "rate": 0.122,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 20.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 54.0,
+          "kwh": 30.4,
+          "cost": 3.71
+        },
+        {
+          "month": "February",
+          "temp_f": 56.1,
+          "kwh": 29.5,
+          "cost": 3.6
+        },
+        {
+          "month": "March",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 4.77
+        },
+        {
+          "month": "April",
+          "temp_f": 70.0,
+          "kwh": 46.3,
+          "cost": 5.65
+        },
+        {
+          "month": "May",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 6.9
+        },
+        {
+          "month": "June",
+          "temp_f": 83.9,
+          "kwh": 61.0,
+          "cost": 7.44
+        },
+        {
+          "month": "July",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 7.97
+        },
+        {
+          "month": "August",
+          "temp_f": 83.9,
+          "kwh": 63.0,
+          "cost": 7.69
+        },
+        {
+          "month": "September",
+          "temp_f": 78.0,
+          "kwh": 54.7,
+          "cost": 6.68
+        },
+        {
+          "month": "October",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 5.84
+        },
+        {
+          "month": "November",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 4.62
+        },
+        {
+          "month": "December",
+          "temp_f": 56.1,
+          "kwh": 32.7,
+          "cost": 3.99
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 70
+    },
+    {
+      "city": "Anaheim",
+      "state": "CA",
+      "slug": "anaheim-ca",
+      "lat": 33.8366,
+      "lon": -117.9143,
+      "score": 50.2,
+      "annual_kwh": 499.7,
+      "annual_cost": 161.4,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 15.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 10.52
+        },
+        {
+          "month": "February",
+          "temp_f": 57.2,
+          "kwh": 30.6,
+          "cost": 9.89
+        },
+        {
+          "month": "March",
+          "temp_f": 60.5,
+          "kwh": 37.5,
+          "cost": 12.11
+        },
+        {
+          "month": "April",
+          "temp_f": 65.0,
+          "kwh": 41.0,
+          "cost": 13.25
+        },
+        {
+          "month": "May",
+          "temp_f": 69.5,
+          "kwh": 47.3,
+          "cost": 15.28
+        },
+        {
+          "month": "June",
+          "temp_f": 72.8,
+          "kwh": 49.3,
+          "cost": 15.91
+        },
+        {
+          "month": "July",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 16.86
+        },
+        {
+          "month": "August",
+          "temp_f": 72.8,
+          "kwh": 50.9,
+          "cost": 16.44
+        },
+        {
+          "month": "September",
+          "temp_f": 69.5,
+          "kwh": 45.8,
+          "cost": 14.79
+        },
+        {
+          "month": "October",
+          "temp_f": 65.0,
+          "kwh": 42.4,
+          "cost": 13.69
+        },
+        {
+          "month": "November",
+          "temp_f": 60.5,
+          "kwh": 36.3,
+          "cost": 11.72
+        },
+        {
+          "month": "December",
+          "temp_f": 57.2,
+          "kwh": 33.9,
+          "cost": 10.95
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 71
+    },
+    {
+      "city": "Santa Ana",
+      "state": "CA",
+      "slug": "santa-ana-ca",
+      "lat": 33.7455,
+      "lon": -117.8677,
+      "score": 50.2,
+      "annual_kwh": 499.7,
+      "annual_cost": 161.4,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 15.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 56.0,
+          "kwh": 32.6,
+          "cost": 10.52
+        },
+        {
+          "month": "February",
+          "temp_f": 57.2,
+          "kwh": 30.6,
+          "cost": 9.89
+        },
+        {
+          "month": "March",
+          "temp_f": 60.5,
+          "kwh": 37.5,
+          "cost": 12.11
+        },
+        {
+          "month": "April",
+          "temp_f": 65.0,
+          "kwh": 41.0,
+          "cost": 13.25
+        },
+        {
+          "month": "May",
+          "temp_f": 69.5,
+          "kwh": 47.3,
+          "cost": 15.28
+        },
+        {
+          "month": "June",
+          "temp_f": 72.8,
+          "kwh": 49.3,
+          "cost": 15.91
+        },
+        {
+          "month": "July",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 16.86
+        },
+        {
+          "month": "August",
+          "temp_f": 72.8,
+          "kwh": 50.9,
+          "cost": 16.44
+        },
+        {
+          "month": "September",
+          "temp_f": 69.5,
+          "kwh": 45.8,
+          "cost": 14.79
+        },
+        {
+          "month": "October",
+          "temp_f": 65.0,
+          "kwh": 42.4,
+          "cost": 13.69
+        },
+        {
+          "month": "November",
+          "temp_f": 60.5,
+          "kwh": 36.3,
+          "cost": 11.72
+        },
+        {
+          "month": "December",
+          "temp_f": 57.2,
+          "kwh": 33.9,
+          "cost": 10.95
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 72
+    },
+    {
+      "city": "Houston",
+      "state": "TX",
+      "slug": "houston-tx",
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "score": 50.0,
+      "annual_kwh": 564.3,
+      "annual_cost": 85.21,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 20.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 54.0,
+          "kwh": 30.4,
+          "cost": 4.59
+        },
+        {
+          "month": "February",
+          "temp_f": 56.1,
+          "kwh": 29.5,
+          "cost": 4.46
+        },
+        {
+          "month": "March",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 5.91
+        },
+        {
+          "month": "April",
+          "temp_f": 70.0,
+          "kwh": 46.3,
+          "cost": 6.99
+        },
+        {
+          "month": "May",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 8.54
+        },
+        {
+          "month": "June",
+          "temp_f": 83.9,
+          "kwh": 61.0,
+          "cost": 9.21
+        },
+        {
+          "month": "July",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 9.86
+        },
+        {
+          "month": "August",
+          "temp_f": 83.9,
+          "kwh": 63.0,
+          "cost": 9.51
+        },
+        {
+          "month": "September",
+          "temp_f": 78.0,
+          "kwh": 54.7,
+          "cost": 8.27
+        },
+        {
+          "month": "October",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 7.22
+        },
+        {
+          "month": "November",
+          "temp_f": 62.0,
+          "kwh": 37.9,
+          "cost": 5.72
+        },
+        {
+          "month": "December",
+          "temp_f": 56.1,
+          "kwh": 32.7,
+          "cost": 4.94
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 73
+    },
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "slug": "las-vegas-nv",
+      "lat": 36.1699,
+      "lon": -115.1398,
+      "score": 49.5,
+      "annual_kwh": 564.2,
+      "annual_cost": 89.14,
+      "rate": 0.158,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 20.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 44.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "February",
+          "temp_f": 47.3,
+          "kwh": 23.5,
+          "cost": 3.72
+        },
+        {
+          "month": "March",
+          "temp_f": 56.5,
+          "kwh": 33.1,
+          "cost": 5.23
+        },
+        {
+          "month": "April",
+          "temp_f": 69.0,
+          "kwh": 45.2,
+          "cost": 7.15
+        },
+        {
+          "month": "May",
+          "temp_f": 81.5,
+          "kwh": 60.4,
+          "cost": 9.54
+        },
+        {
+          "month": "June",
+          "temp_f": 90.7,
+          "kwh": 68.1,
+          "cost": 10.77
+        },
+        {
+          "month": "July",
+          "temp_f": 94.0,
+          "kwh": 74.0,
+          "cost": 11.69
+        },
+        {
+          "month": "August",
+          "temp_f": 90.7,
+          "kwh": 70.4,
+          "cost": 11.13
+        },
+        {
+          "month": "September",
+          "temp_f": 81.5,
+          "kwh": 58.4,
+          "cost": 9.23
+        },
+        {
+          "month": "October",
+          "temp_f": 69.0,
+          "kwh": 46.8,
+          "cost": 7.39
+        },
+        {
+          "month": "November",
+          "temp_f": 56.5,
+          "kwh": 32.1,
+          "cost": 5.07
+        },
+        {
+          "month": "December",
+          "temp_f": 47.3,
+          "kwh": 26.0,
+          "cost": 4.11
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 74
+    },
+    {
+      "city": "Tucson",
+      "state": "AZ",
+      "slug": "tucson-az",
+      "lat": 32.2226,
+      "lon": -110.9747,
+      "score": 49.5,
+      "annual_kwh": 564.6,
+      "annual_cost": 88.64,
+      "rate": 0.157,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 20.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 50.0,
+          "kwh": 26.0,
+          "cost": 4.09
+        },
+        {
+          "month": "February",
+          "temp_f": 52.7,
+          "kwh": 26.2,
+          "cost": 4.11
+        },
+        {
+          "month": "March",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 5.8
+        },
+        {
+          "month": "April",
+          "temp_f": 70.0,
+          "kwh": 46.3,
+          "cost": 7.27
+        },
+        {
+          "month": "May",
+          "temp_f": 80.0,
+          "kwh": 58.7,
+          "cost": 9.22
+        },
+        {
+          "month": "June",
+          "temp_f": 87.3,
+          "kwh": 64.6,
+          "cost": 10.14
+        },
+        {
+          "month": "July",
+          "temp_f": 90.0,
+          "kwh": 69.7,
+          "cost": 10.94
+        },
+        {
+          "month": "August",
+          "temp_f": 87.3,
+          "kwh": 66.7,
+          "cost": 10.47
+        },
+        {
+          "month": "September",
+          "temp_f": 80.0,
+          "kwh": 56.9,
+          "cost": 8.93
+        },
+        {
+          "month": "October",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 7.51
+        },
+        {
+          "month": "November",
+          "temp_f": 60.0,
+          "kwh": 35.8,
+          "cost": 5.61
+        },
+        {
+          "month": "December",
+          "temp_f": 52.7,
+          "kwh": 29.0,
+          "cost": 4.55
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 75
+    },
+    {
+      "city": "Fresno",
+      "state": "CA",
+      "slug": "fresno-ca",
+      "lat": 36.7378,
+      "lon": -119.7871,
+      "score": 49.3,
+      "annual_kwh": 503.9,
+      "annual_cost": 162.77,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 15.4,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 43.0,
+          "kwh": 26.0,
+          "cost": 8.41
+        },
+        {
+          "month": "February",
+          "temp_f": 45.8,
+          "kwh": 23.5,
+          "cost": 7.6
+        },
+        {
+          "month": "March",
+          "temp_f": 53.5,
+          "kwh": 29.9,
+          "cost": 9.64
+        },
+        {
+          "month": "April",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 12.91
+        },
+        {
+          "month": "May",
+          "temp_f": 74.5,
+          "kwh": 52.8,
+          "cost": 17.04
+        },
+        {
+          "month": "June",
+          "temp_f": 82.2,
+          "kwh": 59.2,
+          "cost": 19.11
+        },
+        {
+          "month": "July",
+          "temp_f": 85.0,
+          "kwh": 64.2,
+          "cost": 20.74
+        },
+        {
+          "month": "August",
+          "temp_f": 82.2,
+          "kwh": 61.1,
+          "cost": 19.75
+        },
+        {
+          "month": "September",
+          "temp_f": 74.5,
+          "kwh": 51.0,
+          "cost": 16.49
+        },
+        {
+          "month": "October",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 13.34
+        },
+        {
+          "month": "November",
+          "temp_f": 53.5,
+          "kwh": 28.9,
+          "cost": 9.33
+        },
+        {
+          "month": "December",
+          "temp_f": 45.8,
+          "kwh": 26.0,
+          "cost": 8.41
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 76
+    },
+    {
+      "city": "Henderson",
+      "state": "NV",
+      "slug": "henderson-nv",
+      "lat": 36.0395,
+      "lon": -114.9817,
+      "score": 48.2,
+      "annual_kwh": 570.8,
+      "annual_cost": 90.19,
+      "rate": 0.158,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 20.6,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 46.0,
+          "kwh": 26.0,
+          "cost": 4.11
+        },
+        {
+          "month": "February",
+          "temp_f": 49.2,
+          "kwh": 23.5,
+          "cost": 3.72
+        },
+        {
+          "month": "March",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 5.49
+        },
+        {
+          "month": "April",
+          "temp_f": 70.0,
+          "kwh": 46.3,
+          "cost": 7.32
+        },
+        {
+          "month": "May",
+          "temp_f": 82.0,
+          "kwh": 60.9,
+          "cost": 9.63
+        },
+        {
+          "month": "June",
+          "temp_f": 90.8,
+          "kwh": 68.2,
+          "cost": 10.78
+        },
+        {
+          "month": "July",
+          "temp_f": 94.0,
+          "kwh": 74.0,
+          "cost": 11.69
+        },
+        {
+          "month": "August",
+          "temp_f": 90.8,
+          "kwh": 70.5,
+          "cost": 11.14
+        },
+        {
+          "month": "September",
+          "temp_f": 82.0,
+          "kwh": 59.0,
+          "cost": 9.32
+        },
+        {
+          "month": "October",
+          "temp_f": 70.0,
+          "kwh": 47.8,
+          "cost": 7.56
+        },
+        {
+          "month": "November",
+          "temp_f": 58.0,
+          "kwh": 33.6,
+          "cost": 5.32
+        },
+        {
+          "month": "December",
+          "temp_f": 49.2,
+          "kwh": 26.0,
+          "cost": 4.11
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 77
+    },
+    {
+      "city": "Riverside",
+      "state": "CA",
+      "slug": "riverside-ca",
+      "lat": 33.9806,
+      "lon": -117.3755,
+      "score": 47.4,
+      "annual_kwh": 513.0,
+      "annual_cost": 165.69,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 16.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 50.0,
+          "kwh": 26.0,
+          "cost": 8.41
+        },
+        {
+          "month": "February",
+          "temp_f": 52.1,
+          "kwh": 25.6,
+          "cost": 8.26
+        },
+        {
+          "month": "March",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 11.23
+        },
+        {
+          "month": "April",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 13.59
+        },
+        {
+          "month": "May",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 16.86
+        },
+        {
+          "month": "June",
+          "temp_f": 79.9,
+          "kwh": 56.7,
+          "cost": 18.33
+        },
+        {
+          "month": "July",
+          "temp_f": 82.0,
+          "kwh": 60.9,
+          "cost": 19.68
+        },
+        {
+          "month": "August",
+          "temp_f": 79.9,
+          "kwh": 58.6,
+          "cost": 18.94
+        },
+        {
+          "month": "September",
+          "temp_f": 74.0,
+          "kwh": 50.5,
+          "cost": 16.32
+        },
+        {
+          "month": "October",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 14.05
+        },
+        {
+          "month": "November",
+          "temp_f": 58.0,
+          "kwh": 33.6,
+          "cost": 10.87
+        },
+        {
+          "month": "December",
+          "temp_f": 52.1,
+          "kwh": 28.3,
+          "cost": 9.15
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 78
+    },
+    {
+      "city": "Bakersfield",
+      "state": "CA",
+      "slug": "bakersfield-ca",
+      "lat": 35.3733,
+      "lon": -119.0187,
+      "score": 47.3,
+      "annual_kwh": 513.6,
+      "annual_cost": 165.9,
+      "rate": 0.323,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 16.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 44.0,
+          "kwh": 26.0,
+          "cost": 8.41
+        },
+        {
+          "month": "February",
+          "temp_f": 46.8,
+          "kwh": 23.5,
+          "cost": 7.6
+        },
+        {
+          "month": "March",
+          "temp_f": 54.5,
+          "kwh": 30.9,
+          "cost": 10.0
+        },
+        {
+          "month": "April",
+          "temp_f": 65.0,
+          "kwh": 41.0,
+          "cost": 13.25
+        },
+        {
+          "month": "May",
+          "temp_f": 75.5,
+          "kwh": 53.8,
+          "cost": 17.39
+        },
+        {
+          "month": "June",
+          "temp_f": 83.2,
+          "kwh": 60.2,
+          "cost": 19.45
+        },
+        {
+          "month": "July",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 21.09
+        },
+        {
+          "month": "August",
+          "temp_f": 83.2,
+          "kwh": 62.2,
+          "cost": 20.1
+        },
+        {
+          "month": "September",
+          "temp_f": 75.5,
+          "kwh": 52.1,
+          "cost": 16.83
+        },
+        {
+          "month": "October",
+          "temp_f": 65.0,
+          "kwh": 42.4,
+          "cost": 13.69
+        },
+        {
+          "month": "November",
+          "temp_f": 54.5,
+          "kwh": 29.9,
+          "cost": 9.67
+        },
+        {
+          "month": "December",
+          "temp_f": 46.8,
+          "kwh": 26.0,
+          "cost": 8.41
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 79
+    },
+    {
+      "city": "Orlando",
+      "state": "FL",
+      "slug": "orlando-fl",
+      "lat": 28.5383,
+      "lon": -81.3792,
+      "score": 45.7,
+      "annual_kwh": 589.7,
+      "annual_cost": 85.51,
+      "rate": 0.145,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 22.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 60.0,
+          "kwh": 36.9,
+          "cost": 5.36
+        },
+        {
+          "month": "February",
+          "temp_f": 61.6,
+          "kwh": 34.9,
+          "cost": 5.07
+        },
+        {
+          "month": "March",
+          "temp_f": 66.0,
+          "kwh": 43.5,
+          "cost": 6.31
+        },
+        {
+          "month": "April",
+          "temp_f": 72.0,
+          "kwh": 48.4,
+          "cost": 7.02
+        },
+        {
+          "month": "May",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 8.2
+        },
+        {
+          "month": "June",
+          "temp_f": 82.4,
+          "kwh": 59.4,
+          "cost": 8.61
+        },
+        {
+          "month": "July",
+          "temp_f": 84.0,
+          "kwh": 63.1,
+          "cost": 9.15
+        },
+        {
+          "month": "August",
+          "temp_f": 82.4,
+          "kwh": 61.4,
+          "cost": 8.9
+        },
+        {
+          "month": "September",
+          "temp_f": 78.0,
+          "kwh": 54.7,
+          "cost": 7.94
+        },
+        {
+          "month": "October",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 7.25
+        },
+        {
+          "month": "November",
+          "temp_f": 66.0,
+          "kwh": 42.1,
+          "cost": 6.1
+        },
+        {
+          "month": "December",
+          "temp_f": 61.6,
+          "kwh": 38.7,
+          "cost": 5.61
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 80
+    },
+    {
+      "city": "Corpus Christi",
+      "state": "TX",
+      "slug": "corpus-christi-tx",
+      "lat": 27.8006,
+      "lon": -97.3964,
+      "score": 45.2,
+      "annual_kwh": 589.9,
+      "annual_cost": 89.07,
+      "rate": 0.151,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 22.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 58.0,
+          "kwh": 34.8,
+          "cost": 5.25
+        },
+        {
+          "month": "February",
+          "temp_f": 59.9,
+          "kwh": 33.3,
+          "cost": 5.02
+        },
+        {
+          "month": "March",
+          "temp_f": 65.0,
+          "kwh": 42.4,
+          "cost": 6.4
+        },
+        {
+          "month": "April",
+          "temp_f": 72.0,
+          "kwh": 48.4,
+          "cost": 7.31
+        },
+        {
+          "month": "May",
+          "temp_f": 79.0,
+          "kwh": 57.7,
+          "cost": 8.71
+        },
+        {
+          "month": "June",
+          "temp_f": 84.1,
+          "kwh": 61.2,
+          "cost": 9.24
+        },
+        {
+          "month": "July",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 9.86
+        },
+        {
+          "month": "August",
+          "temp_f": 84.1,
+          "kwh": 63.2,
+          "cost": 9.55
+        },
+        {
+          "month": "September",
+          "temp_f": 79.0,
+          "kwh": 55.8,
+          "cost": 8.43
+        },
+        {
+          "month": "October",
+          "temp_f": 72.0,
+          "kwh": 50.0,
+          "cost": 7.55
+        },
+        {
+          "month": "November",
+          "temp_f": 65.0,
+          "kwh": 41.0,
+          "cost": 6.2
+        },
+        {
+          "month": "December",
+          "temp_f": 59.9,
+          "kwh": 36.8,
+          "cost": 5.56
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 81
+    },
+    {
+      "city": "Tampa",
+      "state": "FL",
+      "slug": "tampa-fl",
+      "lat": 27.9506,
+      "lon": -82.4572,
+      "score": 43.3,
+      "annual_kwh": 602.5,
+      "annual_cost": 87.37,
+      "rate": 0.145,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 23.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 62.0,
+          "kwh": 39.1,
+          "cost": 5.67
+        },
+        {
+          "month": "February",
+          "temp_f": 63.5,
+          "kwh": 36.8,
+          "cost": 5.34
+        },
+        {
+          "month": "March",
+          "temp_f": 67.5,
+          "kwh": 45.1,
+          "cost": 6.54
+        },
+        {
+          "month": "April",
+          "temp_f": 73.0,
+          "kwh": 49.5,
+          "cost": 7.17
+        },
+        {
+          "month": "May",
+          "temp_f": 78.5,
+          "kwh": 57.1,
+          "cost": 8.28
+        },
+        {
+          "month": "June",
+          "temp_f": 82.5,
+          "kwh": 59.5,
+          "cost": 8.63
+        },
+        {
+          "month": "July",
+          "temp_f": 84.0,
+          "kwh": 63.1,
+          "cost": 9.15
+        },
+        {
+          "month": "August",
+          "temp_f": 82.5,
+          "kwh": 61.5,
+          "cost": 8.91
+        },
+        {
+          "month": "September",
+          "temp_f": 78.5,
+          "kwh": 55.3,
+          "cost": 8.01
+        },
+        {
+          "month": "October",
+          "temp_f": 73.0,
+          "kwh": 51.1,
+          "cost": 7.41
+        },
+        {
+          "month": "November",
+          "temp_f": 67.5,
+          "kwh": 43.7,
+          "cost": 6.33
+        },
+        {
+          "month": "December",
+          "temp_f": 63.5,
+          "kwh": 40.8,
+          "cost": 5.91
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 82
+    },
+    {
+      "city": "Phoenix",
+      "state": "AZ",
+      "slug": "phoenix-az",
+      "lat": 33.4484,
+      "lon": -112.074,
+      "score": 37.4,
+      "annual_kwh": 628.9,
+      "annual_cost": 98.73,
+      "rate": 0.157,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 25.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 4.6
+        },
+        {
+          "month": "February",
+          "temp_f": 55.9,
+          "kwh": 29.3,
+          "cost": 4.6
+        },
+        {
+          "month": "March",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 6.48
+        },
+        {
+          "month": "April",
+          "temp_f": 75.0,
+          "kwh": 51.6,
+          "cost": 8.1
+        },
+        {
+          "month": "May",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 10.25
+        },
+        {
+          "month": "June",
+          "temp_f": 94.1,
+          "kwh": 71.7,
+          "cost": 11.26
+        },
+        {
+          "month": "July",
+          "temp_f": 97.0,
+          "kwh": 77.3,
+          "cost": 12.13
+        },
+        {
+          "month": "August",
+          "temp_f": 94.1,
+          "kwh": 74.1,
+          "cost": 11.64
+        },
+        {
+          "month": "September",
+          "temp_f": 86.0,
+          "kwh": 63.2,
+          "cost": 9.92
+        },
+        {
+          "month": "October",
+          "temp_f": 75.0,
+          "kwh": 53.3,
+          "cost": 8.37
+        },
+        {
+          "month": "November",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 6.28
+        },
+        {
+          "month": "December",
+          "temp_f": 55.9,
+          "kwh": 32.5,
+          "cost": 5.1
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 83
+    },
+    {
+      "city": "Mesa",
+      "state": "AZ",
+      "slug": "mesa-az",
+      "lat": 33.4152,
+      "lon": -111.8315,
+      "score": 37.4,
+      "annual_kwh": 628.9,
+      "annual_cost": 98.73,
+      "rate": 0.157,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 25.1,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 53.0,
+          "kwh": 29.3,
+          "cost": 4.6
+        },
+        {
+          "month": "February",
+          "temp_f": 55.9,
+          "kwh": 29.3,
+          "cost": 4.6
+        },
+        {
+          "month": "March",
+          "temp_f": 64.0,
+          "kwh": 41.3,
+          "cost": 6.48
+        },
+        {
+          "month": "April",
+          "temp_f": 75.0,
+          "kwh": 51.6,
+          "cost": 8.1
+        },
+        {
+          "month": "May",
+          "temp_f": 86.0,
+          "kwh": 65.3,
+          "cost": 10.25
+        },
+        {
+          "month": "June",
+          "temp_f": 94.1,
+          "kwh": 71.7,
+          "cost": 11.26
+        },
+        {
+          "month": "July",
+          "temp_f": 97.0,
+          "kwh": 77.3,
+          "cost": 12.13
+        },
+        {
+          "month": "August",
+          "temp_f": 94.1,
+          "kwh": 74.1,
+          "cost": 11.64
+        },
+        {
+          "month": "September",
+          "temp_f": 86.0,
+          "kwh": 63.2,
+          "cost": 9.92
+        },
+        {
+          "month": "October",
+          "temp_f": 75.0,
+          "kwh": 53.3,
+          "cost": 8.37
+        },
+        {
+          "month": "November",
+          "temp_f": 64.0,
+          "kwh": 40.0,
+          "cost": 6.28
+        },
+        {
+          "month": "December",
+          "temp_f": 55.9,
+          "kwh": 32.5,
+          "cost": 5.1
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 84
+    },
+    {
+      "city": "Miami",
+      "state": "FL",
+      "slug": "miami-fl",
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "score": 33.8,
+      "annual_kwh": 653.7,
+      "annual_cost": 94.78,
+      "rate": 0.145,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 27.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 69.0,
+          "kwh": 46.8,
+          "cost": 6.78
+        },
+        {
+          "month": "February",
+          "temp_f": 70.1,
+          "kwh": 43.3,
+          "cost": 6.28
+        },
+        {
+          "month": "March",
+          "temp_f": 73.0,
+          "kwh": 51.1,
+          "cost": 7.41
+        },
+        {
+          "month": "April",
+          "temp_f": 77.0,
+          "kwh": 53.7,
+          "cost": 7.78
+        },
+        {
+          "month": "May",
+          "temp_f": 81.0,
+          "kwh": 59.8,
+          "cost": 8.68
+        },
+        {
+          "month": "June",
+          "temp_f": 83.9,
+          "kwh": 61.0,
+          "cost": 8.84
+        },
+        {
+          "month": "July",
+          "temp_f": 85.0,
+          "kwh": 64.2,
+          "cost": 9.31
+        },
+        {
+          "month": "August",
+          "temp_f": 83.9,
+          "kwh": 63.0,
+          "cost": 9.14
+        },
+        {
+          "month": "September",
+          "temp_f": 81.0,
+          "kwh": 57.9,
+          "cost": 8.4
+        },
+        {
+          "month": "October",
+          "temp_f": 77.0,
+          "kwh": 55.5,
+          "cost": 8.04
+        },
+        {
+          "month": "November",
+          "temp_f": 73.0,
+          "kwh": 49.5,
+          "cost": 7.17
+        },
+        {
+          "month": "December",
+          "temp_f": 70.1,
+          "kwh": 48.0,
+          "cost": 6.95
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 85
+    },
+    {
+      "city": "Honolulu",
+      "state": "HI",
+      "slug": "honolulu-hi",
+      "lat": 21.3099,
+      "lon": -157.8581,
+      "score": 15.0,
+      "annual_kwh": 666.3,
+      "annual_cost": 279.84,
+      "rate": 0.42,
+      "peak_month": "July",
+      "avg_cooling_delta_f": 28.0,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 74.0,
+          "kwh": 52.2,
+          "cost": 21.93
+        },
+        {
+          "month": "February",
+          "temp_f": 74.5,
+          "kwh": 47.6,
+          "cost": 20.01
+        },
+        {
+          "month": "March",
+          "temp_f": 76.0,
+          "kwh": 54.4,
+          "cost": 22.84
+        },
+        {
+          "month": "April",
+          "temp_f": 78.0,
+          "kwh": 54.7,
+          "cost": 22.99
+        },
+        {
+          "month": "May",
+          "temp_f": 80.0,
+          "kwh": 58.7,
+          "cost": 24.67
+        },
+        {
+          "month": "June",
+          "temp_f": 81.5,
+          "kwh": 58.4,
+          "cost": 24.54
+        },
+        {
+          "month": "July",
+          "temp_f": 82.0,
+          "kwh": 60.9,
+          "cost": 25.59
+        },
+        {
+          "month": "August",
+          "temp_f": 81.5,
+          "kwh": 60.4,
+          "cost": 25.36
+        },
+        {
+          "month": "September",
+          "temp_f": 80.0,
+          "kwh": 56.9,
+          "cost": 23.88
+        },
+        {
+          "month": "October",
+          "temp_f": 78.0,
+          "kwh": 56.6,
+          "cost": 23.76
+        },
+        {
+          "month": "November",
+          "temp_f": 76.0,
+          "kwh": 52.6,
+          "cost": 22.11
+        },
+        {
+          "month": "December",
+          "temp_f": 74.5,
+          "kwh": 52.8,
+          "cost": 22.16
+        }
+      ],
+      "recent_temp_f": null,
+      "normal_source": "Seed approximation",
+      "noaa_station": null,
+      "noaa_station_name": null,
+      "recent_station": null,
+      "recent_station_name": null,
+      "rank": 86
+    }
+  ],
+  "products": [
+    {
+      "title": "Dreampod Ice Bath Flex with Chiller",
+      "url": "https://inhousewellness.com/products/dreampod-ice-bath-flex-with-chiller",
+      "price": null,
+      "image": null,
+      "source": "InHouse Wellness"
+    },
+    {
+      "title": "Dundalk LeisureCraft The Polar Cold Plunge Tub",
+      "url": "https://inhousewellness.com/products/dundalk-leisurecraft-cold-plunge",
+      "price": null,
+      "image": null,
+      "source": "InHouse Wellness"
+    },
+    {
+      "title": "Dynamic Cold Therapy PVC Barrel Cold Plunge",
+      "url": "https://inhousewellness.com/products/dynamic-cold-therapy-pvc-barrel-cold-plunge",
+      "price": null,
+      "image": null,
+      "source": "InHouse Wellness"
+    },
+    {
+      "title": "Medical Frozen 9 Cold Plunge",
+      "url": "https://inhousewellness.com/products/medical-frozen-9-cold-plunge",
+      "price": null,
+      "image": null,
+      "source": "InHouse Wellness"
+    }
+  ]
+}

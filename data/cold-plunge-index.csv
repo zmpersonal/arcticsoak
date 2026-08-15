@@ -1,0 +1,87 @@
+rank,city,state,arcticsoak_score,annual_kwh_est,annual_cost_est,electricity_rate_per_kwh,peak_month,recent_30d_avg_f,climate_source
+1,Anchorage,AK,88.0,338.3,82.9,0.245,July,,Seed approximation
+2,Seattle,WA,86.2,381.5,44.26,0.116,July,,Seed approximation
+3,Colorado Springs,CO,82.0,393.7,59.84,0.152,July,,Seed approximation
+4,Fargo,ND,82.0,405.5,45.42,0.112,July,,Seed approximation
+5,Portland,OR,80.5,404.6,57.45,0.142,July,,Seed approximation
+6,Aurora,CO,80.2,403.1,61.28,0.152,July,,Seed approximation
+7,Sioux Falls,SD,79.4,413.7,54.61,0.132,July,,Seed approximation
+8,Cleveland,OH,78.4,407.2,69.23,0.17,July,,Seed approximation
+9,Denver,CO,78.1,414.8,63.04,0.152,July,,Seed approximation
+10,Milwaukee,WI,77.9,409.8,70.08,0.171,July,,Seed approximation
+11,Madison,WI,77.6,411.1,70.3,0.171,July,,Seed approximation
+12,Burlington,VT,77.5,397.6,87.46,0.22,July,,Seed approximation
+13,Portland,ME,77.5,391.1,95.82,0.245,July,,Seed approximation
+14,Minneapolis,MN,76.9,419.1,66.22,0.158,July,,Seed approximation
+15,Saint Paul,MN,76.9,419.1,66.22,0.158,July,,Seed approximation
+16,Omaha,NE,76.8,430.7,52.55,0.122,July,,Seed approximation
+17,Boise,ID,76.7,433.7,49.87,0.115,July,,Seed approximation
+18,Des Moines,IA,76.7,427.3,57.68,0.135,July,,Seed approximation
+19,Buffalo,NY,76.2,396.5,98.32,0.248,July,,Seed approximation
+20,Detroit,MI,75.5,415.2,80.96,0.195,July,,Seed approximation
+21,Pittsburgh,PA,75.2,418.2,79.46,0.19,July,,Seed approximation
+22,Chicago,IL,74.9,422.7,76.09,0.18,July,,Seed approximation
+23,Salt Lake City,UT,74.8,441.7,54.32,0.123,July,,Seed approximation
+24,Indianapolis,IN,74.6,433.7,65.49,0.151,July,,Seed approximation
+25,Manchester,NH,74.5,405.7,99.4,0.245,July,,Seed approximation
+26,Columbus,OH,74.1,429.8,73.07,0.17,July,,Seed approximation
+27,Lexington,KY,73.6,444.2,59.52,0.134,July,,Seed approximation
+28,Charleston,WV,72.8,444.2,65.3,0.147,July,,Seed approximation
+29,Cincinnati,OH,72.1,440.8,74.93,0.17,July,,Seed approximation
+30,Albuquerque,NM,71.9,447.8,67.62,0.151,July,,Seed approximation
+31,Philadelphia,PA,70.9,440.3,83.66,0.19,July,,Seed approximation
+32,Kansas City,MO,70.6,460.4,61.69,0.134,July,,Seed approximation
+33,Greensboro,NC,70.4,458.8,65.15,0.142,July,,Seed approximation
+34,Louisville,KY,70.1,463.3,62.09,0.134,July,,Seed approximation
+35,Virginia Beach,VA,69.9,459.4,68.0,0.148,July,,Seed approximation
+36,Nashville,TN,69.8,466.8,60.21,0.129,July,,Seed approximation
+37,Providence,RI,69.4,418.2,121.27,0.29,July,,Seed approximation
+38,Richmond,VA,69.3,462.9,68.51,0.148,July,,Seed approximation
+39,Hartford,CT,69.0,418.6,123.5,0.295,July,,Seed approximation
+40,New York,NY,68.9,432.8,107.33,0.248,July,,Seed approximation
+41,Boston,MA,68.8,418.2,125.46,0.3,July,,Seed approximation
+42,Wichita,KS,68.5,467.9,67.84,0.145,July,,Seed approximation
+43,Baltimore,MD,68.3,455.4,84.24,0.185,July,,Seed approximation
+44,Charlotte,NC,68.0,471.9,67.01,0.142,July,,Seed approximation
+45,Raleigh,NC,68.0,471.9,67.01,0.142,July,,Seed approximation
+46,St. Louis,MO,67.8,475.4,63.71,0.134,July,,Seed approximation
+47,Washington,DC,66.4,462.9,88.88,0.192,July,,Seed approximation
+48,Atlanta,GA,66.2,478.8,71.34,0.149,July,,Seed approximation
+49,Little Rock,AR,65.7,487.6,64.37,0.132,July,,Seed approximation
+50,Oklahoma City,OK,65.5,490.0,62.72,0.128,July,,Seed approximation
+51,Birmingham,AL,65.4,481.6,73.68,0.153,July,,Seed approximation
+52,Tulsa,OK,64.8,493.9,63.22,0.128,July,,Seed approximation
+53,Memphis,TN,64.1,497.3,64.15,0.129,July,,Seed approximation
+54,Oakland,CA,63.8,435.5,140.65,0.323,July,,Seed approximation
+55,Jackson,MS,61.2,510.6,68.93,0.135,July,,Seed approximation
+56,San Jose,CA,61.1,448.5,144.86,0.323,July,,Seed approximation
+57,El Paso,TX,60.8,507.0,76.55,0.151,July,,Seed approximation
+58,Charleston,SC,59.9,514.1,74.55,0.145,July,,Seed approximation
+59,Dallas,TX,57.1,526.3,79.47,0.151,July,,Seed approximation
+60,Fort Worth,TX,57.1,526.3,79.47,0.151,July,,Seed approximation
+61,Arlington,TX,57.1,526.3,79.47,0.151,July,,Seed approximation
+62,Sacramento,CA,55.3,475.8,153.67,0.323,July,,Seed approximation
+63,Austin,TX,54.4,541.1,81.7,0.151,July,,Seed approximation
+64,Stockton,CA,53.2,485.4,156.79,0.323,July,,Seed approximation
+65,San Diego,CA,53.0,486.7,157.2,0.323,July,,Seed approximation
+66,Los Angeles,CA,52.9,486.8,157.24,0.323,July,,Seed approximation
+67,Jacksonville,FL,52.9,551.4,79.96,0.145,July,,Seed approximation
+68,Long Beach,CA,52.9,486.8,157.24,0.323,July,,Seed approximation
+69,San Antonio,TX,52.4,551.6,83.29,0.151,July,,Seed approximation
+70,New Orleans,LA,52.3,564.3,68.85,0.122,July,,Seed approximation
+71,Anaheim,CA,50.2,499.7,161.4,0.323,July,,Seed approximation
+72,Santa Ana,CA,50.2,499.7,161.4,0.323,July,,Seed approximation
+73,Houston,TX,50.0,564.3,85.21,0.151,July,,Seed approximation
+74,Las Vegas,NV,49.5,564.2,89.14,0.158,July,,Seed approximation
+75,Tucson,AZ,49.5,564.6,88.64,0.157,July,,Seed approximation
+76,Fresno,CA,49.3,503.9,162.77,0.323,July,,Seed approximation
+77,Henderson,NV,48.2,570.8,90.19,0.158,July,,Seed approximation
+78,Riverside,CA,47.4,513.0,165.69,0.323,July,,Seed approximation
+79,Bakersfield,CA,47.3,513.6,165.9,0.323,July,,Seed approximation
+80,Orlando,FL,45.7,589.7,85.51,0.145,July,,Seed approximation
+81,Corpus Christi,TX,45.2,589.9,89.07,0.151,July,,Seed approximation
+82,Tampa,FL,43.3,602.5,87.37,0.145,July,,Seed approximation
+83,Phoenix,AZ,37.4,628.9,98.73,0.157,July,,Seed approximation
+84,Mesa,AZ,37.4,628.9,98.73,0.157,July,,Seed approximation
+85,Miami,FL,33.8,653.7,94.78,0.145,July,,Seed approximation
+86,Honolulu,HI,15.0,666.3,279.84,0.42,July,,Seed approximation
