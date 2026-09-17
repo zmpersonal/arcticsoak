@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build ArcticSoak's versioned data publication and crawlable pages."""
-import argparse, csv, html, json, math, os, re, time, urllib.parse, urllib.request
+import argparse, csv, html, io, json, math, os, re, time, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
+from functools import lru_cache
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -10,6 +11,8 @@ MONTHS=['January','February','March','April','May','June','July','August','Septe
 DAYS=[31,28,31,30,31,30,31,31,30,31,30,31]
 TARGET_F=50.0; GALLONS=100; MODEL_VERSION='2.0.0'; LICENSE='CC BY 4.0'
 CLIMATE_VINTAGE='NOAA 1991–2020 U.S. Climate Normals'
+NOAA_NORMALS_ROOT='https://www.ncei.noaa.gov/data/normals-monthly/1991-2020'
+NOAA_INVENTORY_URL=NOAA_NORMALS_ROOT+'/doc/inventory_30yr.txt'
 SCENARIOS={
  'efficient':{'label':'Efficient insulated','ua':10.0,'base_kwh_day':1.0,'cop':2.6,'allowance_kwh_day':.15},
  'reference':{'label':'Reference consumer setup','ua':18.0,'base_kwh_day':1.6,'cop':2.2,'allowance_kwh_day':.55},
@@ -26,6 +29,16 @@ def get_json(url,timeout=45,attempts=3):
   try:
    req=urllib.request.Request(url,headers={'User-Agent':'ArcticSoakData/2.0 (+https://arcticsoak.com/methodology/)','Accept':'application/json'})
    with urllib.request.urlopen(req,timeout=timeout) as response:return json.loads(response.read().decode('utf-8'))
+  except Exception as exc:
+   error=exc
+   if attempt+1<attempts:time.sleep(1.5*(attempt+1))
+ raise error
+def get_text(url,timeout=45,attempts=3):
+ error=None
+ for attempt in range(attempts):
+  try:
+   req=urllib.request.Request(url,headers={'User-Agent':'ArcticSoakData/2.0 (+https://arcticsoak.com/methodology/)','Accept':'text/plain,text/csv,*/*'})
+   with urllib.request.urlopen(req,timeout=timeout) as response:return response.read().decode('utf-8-sig')
   except Exception as exc:
    error=exc
    if attempt+1<attempts:time.sleep(1.5*(attempt+1))
@@ -58,42 +71,57 @@ def month_from_record(record,fallback):
  for token in reversed([int(x) for x in re.findall(r'\d+',str(record.get('DATE','')))]):
   if 1<=token<=12:return token
  return fallback
-def fetch_noaa_normals(lat,lon):
- for pad in (.22,.5,1.0):
-  q={'dataset':'normals-monthly-1991-2020','dataTypes':'MLY-TAVG-NORMAL,MLY-TMAX-NORMAL,MLY-TMIN-NORMAL','bbox':f'{lat+pad},{lon-pad},{lat-pad},{lon+pad}','format':'json','includeStationName':'true','includeStationLocation':'true','units':'standard'}
-  try:rows=get_json('https://www.ncei.noaa.gov/access/services/data/v1?'+urllib.parse.urlencode(q))
+@lru_cache(maxsize=1)
+def load_noaa_inventory():
+ stations=[]
+ for line in get_text(NOAA_INVENTORY_URL).splitlines():
+  parts=line.split(maxsplit=5)
+  if len(parts)<4:continue
+  if not parts[0].startswith(('USW','USC')):continue
+  try:lat,lon=float(parts[1]),float(parts[2])
   except:continue
-  stations={}
-  for row in rows if isinstance(rows,list) else []:stations.setdefault(row.get('STATION','unknown'),[]).append(row)
-  candidates=[]
-  for sid,recs in stations.items():
-   monthly={}
-   for idx,r in enumerate(recs):
-    month=month_from_record(r,idx+1 if len(recs)==12 else 0)
-    if not month:continue
-    def num(*keys):
-     for key in keys:
-      if r.get(key) not in (None,''):
-       try:return float(r[key])
-       except:pass
-    avg=num('MLY-TAVG-NORMAL','mly-tavg-normal');hi=num('MLY-TMAX-NORMAL','mly-tmax-normal');lo=num('MLY-TMIN-NORMAL','mly-tmin-normal')
-    if avg is not None:monthly[month]={'avg':avg,'min':lo,'max':hi}
-   if len(monthly)<10:continue
-   first=recs[0]
-   try:dist=(float(first.get('LATITUDE',lat))-lat)**2+(float(first.get('LONGITUDE',lon))-lon)**2
-   except:dist=999
-   candidates.append((len(monthly),-dist,sid,monthly,first.get('NAME') or first.get('STATION_NAME') or sid))
-  if candidates:
-   _,_,sid,monthly,name=sorted(candidates,reverse=True)[0];fallback=sum(x['avg'] for x in monthly.values())/len(monthly);out=[]
-   for m in range(1,13):
-    item=monthly.get(m,{'avg':fallback,'min':None,'max':None});avg=item['avg'];lo=item['min'] if item['min'] is not None else avg-9;hi=item['max'] if item['max'] is not None else avg+9
-    out.append({'avg':round(avg,1),'min':round(lo,1),'max':round(hi,1)})
-   return out,sid,name
+  stations.append({'id':parts[0],'lat':lat,'lon':lon,'name':parts[5].strip() if len(parts)>5 else parts[0]})
+ if not stations:raise RuntimeError('NOAA station inventory returned no records')
+ return stations
+def station_distance_km(lat,lon,station):
+ x=(station['lon']-lon)*math.cos(math.radians((station['lat']+lat)/2));y=station['lat']-lat
+ return 111.2*math.sqrt(x*x+y*y)
+def nearest_stations(lat,lon,inventory,limit=20):
+ return sorted(inventory,key=lambda s:station_distance_km(lat,lon,s))[:limit]
+@lru_cache(maxsize=512)
+def fetch_station_normals(station_id):
+ url=f'{NOAA_NORMALS_ROOT}/access/{urllib.parse.quote(station_id)}.csv'
+ rows=list(csv.DictReader(io.StringIO(get_text(url,timeout=25,attempts=2))))
+ monthly={};name=station_id
+ for idx,row in enumerate(rows):
+  name=(row.get('NAME') or name).strip();month=month_from_record(row,idx+1 if len(rows)==12 else 0)
+  if not month:continue
+  def number(key):
+   try:return float(row.get(key,''))
+   except:return None
+  avg=number('MLY-TAVG-NORMAL');low=number('MLY-TMIN-NORMAL');high=number('MLY-TMAX-NORMAL')
+  if avg is not None:monthly[month]={'avg':avg,'min':low,'max':high}
+ if len(monthly)<10:return None
+ fallback=sum(item['avg'] for item in monthly.values())/len(monthly);out=[]
+ for month in range(1,13):
+  item=monthly.get(month,{'avg':fallback,'min':None,'max':None});avg=item['avg'];low=item['min'] if item['min'] is not None else avg-9;high=item['max'] if item['max'] is not None else avg+9
+  out.append({'avg':round(avg,1),'min':round(low,1),'max':round(high,1)})
+ return out,name
+def fetch_noaa_normals(lat,lon,inventory):
+ for station in nearest_stations(lat,lon,inventory,20):
+  try:record=fetch_station_normals(station['id'])
+  except Exception:continue
+  if record:return record[0],station['id'],record[1]
  return None,None,None
-def fetch_recent(lat,lon):
+def fetch_recent(lat,lon,inventory,preferred_station=None):
  end=datetime.now(timezone.utc).date()-timedelta(days=2);start=end-timedelta(days=30)
- for pad in (.2,.5):
-  q={'dataset':'daily-summaries','dataTypes':'TAVG,TMAX,TMIN','bbox':f'{lat+pad},{lon-pad},{lat-pad},{lon+pad}','startDate':str(start),'endDate':str(end),'format':'json','includeStationName':'true','includeStationLocation':'true','units':'standard'}
+ candidates=nearest_stations(lat,lon,inventory,30);active=sorted(candidates,key=lambda s:(0 if s['id'].startswith('USW') else 1,station_distance_km(lat,lon,s)))
+ ids=[]
+ if preferred_station:ids.append(preferred_station)
+ ids.extend(station['id'] for station in active if station['id'] not in ids)
+ for offset in range(0,min(len(ids),24),8):
+  batch=ids[offset:offset+8]
+  q={'dataset':'daily-summaries','stations':','.join(batch),'dataTypes':'TAVG,TMAX,TMIN','startDate':str(start),'endDate':str(end),'format':'json','includeStationName':'true','includeStationLocation':'true','units':'standard'}
   try:rows=get_json('https://www.ncei.noaa.gov/access/services/data/v1?'+urllib.parse.urlencode(q),attempts=2)
   except:continue
   groups={}
@@ -101,13 +129,15 @@ def fetch_recent(lat,lon):
   best=None
   for sid,recs in groups.items():
    vals=[]
-   for r in recs:
+   for row in recs:
     try:
-     if r.get('TAVG') not in (None,''):vals.append(float(r['TAVG']))
-     elif r.get('TMAX') not in (None,'') and r.get('TMIN') not in (None,''):vals.append((float(r['TMAX'])+float(r['TMIN']))/2)
+     if row.get('TAVG') not in (None,''):vals.append(float(row['TAVG']))
+     elif row.get('TMAX') not in (None,'') and row.get('TMIN') not in (None,''):vals.append((float(row['TMAX'])+float(row['TMIN']))/2)
     except:pass
-   if len(vals)>=15 and (best is None or len(vals)>best[0]):best=(len(vals),sum(vals)/len(vals),sid,recs[0].get('NAME') or sid)
-  if best:return round(best[1],1),best[2],best[3],str(start),str(end)
+   distance=next((station_distance_km(lat,lon,s) for s in candidates if s['id']==sid),9999)
+   candidate=(len(vals),-distance,sum(vals)/len(vals) if vals else 0,sid,recs[0].get('NAME') or sid)
+   if len(vals)>=15 and (best is None or candidate>best):best=candidate
+  if best:return round(best[2],1),best[3],best[4],str(start),str(end)
  return None,None,None,None,None
 def positive_degree_average(low,high,target):
  mean=(low+high)/2;amp=max((high-low)/2,0);samples=[mean+amp*math.sin(2*math.pi*h/24-math.pi/2) for h in range(24)]
@@ -121,16 +151,16 @@ def model_scenario(normals,rate,scenario,target=TARGET_F):
   monthly.append({'month':MONTHS[i],'temp_f':round(climate['avg'],1),'normal_low_f':round(climate['min'],1),'normal_high_f':round(climate['max'],1),'positive_delta_f':round(delta,1),'kwh':round(kwh,1),'cost':round(cost,2)})
  peak=max(monthly,key=lambda x:x['cost'])
  return {'annual_kwh':round(annual_kwh,1),'annual_cost':round(annual_cost,2),'monthly_average_cost':round(annual_cost/12,2),'peak_month':peak['month'],'peak_month_cost':peak['cost'],'cooling_degree_hours':round(degree_hours),'months':monthly}
-def compute_city(row,rate_record,existing,offline=False,skip_recent=False):
+def compute_city(row,rate_record,existing,inventory=None,offline=False,skip_recent=False):
  lat,lon=float(row['lat']),float(row['lon']);normals=station=station_name=None;source='Seed approximation — provisional'
- if not offline:normals,station,station_name=fetch_noaa_normals(lat,lon)
+ if not offline and inventory:normals,station,station_name=fetch_noaa_normals(lat,lon,inventory)
  if normals:source=CLIMATE_VINTAGE
  else:
   old_source=existing.get('climate_source') or existing.get('normal_source','');old=existing.get('climate_normals',[])
   if old_source.startswith('NOAA') and len(old)==12:normals,source=old,old_source;station=existing.get('noaa_station_id') or existing.get('noaa_station');station_name=existing.get('noaa_station_name')
   else:normals=synthetic_normals(float(row['annual_mean_f']),float(row['amplitude_f']))
  recent=recent_sid=recent_name=recent_start=recent_end=None
- if not offline and not skip_recent:recent,recent_sid,recent_name,recent_start,recent_end=fetch_recent(lat,lon)
+ if not offline and inventory and not skip_recent:recent,recent_sid,recent_name,recent_start,recent_end=fetch_recent(lat,lon,inventory,station)
  rate=rate_record['rate'];scenarios={k:model_scenario(normals,rate,v) for k,v in SCENARIOS.items()};ref=scenarios['reference']
  targets={str(t):model_scenario(normals,rate,SCENARIOS['reference'],t)['annual_cost'] for t in (55,50,45,39)}
  climate_score=max(0,100*(1-min(ref['cooling_degree_hours']/360000,1)));cost_score=max(0,100*(1-min(ref['annual_cost']/900,1)))
@@ -221,12 +251,19 @@ def generate_sitemap(data):
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--offline',action='store_true');parser.add_argument('--skip-recent',action='store_true');args=parser.parse_args()
  now=datetime.now(timezone.utc).replace(microsecond=0);config=load_cities();old=load_existing();old_by={c.get('slug'):c for c in old.get('cities',[])};rates=load_seed_rates()
+ inventory=None
  if not args.offline:
   try:
-   fresh=fetch_eia_rates(os.getenv('EIA_API_KEY'))
-   if fresh:rates.update(fresh)
+   inventory=load_noaa_inventory();print(f'NOAA station inventory: {len(inventory)} records')
+  except Exception as exc:print('NOAA station inventory failed:',exc)
+  eia_key=(os.getenv('EIA_API_KEY') or '').strip()
+  if not eia_key:print('EIA_API_KEY is not available to this workflow; retaining disclosed fallback rates')
+  try:
+   fresh=fetch_eia_rates(eia_key)
+   if fresh:rates.update(fresh);print(f'EIA update: {len(fresh)} state/territory rates from the latest monthly release')
+   elif eia_key:print('EIA_API_KEY was available, but the API returned no usable rates')
   except Exception as exc:print('EIA update failed; retained disclosed fallback rates:',exc)
- def task(row):return compute_city(row,rates.get(row['state'],{'rate':.16,'period':'fallback','source':'Fallback planning rate'}),old_by.get(row['slug'],{}),args.offline,args.skip_recent)
+ def task(row):return compute_city(row,rates.get(row['state'],{'rate':.16,'period':'fallback','source':'Fallback planning rate'}),old_by.get(row['slug'],{}),inventory,args.offline,args.skip_recent)
  results=[]
  if args.offline:
   for i,row in enumerate(config,1):results.append(task(row));print(f"[{i}/{len(config)}] {row['slug']}")
@@ -236,11 +273,13 @@ def main():
    for i,future in enumerate(as_completed(futures),1):
     row=futures[future]
     try:results.append(future.result());print(f"[{i}/{len(config)}] {row['slug']}")
-    except Exception as exc:print('City update failed',row['slug'],exc);results.append(compute_city(row,rates.get(row['state'],{'rate':.16,'period':'fallback','source':'Fallback planning rate'}),old_by.get(row['slug'],{}),True,True))
+    except Exception as exc:print('City update failed',row['slug'],exc);results.append(compute_city(row,rates.get(row['state'],{'rate':.16,'period':'fallback','source':'Fallback planning rate'}),old_by.get(row['slug'],{}),inventory,True,True))
  results.sort(key=lambda c:c['city'])
  for rank,c in enumerate(sorted(results,key=lambda c:c['annual_cost']),1):c['cost_rank']=rank
  for rank,c in enumerate(sorted(results,key=lambda c:c['score'],reverse=True),1):c['score_rank']=rank
- verified=sum(c['climate_status']=='verified' for c in results);data={'dataset_version':now.strftime('%Y-%m-%d'),'model_version':MODEL_VERSION,'generated_at':now.isoformat(),'license':LICENSE,'climate_vintage':CLIMATE_VINTAGE,'verified_climate_records':verified,'reference_model':{'target_f':TARGET_F,'gallons':GALLONS,'scenarios':SCENARIOS,'method':'Monthly normal low/high converted to positive cooling degree-hours; ambient-adjusted COP; explicit daily allowances'},'source_note':'Every city identifies whether climate is NOAA-verified or provisional. Electricity inputs identify EIA versus fallback status and remain state-level.','cities':results}
+ verified=sum(c['climate_status']=='verified' for c in results);recent=sum(c.get('recent_30d_avg_f') is not None for c in results);print(f'NOAA normals verified: {verified}/{len(results)}; recent 30-day records: {recent}/{len(results)}')
+ if not args.offline and verified < math.ceil(len(results)*.8):raise RuntimeError(f'NOAA refresh verified only {verified}/{len(results)} cities; refusing to publish a misleading successful refresh')
+ data={'dataset_version':now.strftime('%Y-%m-%d'),'model_version':MODEL_VERSION,'generated_at':now.isoformat(),'license':LICENSE,'climate_vintage':CLIMATE_VINTAGE,'verified_climate_records':verified,'reference_model':{'target_f':TARGET_F,'gallons':GALLONS,'scenarios':SCENARIOS,'method':'Monthly normal low/high converted to positive cooling degree-hours; ambient-adjusted COP; explicit daily allowances'},'source_note':'Every city identifies whether climate is NOAA-verified or provisional. Electricity inputs identify EIA versus fallback status and remain state-level.','cities':results}
  write('data/index.json',json.dumps(data,indent=2));write_datasets(data);median=sorted(c['annual_cost'] for c in results)[len(results)//2]
  for c in results:generate_city(c,data,median)
  generate_home(data);generate_rankings(data);generate_cities_index(data);generate_states(data);generate_data_portal(data);generate_research(data);generate_sitemap(data)
