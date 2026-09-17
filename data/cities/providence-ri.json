@@ -1,0 +1,560 @@
+{
+  "city": "Providence",
+  "state": "RI",
+  "slug": "providence-ri",
+  "lat": 41.824,
+  "lon": -71.4128,
+  "score": 75.6,
+  "rate": 0.29,
+  "rate_period": "bundled planning value",
+  "electricity_source": "Bundled planning rate",
+  "rate_geography": "State residential average",
+  "climate_source": "Seed approximation \u2014 provisional",
+  "climate_status": "provisional",
+  "climate_normals": [
+    {
+      "avg": 29.2,
+      "min": 19.8,
+      "max": 38.6
+    },
+    {
+      "avg": 28.5,
+      "min": 19.1,
+      "max": 37.9
+    },
+    {
+      "avg": 34.2,
+      "min": 24.7,
+      "max": 43.6
+    },
+    {
+      "avg": 44.6,
+      "min": 35.2,
+      "max": 54.0
+    },
+    {
+      "avg": 57.0,
+      "min": 47.6,
+      "max": 66.4
+    },
+    {
+      "avg": 68.1,
+      "min": 58.6,
+      "max": 77.5
+    },
+    {
+      "avg": 74.8,
+      "min": 65.4,
+      "max": 84.2
+    },
+    {
+      "avg": 75.5,
+      "min": 66.1,
+      "max": 84.9
+    },
+    {
+      "avg": 69.8,
+      "min": 60.4,
+      "max": 79.3
+    },
+    {
+      "avg": 59.4,
+      "min": 50.0,
+      "max": 68.8
+    },
+    {
+      "avg": 47.0,
+      "min": 37.6,
+      "max": 56.4
+    },
+    {
+      "avg": 35.9,
+      "min": 26.5,
+      "max": 45.4
+    }
+  ],
+  "noaa_station_id": null,
+  "noaa_station_name": null,
+  "recent_30d_avg_f": null,
+  "recent_station_id": null,
+  "recent_station_name": null,
+  "recent_period_start": null,
+  "recent_period_end": null,
+  "scenarios": {
+    "efficient": {
+      "annual_kwh": 512.5,
+      "annual_cost": 148.62,
+      "monthly_average_cost": 12.39,
+      "peak_month": "August",
+      "peak_month_cost": 17.0,
+      "cooling_degree_hours": 78953,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 29.2,
+          "normal_low_f": 19.8,
+          "normal_high_f": 38.6,
+          "positive_delta_f": 0.0,
+          "kwh": 35.6,
+          "cost": 10.34
+        },
+        {
+          "month": "February",
+          "temp_f": 28.5,
+          "normal_low_f": 19.1,
+          "normal_high_f": 37.9,
+          "positive_delta_f": 0.0,
+          "kwh": 32.2,
+          "cost": 9.34
+        },
+        {
+          "month": "March",
+          "temp_f": 34.2,
+          "normal_low_f": 24.7,
+          "normal_high_f": 43.6,
+          "positive_delta_f": 0.0,
+          "kwh": 35.6,
+          "cost": 10.34
+        },
+        {
+          "month": "April",
+          "temp_f": 44.6,
+          "normal_low_f": 35.2,
+          "normal_high_f": 54.0,
+          "positive_delta_f": 0.8,
+          "kwh": 35.2,
+          "cost": 10.19
+        },
+        {
+          "month": "May",
+          "temp_f": 57.0,
+          "normal_low_f": 47.6,
+          "normal_high_f": 66.4,
+          "positive_delta_f": 7.4,
+          "kwh": 41.8,
+          "cost": 12.13
+        },
+        {
+          "month": "June",
+          "temp_f": 68.1,
+          "normal_low_f": 58.6,
+          "normal_high_f": 77.5,
+          "positive_delta_f": 18.0,
+          "kwh": 49.4,
+          "cost": 14.33
+        },
+        {
+          "month": "July",
+          "temp_f": 74.8,
+          "normal_low_f": 65.4,
+          "normal_high_f": 84.2,
+          "positive_delta_f": 24.8,
+          "kwh": 57.9,
+          "cost": 16.78
+        },
+        {
+          "month": "August",
+          "temp_f": 75.5,
+          "normal_low_f": 66.1,
+          "normal_high_f": 84.9,
+          "positive_delta_f": 25.5,
+          "kwh": 58.6,
+          "cost": 17.0
+        },
+        {
+          "month": "September",
+          "temp_f": 69.8,
+          "normal_low_f": 60.4,
+          "normal_high_f": 79.3,
+          "positive_delta_f": 19.8,
+          "kwh": 51.1,
+          "cost": 14.82
+        },
+        {
+          "month": "October",
+          "temp_f": 59.4,
+          "normal_low_f": 50.0,
+          "normal_high_f": 68.8,
+          "positive_delta_f": 9.4,
+          "kwh": 43.5,
+          "cost": 12.62
+        },
+        {
+          "month": "November",
+          "temp_f": 47.0,
+          "normal_low_f": 37.6,
+          "normal_high_f": 56.4,
+          "positive_delta_f": 1.6,
+          "kwh": 35.8,
+          "cost": 10.39
+        },
+        {
+          "month": "December",
+          "temp_f": 35.9,
+          "normal_low_f": 26.5,
+          "normal_high_f": 45.4,
+          "positive_delta_f": 0.0,
+          "kwh": 35.6,
+          "cost": 10.34
+        }
+      ]
+    },
+    "reference": {
+      "annual_kwh": 983.6,
+      "annual_cost": 285.24,
+      "monthly_average_cost": 23.77,
+      "peak_month": "August",
+      "peak_month_cost": 33.68,
+      "cooling_degree_hours": 78953,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 29.2,
+          "normal_low_f": 19.8,
+          "normal_high_f": 38.6,
+          "positive_delta_f": 0.0,
+          "kwh": 66.7,
+          "cost": 19.33
+        },
+        {
+          "month": "February",
+          "temp_f": 28.5,
+          "normal_low_f": 19.1,
+          "normal_high_f": 37.9,
+          "positive_delta_f": 0.0,
+          "kwh": 60.2,
+          "cost": 17.46
+        },
+        {
+          "month": "March",
+          "temp_f": 34.2,
+          "normal_low_f": 24.7,
+          "normal_high_f": 43.6,
+          "positive_delta_f": 0.0,
+          "kwh": 66.7,
+          "cost": 19.33
+        },
+        {
+          "month": "April",
+          "temp_f": 44.6,
+          "normal_low_f": 35.2,
+          "normal_high_f": 54.0,
+          "positive_delta_f": 0.8,
+          "kwh": 65.9,
+          "cost": 19.11
+        },
+        {
+          "month": "May",
+          "temp_f": 57.0,
+          "normal_low_f": 47.6,
+          "normal_high_f": 66.4,
+          "positive_delta_f": 7.4,
+          "kwh": 79.8,
+          "cost": 23.14
+        },
+        {
+          "month": "June",
+          "temp_f": 68.1,
+          "normal_low_f": 58.6,
+          "normal_high_f": 77.5,
+          "positive_delta_f": 18.0,
+          "kwh": 96.3,
+          "cost": 27.93
+        },
+        {
+          "month": "July",
+          "temp_f": 74.8,
+          "normal_low_f": 65.4,
+          "normal_high_f": 84.2,
+          "positive_delta_f": 24.8,
+          "kwh": 114.5,
+          "cost": 33.2
+        },
+        {
+          "month": "August",
+          "temp_f": 75.5,
+          "normal_low_f": 66.1,
+          "normal_high_f": 84.9,
+          "positive_delta_f": 25.5,
+          "kwh": 116.2,
+          "cost": 33.68
+        },
+        {
+          "month": "September",
+          "temp_f": 69.8,
+          "normal_low_f": 60.4,
+          "normal_high_f": 79.3,
+          "positive_delta_f": 19.8,
+          "kwh": 100.0,
+          "cost": 29.01
+        },
+        {
+          "month": "October",
+          "temp_f": 59.4,
+          "normal_low_f": 50.0,
+          "normal_high_f": 68.8,
+          "positive_delta_f": 9.4,
+          "kwh": 83.4,
+          "cost": 24.19
+        },
+        {
+          "month": "November",
+          "temp_f": 47.0,
+          "normal_low_f": 37.6,
+          "normal_high_f": 56.4,
+          "positive_delta_f": 1.6,
+          "kwh": 67.3,
+          "cost": 19.53
+        },
+        {
+          "month": "December",
+          "temp_f": 35.9,
+          "normal_low_f": 26.5,
+          "normal_high_f": 45.4,
+          "positive_delta_f": 0.0,
+          "kwh": 66.7,
+          "cost": 19.33
+        }
+      ]
+    },
+    "high_load": {
+      "annual_kwh": 1678.1,
+      "annual_cost": 486.64,
+      "monthly_average_cost": 40.55,
+      "peak_month": "August",
+      "peak_month_cost": 62.38,
+      "cooling_degree_hours": 78953,
+      "months": [
+        {
+          "month": "January",
+          "temp_f": 29.2,
+          "normal_low_f": 19.8,
+          "normal_high_f": 38.6,
+          "positive_delta_f": 0.0,
+          "kwh": 105.4,
+          "cost": 30.57
+        },
+        {
+          "month": "February",
+          "temp_f": 28.5,
+          "normal_low_f": 19.1,
+          "normal_high_f": 37.9,
+          "positive_delta_f": 0.0,
+          "kwh": 95.2,
+          "cost": 27.61
+        },
+        {
+          "month": "March",
+          "temp_f": 34.2,
+          "normal_low_f": 24.7,
+          "normal_high_f": 43.6,
+          "positive_delta_f": 0.0,
+          "kwh": 105.4,
+          "cost": 30.57
+        },
+        {
+          "month": "April",
+          "temp_f": 44.6,
+          "normal_low_f": 35.2,
+          "normal_high_f": 54.0,
+          "positive_delta_f": 0.8,
+          "kwh": 105.0,
+          "cost": 30.46
+        },
+        {
+          "month": "May",
+          "temp_f": 57.0,
+          "normal_low_f": 47.6,
+          "normal_high_f": 66.4,
+          "positive_delta_f": 7.4,
+          "kwh": 134.0,
+          "cost": 38.85
+        },
+        {
+          "month": "June",
+          "temp_f": 68.1,
+          "normal_low_f": 58.6,
+          "normal_high_f": 77.5,
+          "positive_delta_f": 18.0,
+          "kwh": 171.5,
+          "cost": 49.72
+        },
+        {
+          "month": "July",
+          "temp_f": 74.8,
+          "normal_low_f": 65.4,
+          "normal_high_f": 84.2,
+          "positive_delta_f": 24.8,
+          "kwh": 211.3,
+          "cost": 61.27
+        },
+        {
+          "month": "August",
+          "temp_f": 75.5,
+          "normal_low_f": 66.1,
+          "normal_high_f": 84.9,
+          "positive_delta_f": 25.5,
+          "kwh": 215.1,
+          "cost": 62.38
+        },
+        {
+          "month": "September",
+          "temp_f": 69.8,
+          "normal_low_f": 60.4,
+          "normal_high_f": 79.3,
+          "positive_delta_f": 19.8,
+          "kwh": 179.8,
+          "cost": 52.15
+        },
+        {
+          "month": "October",
+          "temp_f": 59.4,
+          "normal_low_f": 50.0,
+          "normal_high_f": 68.8,
+          "positive_delta_f": 9.4,
+          "kwh": 141.8,
+          "cost": 41.13
+        },
+        {
+          "month": "November",
+          "temp_f": 47.0,
+          "normal_low_f": 37.6,
+          "normal_high_f": 56.4,
+          "positive_delta_f": 1.6,
+          "kwh": 108.2,
+          "cost": 31.37
+        },
+        {
+          "month": "December",
+          "temp_f": 35.9,
+          "normal_low_f": 26.5,
+          "normal_high_f": 45.4,
+          "positive_delta_f": 0.0,
+          "kwh": 105.4,
+          "cost": 30.57
+        }
+      ]
+    }
+  },
+  "target_costs": {
+    "55": 269.61,
+    "50": 285.24,
+    "45": 303.2,
+    "39": 327.5
+  },
+  "annual_kwh": 983.6,
+  "annual_cost": 285.24,
+  "peak_month": "August",
+  "months": [
+    {
+      "month": "January",
+      "temp_f": 29.2,
+      "normal_low_f": 19.8,
+      "normal_high_f": 38.6,
+      "positive_delta_f": 0.0,
+      "kwh": 66.7,
+      "cost": 19.33
+    },
+    {
+      "month": "February",
+      "temp_f": 28.5,
+      "normal_low_f": 19.1,
+      "normal_high_f": 37.9,
+      "positive_delta_f": 0.0,
+      "kwh": 60.2,
+      "cost": 17.46
+    },
+    {
+      "month": "March",
+      "temp_f": 34.2,
+      "normal_low_f": 24.7,
+      "normal_high_f": 43.6,
+      "positive_delta_f": 0.0,
+      "kwh": 66.7,
+      "cost": 19.33
+    },
+    {
+      "month": "April",
+      "temp_f": 44.6,
+      "normal_low_f": 35.2,
+      "normal_high_f": 54.0,
+      "positive_delta_f": 0.8,
+      "kwh": 65.9,
+      "cost": 19.11
+    },
+    {
+      "month": "May",
+      "temp_f": 57.0,
+      "normal_low_f": 47.6,
+      "normal_high_f": 66.4,
+      "positive_delta_f": 7.4,
+      "kwh": 79.8,
+      "cost": 23.14
+    },
+    {
+      "month": "June",
+      "temp_f": 68.1,
+      "normal_low_f": 58.6,
+      "normal_high_f": 77.5,
+      "positive_delta_f": 18.0,
+      "kwh": 96.3,
+      "cost": 27.93
+    },
+    {
+      "month": "July",
+      "temp_f": 74.8,
+      "normal_low_f": 65.4,
+      "normal_high_f": 84.2,
+      "positive_delta_f": 24.8,
+      "kwh": 114.5,
+      "cost": 33.2
+    },
+    {
+      "month": "August",
+      "temp_f": 75.5,
+      "normal_low_f": 66.1,
+      "normal_high_f": 84.9,
+      "positive_delta_f": 25.5,
+      "kwh": 116.2,
+      "cost": 33.68
+    },
+    {
+      "month": "September",
+      "temp_f": 69.8,
+      "normal_low_f": 60.4,
+      "normal_high_f": 79.3,
+      "positive_delta_f": 19.8,
+      "kwh": 100.0,
+      "cost": 29.01
+    },
+    {
+      "month": "October",
+      "temp_f": 59.4,
+      "normal_low_f": 50.0,
+      "normal_high_f": 68.8,
+      "positive_delta_f": 9.4,
+      "kwh": 83.4,
+      "cost": 24.19
+    },
+    {
+      "month": "November",
+      "temp_f": 47.0,
+      "normal_low_f": 37.6,
+      "normal_high_f": 56.4,
+      "positive_delta_f": 1.6,
+      "kwh": 67.3,
+      "cost": 19.53
+    },
+    {
+      "month": "December",
+      "temp_f": 35.9,
+      "normal_low_f": 26.5,
+      "normal_high_f": 45.4,
+      "positive_delta_f": 0.0,
+      "kwh": 66.7,
+      "cost": 19.33
+    }
+  ],
+  "cost_rank": 71,
+  "score_rank": 30
+}

@@ -1,0 +1,25 @@
+# ArcticSoak
+
+> ArcticSoak is an open, versioned U.S. dataset and planning model for cold-plunge climate load, electricity use, operating cost, ice requirements and chiller sizing.
+
+## Start here
+
+- [Current data portal](https://arcticsoak.com/data/): CSV, JSON, provenance, license and citation text.
+- [Methodology](https://arcticsoak.com/methodology/): Model 2.0 formulas, constants, scenarios and limitations.
+- [2026 U.S. Cold Plunge Cost Index](https://arcticsoak.com/research/2026-cold-plunge-cost-index/): Annual report and evidence status.
+- [City database](https://arcticsoak.com/cities/): Individual city scenarios and JSON records.
+- [State database](https://arcticsoak.com/states/): State electricity context.
+- [Model validation protocol](https://arcticsoak.com/research/model-validation/): Planned predicted-versus-measured study.
+- [Changelog](https://arcticsoak.com/changelog/): Model version history.
+
+## Citation guidance
+
+Always identify ArcticSoak outputs as modeled planning estimates, name the dataset and model versions, and check each city's climate_status before attributing its climate input to NOAA. Electricity rates are state residential averages, not utility-specific tariffs.
+
+## Machine-readable files
+
+- https://arcticsoak.com/data/cold-plunge-index.csv
+- https://arcticsoak.com/data/cold-plunge-index.json
+- https://arcticsoak.com/data/index.json
+
+Dataset license: CC BY 4.0.
