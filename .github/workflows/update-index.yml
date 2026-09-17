@@ -13,6 +13,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -21,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Refresh NOAA, EIA and product data
+      - name: Refresh NOAA and EIA data; rebuild publication
         env:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
         run: python scripts/update_index.py
@@ -29,7 +30,7 @@ jobs:
         run: |
           git config user.name "arcticsoak-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data cities rankings sitemap.xml
+          git add index.html data cities states rankings research sitemap.xml
           git diff --cached --quiet || git commit -m "Update ArcticSoak index data"
           git push
       - uses: actions/configure-pages@v5
