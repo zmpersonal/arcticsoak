@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093193",
   "noaa_station_name": "FRESNO YOSEMITE INTL AP, CA US",
-  "recent_30d_avg_f": 81.8,
-  "recent_station_id": "USW00093193",
-  "recent_station_name": "FRESNO YOSEMITE INTERNATIONAL, CA US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_30d_avg_f": 75.7,
+  "recent_station_id": "USC00043261",
+  "recent_station_name": "FRIANT GOVERNMENT CAMP, CA US",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 593.9,

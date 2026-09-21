@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00014752",
   "noaa_station_name": "HARTFORD BRAINARD FLD, CT US",
-  "recent_30d_avg_f": 69.7,
+  "recent_30d_avg_f": 68.5,
   "recent_station_id": "USW00014740",
   "recent_station_name": "HARTFORD BRADLEY INTERNATIONAL AIRPORT, CT US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 508.9,

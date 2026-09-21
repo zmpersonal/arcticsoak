@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00003166",
   "noaa_station_name": "FULLERTON MUNI AP, CA US",
-  "recent_30d_avg_f": 80.7,
+  "recent_30d_avg_f": 79.9,
   "recent_station_id": "USW00003166",
   "recent_station_name": "FULLERTON MUNICIPAL AIRPORT, CA US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 587.8,

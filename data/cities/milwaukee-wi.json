@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00479046",
   "noaa_station_name": "WEST ALLIS, WI US",
-  "recent_30d_avg_f": 71.5,
+  "recent_30d_avg_f": 69.8,
   "recent_station_id": "USC00479046",
   "recent_station_name": "WEST ALLIS, WI US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 502.3,

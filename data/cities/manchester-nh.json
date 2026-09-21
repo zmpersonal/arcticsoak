@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00275211",
   "noaa_station_name": "MASSABESIC LAKE, NH US",
-  "recent_30d_avg_f": 68.8,
+  "recent_30d_avg_f": 67.6,
   "recent_station_id": "USW00014710",
   "recent_station_name": "MANCHESTER AIRPORT, NH US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 487.7,

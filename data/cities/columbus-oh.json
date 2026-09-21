@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00331785",
   "noaa_station_name": "COLUMBUS WCMH, OH US",
-  "recent_30d_avg_f": 75.2,
+  "recent_30d_avg_f": 74.7,
   "recent_station_id": "USW00014821",
   "recent_station_name": "JOHN GLENN INTERNATIONAL AIRPORT, OH US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 515.2,

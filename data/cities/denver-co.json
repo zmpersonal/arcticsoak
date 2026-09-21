@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00052223",
   "noaa_station_name": "DENVER WATER DEPT, CO US",
-  "recent_30d_avg_f": 73.3,
-  "recent_station_id": "USC00058995",
-  "recent_station_name": "WHEAT RIDGE 2, CO US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_30d_avg_f": 72.6,
+  "recent_station_id": "USW00093067",
+  "recent_station_name": "DENVER CENTENNIAL AIRPORT, CO US",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 519.6,

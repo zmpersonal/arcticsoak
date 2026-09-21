@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00519397",
   "noaa_station_name": "WAIKIKI 717.2, HI US",
-  "recent_30d_avg_f": 82.3,
+  "recent_30d_avg_f": 82.6,
   "recent_station_id": "USW00022521",
   "recent_station_name": "HONOLULU INTERNATIONAL AIRPORT, HI US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 712.6,

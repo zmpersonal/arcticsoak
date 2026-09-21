@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00313625",
   "noaa_station_name": "GREENSBORO WTP, NC US",
-  "recent_30d_avg_f": 79.0,
+  "recent_30d_avg_f": 78.3,
   "recent_station_id": "USW00013723",
   "recent_station_name": "GREENSBORO PIEDMONT TRIAD INTERNATIONAL AIRPORT, NC US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 550.9,

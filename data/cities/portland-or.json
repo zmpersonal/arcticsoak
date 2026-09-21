@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00356749",
   "noaa_station_name": "PORTLAND KGW-TV, OR US",
-  "recent_30d_avg_f": 67.8,
-  "recent_station_id": "USW00024229",
-  "recent_station_name": "PORTLAND INTERNATIONAL AIRPORT, OR US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_30d_avg_f": 65.8,
+  "recent_station_id": "USC00356749",
+  "recent_station_name": "PORTLAND KGW TV, OR US",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 493.4,

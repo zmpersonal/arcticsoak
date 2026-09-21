@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00026409",
   "noaa_station_name": "ANCHORAGE MERRILL FLD, AK US",
-  "recent_30d_avg_f": 54.7,
+  "recent_30d_avg_f": 53.9,
   "recent_station_id": "USC00500275",
   "recent_station_name": "ANCHORAGE FORECAST OFFICE, AK US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 446.4,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00362574",
   "noaa_station_name": "EMSWORTH L/D OHIO RVR, PA US",
-  "recent_30d_avg_f": 72.6,
-  "recent_station_id": "USW00094823",
-  "recent_station_name": "PITTSBURGH INTERNATIONAL AIRPORT, PA US",
-  "recent_period_start": "2026-08-16",
-  "recent_period_end": "2026-09-15",
+  "recent_30d_avg_f": 71.3,
+  "recent_station_id": "USC00362574",
+  "recent_station_name": "EMSWORTH L D OHIO RIVER, PA US",
+  "recent_period_start": "2026-08-20",
+  "recent_period_end": "2026-09-19",
   "scenarios": {
     "efficient": {
       "annual_kwh": 512.5,
