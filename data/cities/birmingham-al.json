@@ -6,7 +6,7 @@
   "lon": -86.8104,
   "score": 66.6,
   "rate": 0.164,
-  "rate_period": "2026-06",
+  "rate_period": "2026-07",
   "electricity_source": "U.S. EIA residential average retail price",
   "rate_geography": "State residential average",
   "climate_source": "NOAA 1991\u20132020 U.S. Climate Normals",
@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013876",
   "noaa_station_name": "BIRMINGHAM AP, AL US",
-  "recent_30d_avg_f": 84.1,
+  "recent_30d_avg_f": 84.4,
   "recent_station_id": "USW00013876",
   "recent_station_name": "BIRMINGHAM AIRPORT, AL US",
-  "recent_period_start": "2026-08-20",
-  "recent_period_end": "2026-09-19",
+  "recent_period_start": "2026-08-27",
+  "recent_period_end": "2026-09-26",
   "scenarios": {
     "efficient": {
       "annual_kwh": 583.9,
@@ -555,6 +555,6 @@
       "cost": 11.47
     }
   ],
-  "cost_rank": 40,
+  "cost_rank": 42,
   "score_rank": 55
 }
