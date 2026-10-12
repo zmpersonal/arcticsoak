@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00408238",
   "noaa_station_name": "SHELBY BOTTOMS NATURE, TN US",
-  "recent_30d_avg_f": 84.2,
-  "recent_station_id": "USW00013897",
-  "recent_station_name": "NASHVILLE INTERNATIONAL AIRPORT, TN US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_30d_avg_f": 73.9,
+  "recent_station_id": "USC00409431",
+  "recent_station_name": "WARNER PARK, TN US",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 551.9,

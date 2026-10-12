@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00014933",
   "noaa_station_name": "DES MOINES INTL AP, IA US",
-  "recent_30d_avg_f": 73.6,
+  "recent_30d_avg_f": 65.2,
   "recent_station_id": "USW00014933",
   "recent_station_name": "DES MOINES INTERNATIONAL AIRPORT, IA US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 514.6,

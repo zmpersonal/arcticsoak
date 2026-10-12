@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013881",
   "noaa_station_name": "CHARLOTTE DOUGLAS AP, NC US",
-  "recent_30d_avg_f": 80.9,
+  "recent_30d_avg_f": 72.9,
   "recent_station_id": "USW00013881",
   "recent_station_name": "CHARLOTTE DOUGLAS AIRPORT, NC US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 563.3,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00004853",
   "noaa_station_name": "CLEVELAND BURKE AP, OH US",
-  "recent_30d_avg_f": 71.0,
+  "recent_30d_avg_f": 63.6,
   "recent_station_id": "USW00014820",
   "recent_station_name": "CLEVELAND HOPKINS INTERNATIONAL AIRPORT, OH US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 506.8,

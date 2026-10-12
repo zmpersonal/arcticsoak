@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00014927",
   "noaa_station_name": "ST PAUL DOWNTOWN AP, MN US",
-  "recent_30d_avg_f": 69.6,
-  "recent_station_id": "USW00014927",
-  "recent_station_name": "ST. PAUL DOWNTOWN AIRPORT, MN US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_30d_avg_f": 62.1,
+  "recent_station_id": "USW00014922",
+  "recent_station_name": "MINNEAPOLIS ST. PAUL INTERNATIONAL AIRPORT, MN US",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 495.9,

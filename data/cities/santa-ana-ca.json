@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00047888",
   "noaa_station_name": "SANTA ANA FIRE STN, CA US",
-  "recent_30d_avg_f": 76.7,
+  "recent_30d_avg_f": 77.0,
   "recent_station_id": "USW00093184",
   "recent_station_name": "SANTA ANA JOHN WAYNE AIRPORT, CA US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 583.9,

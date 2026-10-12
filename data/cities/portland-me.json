@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00014764",
   "noaa_station_name": "PORTLAND INTL JETPORT, ME US",
-  "recent_30d_avg_f": 63.3,
+  "recent_30d_avg_f": 58.2,
   "recent_station_id": "USW00014764",
   "recent_station_name": "PORTLAND JETPORT, ME US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 483.0,

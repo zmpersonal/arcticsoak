@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013968",
   "noaa_station_name": "TULSA INTL AP, OK US",
-  "recent_30d_avg_f": 86.7,
+  "recent_30d_avg_f": 78.7,
   "recent_station_id": "USW00013968",
   "recent_station_name": "TULSA INTERNATIONAL AIRPORT, OK US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 572.6,

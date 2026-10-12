@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013782",
   "noaa_station_name": "CHARLESTON CITY, SC US",
-  "recent_30d_avg_f": 81.7,
+  "recent_30d_avg_f": 77.4,
   "recent_station_id": "USW00013782",
   "recent_station_name": "DOWNTOWN CHARLESTON, SC US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 601.3,

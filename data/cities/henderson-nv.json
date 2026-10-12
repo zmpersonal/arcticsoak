@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00023169",
   "noaa_station_name": "LAS VEGAS MCCARRAN AP, NV US",
-  "recent_30d_avg_f": 87.1,
-  "recent_station_id": "USC00264439",
-  "recent_station_name": "LAS VEGAS WEATHER FORECAST OFFICE, NV US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_30d_avg_f": 84.8,
+  "recent_station_id": "USW00023169",
+  "recent_station_name": "HARRY REID INTERNATIONAL AIRPORT, NV US",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 657.7,

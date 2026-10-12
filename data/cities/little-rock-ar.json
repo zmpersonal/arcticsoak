@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013963",
   "noaa_station_name": "LITTLE ROCK AP ADAMS FLD, AR US",
-  "recent_30d_avg_f": 85.4,
+  "recent_30d_avg_f": 79.2,
   "recent_station_id": "USW00013963",
   "recent_station_name": "LITTLE ROCK AIRPORT ADAMS FIELD, AR US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 570.4,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00094728",
   "noaa_station_name": "NEW YORK CNTRL PK TWR, NY US",
-  "recent_30d_avg_f": 71.3,
+  "recent_30d_avg_f": 65.5,
   "recent_station_id": "USW00094728",
   "recent_station_name": "NY CITY CENTRAL PARK, NY US",
-  "recent_period_start": "2026-08-27",
-  "recent_period_end": "2026-09-26",
+  "recent_period_start": "2026-09-10",
+  "recent_period_end": "2026-10-10",
   "scenarios": {
     "efficient": {
       "annual_kwh": 524.4,
