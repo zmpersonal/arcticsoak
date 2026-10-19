@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00275211",
   "noaa_station_name": "MASSABESIC LAKE, NH US",
-  "recent_30d_avg_f": 58.6,
+  "recent_30d_avg_f": 56.7,
   "recent_station_id": "USC00275211",
   "recent_station_name": "MASSABESIC LAKE, NH US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 487.7,

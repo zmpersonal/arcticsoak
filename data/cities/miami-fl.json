@@ -78,8 +78,8 @@
   "recent_30d_avg_f": 83.0,
   "recent_station_id": "USW00012839",
   "recent_station_name": "MIAMI INTERNATIONAL AIRPORT, FL US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 691.7,

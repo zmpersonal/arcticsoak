@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00024234",
   "noaa_station_name": "SEATTLE BOEING FLD, WA US",
-  "recent_30d_avg_f": 60.0,
+  "recent_30d_avg_f": 58.8,
   "recent_station_id": "USW00024234",
   "recent_station_name": "SEATTLE BOEING FIELD, WA US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 485.1,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00168941",
   "noaa_station_name": "TERRYTOWN 3S, LA US",
-  "recent_30d_avg_f": 82.6,
+  "recent_30d_avg_f": 80.8,
   "recent_station_id": "USW00053917",
   "recent_station_name": "NEW ORLEANS LAKEFRONT AIRPORT, LA US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 638.0,

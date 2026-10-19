@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00317079",
   "noaa_station_name": "RALEIGH STATE UNIV, NC US",
-  "recent_30d_avg_f": 70.8,
+  "recent_30d_avg_f": 69.3,
   "recent_station_id": "USC00311535",
   "recent_station_name": "CARY, NC US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 561.9,

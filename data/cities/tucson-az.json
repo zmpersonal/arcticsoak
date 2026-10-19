@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00028815",
   "noaa_station_name": "TUCSON WFO, AZ US",
-  "recent_30d_avg_f": 81.7,
+  "recent_30d_avg_f": 78.8,
   "recent_station_id": "USW00023160",
   "recent_station_name": "TUCSON INTERNATIONAL AIRPORT, AZ US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 662.7,

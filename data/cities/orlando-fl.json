@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00012841",
   "noaa_station_name": "ORLANDO EXECUTIVE AP, FL US",
-  "recent_30d_avg_f": 81.1,
+  "recent_30d_avg_f": 80.2,
   "recent_station_id": "USW00012841",
   "recent_station_name": "ORLANDO EXECUTIVE AIRPORT, FL US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 674.3,

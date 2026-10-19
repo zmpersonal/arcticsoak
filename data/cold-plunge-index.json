@@ -1,7 +1,7 @@
 {
-  "dataset_version": "2026-10-12",
+  "dataset_version": "2026-10-19",
   "model_version": "2.0.0",
-  "generated_at": "2026-10-12T21:15:57+00:00",
+  "generated_at": "2026-10-19T18:42:50+00:00",
   "license": "CC BY 4.0",
   "climate_vintage": "NOAA 1991\u20132020 U.S. Climate Normals",
   "verified_climate_records": 86,
@@ -112,11 +112,11 @@
       ],
       "noaa_station_id": "USW00023050",
       "noaa_station_name": "ALBUQUERQUE INTL AP, NM US",
-      "recent_30d_avg_f": 68.7,
+      "recent_30d_avg_f": 65.7,
       "recent_station_id": "USW00023050",
       "recent_station_name": "ALBUQUERQUE INTERNATIONAL AIRPORT, NM US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 546.6,
@@ -672,11 +672,11 @@
       ],
       "noaa_station_id": "USW00003166",
       "noaa_station_name": "FULLERTON MUNI AP, CA US",
-      "recent_30d_avg_f": 78.5,
+      "recent_30d_avg_f": 76.7,
       "recent_station_id": "USW00003166",
       "recent_station_name": "FULLERTON MUNICIPAL AIRPORT, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 587.8,
@@ -1232,11 +1232,11 @@
       ],
       "noaa_station_id": "USW00026409",
       "noaa_station_name": "ANCHORAGE MERRILL FLD, AK US",
-      "recent_30d_avg_f": 46.1,
+      "recent_30d_avg_f": 43.6,
       "recent_station_id": "USW00026409",
       "recent_station_name": "ANCHORAGE MERRILL FIELD, AK US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 446.4,
@@ -1792,11 +1792,11 @@
       ],
       "noaa_station_id": "USC00410337",
       "noaa_station_name": "ARLINGTON SIX FLAGS, TX US",
-      "recent_30d_avg_f": 82.5,
+      "recent_30d_avg_f": 79.7,
       "recent_station_id": "USW00053907",
       "recent_station_name": "ARLINGTON MUNICIPAL AIRPORT, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 599.5,
@@ -2352,11 +2352,11 @@
       ],
       "noaa_station_id": "USW00003888",
       "noaa_station_name": "ATLANTA FULTON CO AP, GA US",
-      "recent_30d_avg_f": 74.2,
+      "recent_30d_avg_f": 71.7,
       "recent_station_id": "USW00003888",
       "recent_station_name": "ATLANTA FULTON CO AIRPORT, GA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 569.5,
@@ -2912,11 +2912,11 @@
       ],
       "noaa_station_id": "USW00023062",
       "noaa_station_name": "DENVER-STAPLETON, CO US",
-      "recent_30d_avg_f": 65.5,
+      "recent_30d_avg_f": 62.5,
       "recent_station_id": "USW00093067",
       "recent_station_name": "DENVER CENTENNIAL AIRPORT, CO US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 508.7,
@@ -3472,11 +3472,11 @@
       ],
       "noaa_station_id": "USC00410431",
       "noaa_station_name": "AUSTIN 6S, TX US",
-      "recent_30d_avg_f": 84.5,
+      "recent_30d_avg_f": 82.3,
       "recent_station_id": "USW00013958",
       "recent_station_name": "AUSTIN CAMP MABRY, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 619.4,
@@ -4032,11 +4032,11 @@
       ],
       "noaa_station_id": "USC00040444",
       "noaa_station_name": "BAKERSFIELD 5 NW, CA US",
-      "recent_30d_avg_f": 78.0,
+      "recent_30d_avg_f": 75.1,
       "recent_station_id": "USC00040444",
       "recent_station_name": "BAKERSFIELD 5 NW, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 597.0,
@@ -4592,11 +4592,11 @@
       ],
       "noaa_station_id": "USW00093784",
       "noaa_station_name": "MD SCI CTR BALTIMORE, MD US",
-      "recent_30d_avg_f": 69.8,
+      "recent_30d_avg_f": 68.0,
       "recent_station_id": "USW00093784",
       "recent_station_name": "MARYLAND SCIENCE CENTER, MD US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 550.7,
@@ -5152,11 +5152,11 @@
       ],
       "noaa_station_id": "USW00013876",
       "noaa_station_name": "BIRMINGHAM AP, AL US",
-      "recent_30d_avg_f": 78.9,
+      "recent_30d_avg_f": 76.2,
       "recent_station_id": "USW00013876",
       "recent_station_name": "BIRMINGHAM AIRPORT, AL US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 583.9,
@@ -5712,11 +5712,11 @@
       ],
       "noaa_station_id": "USW00024131",
       "noaa_station_name": "BOISE AIR TERMINAL, ID US",
-      "recent_30d_avg_f": 67.1,
+      "recent_30d_avg_f": 64.1,
       "recent_station_id": "USW00024131",
       "recent_station_name": "BOISE AIR TERMINAL, ID US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 516.3,
@@ -6272,11 +6272,11 @@
       ],
       "noaa_station_id": "USW00014739",
       "noaa_station_name": "BOSTON LOGAN INTL AP, MA US",
-      "recent_30d_avg_f": 60.2,
+      "recent_30d_avg_f": 58.0,
       "recent_station_id": "USC00190736",
       "recent_station_name": "BLUE HILL COOP, MA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 501.3,
@@ -6832,11 +6832,11 @@
       ],
       "noaa_station_id": "USW00014733",
       "noaa_station_name": "BUFFALO, NY US",
-      "recent_30d_avg_f": 60.7,
+      "recent_30d_avg_f": 58.9,
       "recent_station_id": "USW00014733",
       "recent_station_name": "BUFFALO NIAGARA INTERNATIONAL AIRPOR, NY US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 491.2,
@@ -7392,11 +7392,11 @@
       ],
       "noaa_station_id": "USW00014742",
       "noaa_station_name": "BURLINGTON INTL AP, VT US",
-      "recent_30d_avg_f": 57.6,
+      "recent_30d_avg_f": 54.9,
       "recent_station_id": "USW00014742",
       "recent_station_name": "BURLINGTON INTERNATIONAL AIRPORT, VT US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 493.1,
@@ -7952,11 +7952,11 @@
       ],
       "noaa_station_id": "USW00013782",
       "noaa_station_name": "CHARLESTON CITY, SC US",
-      "recent_30d_avg_f": 77.4,
+      "recent_30d_avg_f": 76.0,
       "recent_station_id": "USW00013782",
       "recent_station_name": "DOWNTOWN CHARLESTON, SC US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 601.3,
@@ -8512,11 +8512,11 @@
       ],
       "noaa_station_id": "USW00013866",
       "noaa_station_name": "CHARLESTON YEAGER AP, WV US",
-      "recent_30d_avg_f": 67.8,
+      "recent_30d_avg_f": 66.0,
       "recent_station_id": "USW00013866",
       "recent_station_name": "CHARLESTON WEST VIRGINIA INTERNATIONAL YEAGER AIRPORT, WV US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 528.4,
@@ -9072,11 +9072,11 @@
       ],
       "noaa_station_id": "USW00013881",
       "noaa_station_name": "CHARLOTTE DOUGLAS AP, NC US",
-      "recent_30d_avg_f": 72.9,
+      "recent_30d_avg_f": 70.8,
       "recent_station_id": "USW00013881",
       "recent_station_name": "CHARLOTTE DOUGLAS AIRPORT, NC US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 563.3,
@@ -9632,11 +9632,11 @@
       ],
       "noaa_station_id": "USC00111550",
       "noaa_station_name": "CHICAGO NORTHERLY IS, IL US",
-      "recent_30d_avg_f": 65.5,
+      "recent_30d_avg_f": 64.4,
       "recent_station_id": "USW00014819",
       "recent_station_name": "CHICAGO MIDWAY AIRPORT, IL US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 501.3,
@@ -10192,11 +10192,11 @@
       ],
       "noaa_station_id": "USW00093812",
       "noaa_station_name": "CINCINNATI LUNKEN AP, OH US",
-      "recent_30d_avg_f": 67.9,
+      "recent_30d_avg_f": 65.8,
       "recent_station_id": "USW00093812",
       "recent_station_name": "CINCINNATI MUNICIPAL AIRPORT LUNKEN FIELD, OH US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 524.8,
@@ -10752,11 +10752,11 @@
       ],
       "noaa_station_id": "USW00004853",
       "noaa_station_name": "CLEVELAND BURKE AP, OH US",
-      "recent_30d_avg_f": 63.6,
+      "recent_30d_avg_f": 62.3,
       "recent_station_id": "USW00014820",
       "recent_station_name": "CLEVELAND HOPKINS INTERNATIONAL AIRPORT, OH US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 506.8,
@@ -11312,11 +11312,11 @@
       ],
       "noaa_station_id": "USW00093037",
       "noaa_station_name": "COLORADO SPRINGS MUNI AP, CO US",
-      "recent_30d_avg_f": 59.6,
+      "recent_30d_avg_f": 56.6,
       "recent_station_id": "USC00051786",
       "recent_station_name": "CUMBRE VISTA COLORADO SPRINGS 10 NE, CO US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 498.2,
@@ -11872,11 +11872,11 @@
       ],
       "noaa_station_id": "USC00331785",
       "noaa_station_name": "COLUMBUS WCMH, OH US",
-      "recent_30d_avg_f": 65.8,
+      "recent_30d_avg_f": 64.2,
       "recent_station_id": "USW00014821",
       "recent_station_name": "JOHN GLENN INTERNATIONAL AIRPORT, OH US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 515.2,
@@ -12432,11 +12432,11 @@
       ],
       "noaa_station_id": "USC00412011",
       "noaa_station_name": "CORPUS CHRISTI NWS, TX US",
-      "recent_30d_avg_f": 85.5,
+      "recent_30d_avg_f": 83.8,
       "recent_station_id": "USC00412011",
       "recent_station_name": "CORPUS CHRISTI NWS, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 655.6,
@@ -12992,11 +12992,11 @@
       ],
       "noaa_station_id": "USW00013960",
       "noaa_station_name": "DALLAS LOVE FLD, TX US",
-      "recent_30d_avg_f": 84.0,
+      "recent_30d_avg_f": 81.3,
       "recent_station_id": "USW00013960",
       "recent_station_name": "DALLAS FAA AIRPORT, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 627.1,
@@ -13552,11 +13552,11 @@
       ],
       "noaa_station_id": "USC00052223",
       "noaa_station_name": "DENVER WATER DEPT, CO US",
-      "recent_30d_avg_f": 65.5,
+      "recent_30d_avg_f": 62.5,
       "recent_station_id": "USW00093067",
       "recent_station_name": "DENVER CENTENNIAL AIRPORT, CO US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 519.6,
@@ -14112,11 +14112,11 @@
       ],
       "noaa_station_id": "USW00014933",
       "noaa_station_name": "DES MOINES INTL AP, IA US",
-      "recent_30d_avg_f": 65.2,
+      "recent_30d_avg_f": 64.2,
       "recent_station_id": "USW00014933",
       "recent_station_name": "DES MOINES INTERNATIONAL AIRPORT, IA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 514.6,
@@ -14672,11 +14672,11 @@
       ],
       "noaa_station_id": "USW00014822",
       "noaa_station_name": "DETROIT CITY AP, MI US",
-      "recent_30d_avg_f": 61.5,
+      "recent_30d_avg_f": 60.1,
       "recent_station_id": "USC00202016",
       "recent_station_name": "DEARBORN NUMBER 2, MI US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 503.3,
@@ -15232,11 +15232,11 @@
       ],
       "noaa_station_id": "USW00023044",
       "noaa_station_name": "EL PASO INTL AP, TX US",
-      "recent_30d_avg_f": 75.3,
+      "recent_30d_avg_f": 72.6,
       "recent_station_id": "USW00023044",
       "recent_station_name": "EL PASO INTERNATIONAL AIRPORT, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 614.1,
@@ -15792,11 +15792,11 @@
       ],
       "noaa_station_id": "USC00215586",
       "noaa_station_name": "MOORHEAD, MN US",
-      "recent_30d_avg_f": 59.5,
+      "recent_30d_avg_f": 57.4,
       "recent_station_id": "USW00014914",
       "recent_station_name": "FARGO HECTOR INTERNATIONAL AIRPORT, ND US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 486.0,
@@ -16352,11 +16352,11 @@
       ],
       "noaa_station_id": "USW00093904",
       "noaa_station_name": "FT WORTH MEACHAM FLD NAAF, TX US",
-      "recent_30d_avg_f": 83.4,
+      "recent_30d_avg_f": 80.3,
       "recent_station_id": "USW00013961",
       "recent_station_name": "FORT WORTH MEACHAM FIELD, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 622.4,
@@ -16912,11 +16912,11 @@
       ],
       "noaa_station_id": "USW00093193",
       "noaa_station_name": "FRESNO YOSEMITE INTL AP, CA US",
-      "recent_30d_avg_f": 78.6,
+      "recent_30d_avg_f": 75.8,
       "recent_station_id": "USW00093193",
       "recent_station_name": "FRESNO YOSEMITE INTERNATIONAL, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 593.9,
@@ -17472,11 +17472,11 @@
       ],
       "noaa_station_id": "USC00313625",
       "noaa_station_name": "GREENSBORO WTP, NC US",
-      "recent_30d_avg_f": 70.5,
+      "recent_30d_avg_f": 68.7,
       "recent_station_id": "USW00013723",
       "recent_station_name": "GREENSBORO PIEDMONT TRIAD INTERNATIONAL AIRPORT, NC US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 550.9,
@@ -18032,11 +18032,11 @@
       ],
       "noaa_station_id": "USW00014752",
       "noaa_station_name": "HARTFORD BRAINARD FLD, CT US",
-      "recent_30d_avg_f": 61.5,
+      "recent_30d_avg_f": 59.8,
       "recent_station_id": "USW00014740",
       "recent_station_name": "HARTFORD BRADLEY INTERNATIONAL AIRPORT, CT US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 508.9,
@@ -18592,11 +18592,11 @@
       ],
       "noaa_station_id": "USW00023169",
       "noaa_station_name": "LAS VEGAS MCCARRAN AP, NV US",
-      "recent_30d_avg_f": 84.8,
+      "recent_30d_avg_f": 79.3,
       "recent_station_id": "USW00023169",
       "recent_station_name": "HARRY REID INTERNATIONAL AIRPORT, NV US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 657.7,
@@ -19152,11 +19152,11 @@
       ],
       "noaa_station_id": "USC00519397",
       "noaa_station_name": "WAIKIKI 717.2, HI US",
-      "recent_30d_avg_f": 82.2,
+      "recent_30d_avg_f": 81.9,
       "recent_station_id": "USW00022521",
       "recent_station_name": "HONOLULU INTERNATIONAL AIRPORT, HI US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 712.6,
@@ -19712,11 +19712,11 @@
       ],
       "noaa_station_id": "USC00414326",
       "noaa_station_name": "HOUSTON-PORT, TX US",
-      "recent_30d_avg_f": 84.1,
+      "recent_30d_avg_f": 82.6,
       "recent_station_id": "USW00012918",
       "recent_station_name": "HOUSTON WILLIAM P HOBBY AIRPORT, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 643.8,
@@ -20272,11 +20272,11 @@
       ],
       "noaa_station_id": "USC00124272",
       "noaa_station_name": "INDIANAPOLIS SE SIDE, IN US",
-      "recent_30d_avg_f": 68.7,
+      "recent_30d_avg_f": 66.9,
       "recent_station_id": "USW00093819",
       "recent_station_name": "INDIANAPOLIS INTERNATIONAL AIRPORT, IN US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 510.8,
@@ -20832,11 +20832,11 @@
       ],
       "noaa_station_id": "USW00013927",
       "noaa_station_name": "JACKSON HAWKINS FLD, MS US",
-      "recent_30d_avg_f": 80.1,
+      "recent_30d_avg_f": 77.5,
       "recent_station_id": "USC00221389",
       "recent_station_name": "CANTON 4 N, MS US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 602.8,
@@ -21392,11 +21392,11 @@
       ],
       "noaa_station_id": "USW00093837",
       "noaa_station_name": "JACKSONVILLE NAS, FL US",
-      "recent_30d_avg_f": 78.6,
+      "recent_30d_avg_f": 77.3,
       "recent_station_id": "USW00053860",
       "recent_station_name": "JACKSONVILLE CRAIG MUNICIPAL AIRPORT, FL US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 648.4,
@@ -21952,11 +21952,11 @@
       ],
       "noaa_station_id": "USW00013988",
       "noaa_station_name": "KANSAS CITY DOWNTOWN AP, MO US",
-      "recent_30d_avg_f": 73.0,
+      "recent_30d_avg_f": 71.1,
       "recent_station_id": "USW00013988",
       "recent_station_name": "KANSAS CITY DOWNTOWN AIRPORT, MO US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 546.0,
@@ -22512,11 +22512,11 @@
       ],
       "noaa_station_id": "USW00053123",
       "noaa_station_name": "LAS VEGAS AIR TERMINAL, NV US",
-      "recent_30d_avg_f": 83.7,
+      "recent_30d_avg_f": 78.5,
       "recent_station_id": "USW00053123",
       "recent_station_name": "LAS VEGAS AIR TERMINAL, NV US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 644.5,
@@ -23072,11 +23072,11 @@
       ],
       "noaa_station_id": "USW00093820",
       "noaa_station_name": "LEXINGTON BLUEGRASS AP, KY US",
-      "recent_30d_avg_f": 70.0,
+      "recent_30d_avg_f": 68.0,
       "recent_station_id": "USW00093820",
       "recent_station_name": "LEXINGTON BLUEGRASS AIRPORT, KY US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 531.9,
@@ -23632,11 +23632,11 @@
       ],
       "noaa_station_id": "USW00013963",
       "noaa_station_name": "LITTLE ROCK AP ADAMS FLD, AR US",
-      "recent_30d_avg_f": 79.2,
+      "recent_30d_avg_f": 77.0,
       "recent_station_id": "USW00013963",
       "recent_station_name": "LITTLE ROCK AIRPORT ADAMS FIELD, AR US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 570.4,
@@ -24192,11 +24192,11 @@
       ],
       "noaa_station_id": "USW00023129",
       "noaa_station_name": "LONG BEACH DAUGHERTY FLD, CA US",
-      "recent_30d_avg_f": 77.7,
+      "recent_30d_avg_f": 76.4,
       "recent_station_id": "USW00023129",
       "recent_station_name": "LONG BEACH DAUGHERTY AIRPORT, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 572.3,
@@ -24752,11 +24752,11 @@
       ],
       "noaa_station_id": "USW00093134",
       "noaa_station_name": "LOS ANGELES DWTN USC CAMPUS, CA US",
-      "recent_30d_avg_f": 78.5,
+      "recent_30d_avg_f": 76.5,
       "recent_station_id": "USW00093134",
       "recent_station_name": "LOS ANGELES DOWNTOWN USC, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 580.2,
@@ -25312,11 +25312,11 @@
       ],
       "noaa_station_id": "USC00154955",
       "noaa_station_name": "LOUISVILLE MCALPINE, KY US",
-      "recent_30d_avg_f": 73.1,
+      "recent_30d_avg_f": 71.1,
       "recent_station_id": "USC00154955",
       "recent_station_name": "LOUISVILLE MCALPINE, KY US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 547.1,
@@ -25872,11 +25872,11 @@
       ],
       "noaa_station_id": "USC00470273",
       "noaa_station_name": "UW ARBORETUM - MADISON, WI US",
-      "recent_30d_avg_f": 61.2,
-      "recent_station_id": "USC00478229",
-      "recent_station_name": "STOUGHTON WWTP, WI US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_30d_avg_f": 57.8,
+      "recent_station_id": "USC00475674",
+      "recent_station_name": "MOUNT HOREB WWTP, WI US",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 493.0,
@@ -26432,11 +26432,11 @@
       ],
       "noaa_station_id": "USC00275211",
       "noaa_station_name": "MASSABESIC LAKE, NH US",
-      "recent_30d_avg_f": 58.6,
+      "recent_30d_avg_f": 56.7,
       "recent_station_id": "USC00275211",
       "recent_station_name": "MASSABESIC LAKE, NH US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 487.7,
@@ -26992,11 +26992,11 @@
       ],
       "noaa_station_id": "USW00013893",
       "noaa_station_name": "MEMPHIS INTL AP, TN US",
-      "recent_30d_avg_f": 78.2,
+      "recent_30d_avg_f": 75.4,
       "recent_station_id": "USC00405956",
       "recent_station_name": "MEMPHIS WEATHER FORECAST OFFICE, TN US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 583.3,
@@ -27552,11 +27552,11 @@
       ],
       "noaa_station_id": "USC00028499",
       "noaa_station_name": "TEMPE ASU, AZ US",
-      "recent_30d_avg_f": 88.7,
+      "recent_30d_avg_f": 84.7,
       "recent_station_id": "USW00023183",
       "recent_station_name": "PHOENIX AIRPORT, AZ US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 683.1,
@@ -28115,8 +28115,8 @@
       "recent_30d_avg_f": 83.0,
       "recent_station_id": "USW00012839",
       "recent_station_name": "MIAMI INTERNATIONAL AIRPORT, FL US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 691.7,
@@ -28672,11 +28672,11 @@
       ],
       "noaa_station_id": "USC00479046",
       "noaa_station_name": "WEST ALLIS, WI US",
-      "recent_30d_avg_f": 61.2,
+      "recent_30d_avg_f": 60.1,
       "recent_station_id": "USC00479046",
       "recent_station_name": "WEST ALLIS, WI US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 502.3,
@@ -29232,11 +29232,11 @@
       ],
       "noaa_station_id": "USC00214884",
       "noaa_station_name": "LOWER ST ANTHONY FALLS, MN US",
-      "recent_30d_avg_f": 62.1,
+      "recent_30d_avg_f": 60.9,
       "recent_station_id": "USW00014922",
       "recent_station_name": "MINNEAPOLIS ST. PAUL INTERNATIONAL AIRPORT, MN US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 494.7,
@@ -29792,11 +29792,11 @@
       ],
       "noaa_station_id": "USC00408238",
       "noaa_station_name": "SHELBY BOTTOMS NATURE, TN US",
-      "recent_30d_avg_f": 73.9,
+      "recent_30d_avg_f": 70.9,
       "recent_station_id": "USC00409431",
       "recent_station_name": "WARNER PARK, TN US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 551.9,
@@ -30352,11 +30352,11 @@
       ],
       "noaa_station_id": "USC00168941",
       "noaa_station_name": "TERRYTOWN 3S, LA US",
-      "recent_30d_avg_f": 82.6,
+      "recent_30d_avg_f": 80.8,
       "recent_station_id": "USW00053917",
       "recent_station_name": "NEW ORLEANS LAKEFRONT AIRPORT, LA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 638.0,
@@ -30912,11 +30912,11 @@
       ],
       "noaa_station_id": "USW00094728",
       "noaa_station_name": "NEW YORK CNTRL PK TWR, NY US",
-      "recent_30d_avg_f": 65.5,
+      "recent_30d_avg_f": 63.7,
       "recent_station_id": "USW00094728",
       "recent_station_name": "NY CITY CENTRAL PARK, NY US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 524.4,
@@ -31472,11 +31472,11 @@
       ],
       "noaa_station_id": "USC00046336",
       "noaa_station_name": "OAKLAND MUSEUM, CA US",
-      "recent_30d_avg_f": 66.7,
+      "recent_30d_avg_f": 66.3,
       "recent_station_id": "USC00046336",
       "recent_station_name": "OAKLAND MUSEUM, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 517.7,
@@ -32032,11 +32032,11 @@
       ],
       "noaa_station_id": "USW00013967",
       "noaa_station_name": "OKLAHOMA CITY WILL ROGERS AP, OK US",
-      "recent_30d_avg_f": 79.5,
+      "recent_30d_avg_f": 75.9,
       "recent_station_id": "USW00013967",
       "recent_station_name": "OKLAHOMA CITY WILL ROGERS WORLD AIRPORT, OK US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 562.6,
@@ -32592,11 +32592,11 @@
       ],
       "noaa_station_id": "USW00014942",
       "noaa_station_name": "OMAHA EPPLEY AIRFIELD, NE US",
-      "recent_30d_avg_f": 67.3,
+      "recent_30d_avg_f": 66.0,
       "recent_station_id": "USW00014942",
       "recent_station_name": "OMAHA EPPLEY AIRFIELD, NE US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 525.2,
@@ -33152,11 +33152,11 @@
       ],
       "noaa_station_id": "USW00012841",
       "noaa_station_name": "ORLANDO EXECUTIVE AP, FL US",
-      "recent_30d_avg_f": 81.1,
+      "recent_30d_avg_f": 80.2,
       "recent_station_id": "USW00012841",
       "recent_station_name": "ORLANDO EXECUTIVE AIRPORT, FL US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 674.3,
@@ -33712,11 +33712,11 @@
       ],
       "noaa_station_id": "USC00366886",
       "noaa_station_name": "PHILA FRANKLIN INST, PA US",
-      "recent_30d_avg_f": 68.9,
+      "recent_30d_avg_f": 67.2,
       "recent_station_id": "USW00013739",
       "recent_station_name": "PHILADELPHIA INTERNATIONAL AIRPORT, PA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 543.4,
@@ -34272,11 +34272,11 @@
       ],
       "noaa_station_id": "USW00023183",
       "noaa_station_name": "PHOENIX SKY HARBOR INTL AP, AZ US",
-      "recent_30d_avg_f": 88.7,
+      "recent_30d_avg_f": 84.7,
       "recent_station_id": "USW00023183",
       "recent_station_name": "PHOENIX AIRPORT, AZ US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 719.0,
@@ -34832,11 +34832,11 @@
       ],
       "noaa_station_id": "USC00362574",
       "noaa_station_name": "EMSWORTH L/D OHIO RVR, PA US",
-      "recent_30d_avg_f": 63.9,
+      "recent_30d_avg_f": 61.7,
       "recent_station_id": "USW00094823",
       "recent_station_name": "PITTSBURGH INTERNATIONAL AIRPORT, PA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 512.5,
@@ -35392,11 +35392,11 @@
       ],
       "noaa_station_id": "USC00356749",
       "noaa_station_name": "PORTLAND KGW-TV, OR US",
-      "recent_30d_avg_f": 63.3,
+      "recent_30d_avg_f": 62.4,
       "recent_station_id": "USC00356749",
       "recent_station_name": "PORTLAND KGW TV, OR US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 493.4,
@@ -35952,11 +35952,11 @@
       ],
       "noaa_station_id": "USW00014764",
       "noaa_station_name": "PORTLAND INTL JETPORT, ME US",
-      "recent_30d_avg_f": 58.2,
+      "recent_30d_avg_f": 55.7,
       "recent_station_id": "USW00014764",
       "recent_station_name": "PORTLAND JETPORT, ME US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 483.0,
@@ -36512,11 +36512,11 @@
       ],
       "noaa_station_id": "USW00014765",
       "noaa_station_name": "PROVIDENCE T F GREEN AP, RI US",
-      "recent_30d_avg_f": 62.7,
+      "recent_30d_avg_f": 61.0,
       "recent_station_id": "USW00014765",
       "recent_station_name": "RHODE ISLAND T.F. GREEN INTERNATIONAL AIRPORT, RI US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 504.6,
@@ -37072,11 +37072,11 @@
       ],
       "noaa_station_id": "USC00317079",
       "noaa_station_name": "RALEIGH STATE UNIV, NC US",
-      "recent_30d_avg_f": 70.8,
+      "recent_30d_avg_f": 69.3,
       "recent_station_id": "USC00311535",
       "recent_station_name": "CARY, NC US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 561.9,
@@ -37632,11 +37632,11 @@
       ],
       "noaa_station_id": "USW00013740",
       "noaa_station_name": "RICHMOND INTL AP, VA US",
-      "recent_30d_avg_f": 70.2,
+      "recent_30d_avg_f": 68.9,
       "recent_station_id": "USW00013740",
       "recent_station_name": "RICHMOND INTERNATIONAL AIRPORT, VA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 547.6,
@@ -38192,11 +38192,11 @@
       ],
       "noaa_station_id": "USC00047473",
       "noaa_station_name": "RIVERSIDE CITRUS EXP, CA US",
-      "recent_30d_avg_f": 80.0,
+      "recent_30d_avg_f": 77.2,
       "recent_station_id": "USW00003171",
       "recent_station_name": "RIVERSIDE MUNICIPAL AIRPORT, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 602.1,
@@ -38752,11 +38752,11 @@
       ],
       "noaa_station_id": "USW00023271",
       "noaa_station_name": "SACRAMENTO 5 ESE, CA US",
-      "recent_30d_avg_f": 73.5,
+      "recent_30d_avg_f": 71.2,
       "recent_station_id": "USW00023232",
       "recent_station_name": "SACRAMENTO AIRPORT ASOS, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 572.8,
@@ -39312,11 +39312,11 @@
       ],
       "noaa_station_id": "USW00014927",
       "noaa_station_name": "ST PAUL DOWNTOWN AP, MN US",
-      "recent_30d_avg_f": 62.1,
+      "recent_30d_avg_f": 60.9,
       "recent_station_id": "USW00014922",
       "recent_station_name": "MINNEAPOLIS ST. PAUL INTERNATIONAL AIRPORT, MN US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 495.9,
@@ -39872,11 +39872,11 @@
       ],
       "noaa_station_id": "USC00427606",
       "noaa_station_name": "SALT LAKE TRIAD CTR, UT US",
-      "recent_30d_avg_f": 69.8,
+      "recent_30d_avg_f": 65.7,
       "recent_station_id": "USW00024127",
       "recent_station_name": "SALT LAKE CITY INTERNATIONAL AIRPORT, UT US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 531.2,
@@ -40432,11 +40432,11 @@
       ],
       "noaa_station_id": "USC00417947",
       "noaa_station_name": "SAN ANTONIO INCARNATE WORD, TX US",
-      "recent_30d_avg_f": 84.8,
+      "recent_30d_avg_f": 82.5,
       "recent_station_id": "USW00012970",
       "recent_station_name": "SAN ANTONIO STINSON MUNICIPAL AIRPORT, TX US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 631.3,
@@ -40992,11 +40992,11 @@
       ],
       "noaa_station_id": "USW00023188",
       "noaa_station_name": "SAN DIEGO LINDBERGH FLD, CA US",
-      "recent_30d_avg_f": 75.8,
+      "recent_30d_avg_f": 74.7,
       "recent_station_id": "USW00023188",
       "recent_station_name": "SAN DIEGO INTERNATIONAL AIRPORT, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 565.9,
@@ -41552,11 +41552,11 @@
       ],
       "noaa_station_id": "USC00047821",
       "noaa_station_name": "SAN JOSE, CA US",
-      "recent_30d_avg_f": 70.3,
+      "recent_30d_avg_f": 69.1,
       "recent_station_id": "USC00047821",
       "recent_station_name": "SAN JOSE, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 541.5,
@@ -42112,11 +42112,11 @@
       ],
       "noaa_station_id": "USC00047888",
       "noaa_station_name": "SANTA ANA FIRE STN, CA US",
-      "recent_30d_avg_f": 77.0,
+      "recent_30d_avg_f": 75.9,
       "recent_station_id": "USW00093184",
       "recent_station_name": "SANTA ANA JOHN WAYNE AIRPORT, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 583.9,
@@ -42672,11 +42672,11 @@
       ],
       "noaa_station_id": "USW00024234",
       "noaa_station_name": "SEATTLE BOEING FLD, WA US",
-      "recent_30d_avg_f": 60.0,
+      "recent_30d_avg_f": 58.8,
       "recent_station_id": "USW00024234",
       "recent_station_name": "SEATTLE BOEING FIELD, WA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 485.1,
@@ -43232,11 +43232,11 @@
       ],
       "noaa_station_id": "USC00397666",
       "noaa_station_name": "SIOUX FALLS WFO AP, SD US",
-      "recent_30d_avg_f": 61.8,
-      "recent_station_id": "USC00391392",
-      "recent_station_name": "CANTON, SD US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_30d_avg_f": 61.1,
+      "recent_station_id": "USC00397666",
+      "recent_station_name": "SIOUX FALLS WEATHER FORECAST OFFICE AIRPORT, SD US",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 499.9,
@@ -43792,11 +43792,11 @@
       ],
       "noaa_station_id": "USC00237452",
       "noaa_station_name": "ST LOUIS SCI CTR, MO US",
-      "recent_30d_avg_f": 71.8,
+      "recent_30d_avg_f": 69.5,
       "recent_station_id": "USW00003960",
       "recent_station_name": "CAHOKIA ST LOUIS DOWNTOWN AIRPORT, IL US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 550.0,
@@ -44352,11 +44352,11 @@
       ],
       "noaa_station_id": "USC00048560",
       "noaa_station_name": "STOCKTON FIRE STN 4, CA US",
-      "recent_30d_avg_f": 74.1,
+      "recent_30d_avg_f": 71.5,
       "recent_station_id": "USW00023237",
       "recent_station_name": "STOCKTON AIRPORT, CA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 580.6,
@@ -44912,11 +44912,11 @@
       ],
       "noaa_station_id": "USW00012842",
       "noaa_station_name": "TAMPA INTL AP, FL US",
-      "recent_30d_avg_f": 81.6,
+      "recent_30d_avg_f": 80.8,
       "recent_station_id": "USW00012842",
       "recent_station_name": "TAMPA INTERNATIONAL AIRPORT, FL US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 682.1,
@@ -45472,11 +45472,11 @@
       ],
       "noaa_station_id": "USC00028815",
       "noaa_station_name": "TUCSON WFO, AZ US",
-      "recent_30d_avg_f": 81.7,
+      "recent_30d_avg_f": 78.8,
       "recent_station_id": "USW00023160",
       "recent_station_name": "TUCSON INTERNATIONAL AIRPORT, AZ US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 662.7,
@@ -46032,11 +46032,11 @@
       ],
       "noaa_station_id": "USW00013968",
       "noaa_station_name": "TULSA INTL AP, OK US",
-      "recent_30d_avg_f": 78.7,
+      "recent_30d_avg_f": 75.8,
       "recent_station_id": "USW00013968",
       "recent_station_name": "TULSA INTERNATIONAL AIRPORT, OK US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 572.6,
@@ -46592,11 +46592,11 @@
       ],
       "noaa_station_id": "USW00013769",
       "noaa_station_name": "OCEANA NAS, VA US",
-      "recent_30d_avg_f": 72.5,
+      "recent_30d_avg_f": 71.3,
       "recent_station_id": "USW00013737",
       "recent_station_name": "NORFOLK INTERNATIONAL AIRPORT, VA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 546.9,
@@ -47152,11 +47152,11 @@
       ],
       "noaa_station_id": "USC00186350",
       "noaa_station_name": "NATL ARBORETUM DC, MD US",
-      "recent_30d_avg_f": 69.5,
+      "recent_30d_avg_f": 67.9,
       "recent_station_id": "USW00013743",
       "recent_station_name": "WASHINGTON REAGAN NATIONAL AIRPORT, VA US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 547.1,
@@ -47712,11 +47712,11 @@
       ],
       "noaa_station_id": "USW00003928",
       "noaa_station_name": "WICHITA, KS US",
-      "recent_30d_avg_f": 74.5,
+      "recent_30d_avg_f": 72.0,
       "recent_station_id": "USW00003928",
       "recent_station_name": "WICHITA DWIGHT D. EISENHOWER NATIONAL AIRPORT, KS US",
-      "recent_period_start": "2026-09-10",
-      "recent_period_end": "2026-10-10",
+      "recent_period_start": "2026-09-17",
+      "recent_period_end": "2026-10-17",
       "scenarios": {
         "efficient": {
           "annual_kwh": 552.5,

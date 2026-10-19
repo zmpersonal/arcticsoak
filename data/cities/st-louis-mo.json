@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00237452",
   "noaa_station_name": "ST LOUIS SCI CTR, MO US",
-  "recent_30d_avg_f": 71.8,
+  "recent_30d_avg_f": 69.5,
   "recent_station_id": "USW00003960",
   "recent_station_name": "CAHOKIA ST LOUIS DOWNTOWN AIRPORT, IL US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 550.0,

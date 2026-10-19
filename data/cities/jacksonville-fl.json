@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093837",
   "noaa_station_name": "JACKSONVILLE NAS, FL US",
-  "recent_30d_avg_f": 78.6,
+  "recent_30d_avg_f": 77.3,
   "recent_station_id": "USW00053860",
   "recent_station_name": "JACKSONVILLE CRAIG MUNICIPAL AIRPORT, FL US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 648.4,

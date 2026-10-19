@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00052223",
   "noaa_station_name": "DENVER WATER DEPT, CO US",
-  "recent_30d_avg_f": 65.5,
+  "recent_30d_avg_f": 62.5,
   "recent_station_id": "USW00093067",
   "recent_station_name": "DENVER CENTENNIAL AIRPORT, CO US",
-  "recent_period_start": "2026-09-10",
-  "recent_period_end": "2026-10-10",
+  "recent_period_start": "2026-09-17",
+  "recent_period_end": "2026-10-17",
   "scenarios": {
     "efficient": {
       "annual_kwh": 519.6,
