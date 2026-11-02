@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00023129",
   "noaa_station_name": "LONG BEACH DAUGHERTY FLD, CA US",
-  "recent_30d_avg_f": 76.0,
-  "recent_station_id": "USW00023129",
-  "recent_station_name": "LONG BEACH DAUGHERTY AIRPORT, CA US",
-  "recent_period_start": "2026-09-24",
-  "recent_period_end": "2026-10-24",
+  "recent_30d_avg_f": 72.1,
+  "recent_station_id": "USW00003122",
+  "recent_station_name": "TORRANCE AIRPORT, CA US",
+  "recent_period_start": "2026-10-01",
+  "recent_period_end": "2026-10-31",
   "scenarios": {
     "efficient": {
       "annual_kwh": 572.3,

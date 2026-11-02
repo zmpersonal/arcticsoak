@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00003888",
   "noaa_station_name": "ATLANTA FULTON CO AP, GA US",
-  "recent_30d_avg_f": 66.6,
+  "recent_30d_avg_f": 64.9,
   "recent_station_id": "USW00003888",
   "recent_station_name": "ATLANTA FULTON CO AIRPORT, GA US",
-  "recent_period_start": "2026-09-24",
-  "recent_period_end": "2026-10-24",
+  "recent_period_start": "2026-10-01",
+  "recent_period_end": "2026-10-31",
   "scenarios": {
     "efficient": {
       "annual_kwh": 569.5,

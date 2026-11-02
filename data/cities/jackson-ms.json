@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013927",
   "noaa_station_name": "JACKSON HAWKINS FLD, MS US",
-  "recent_30d_avg_f": 72.2,
+  "recent_30d_avg_f": 69.7,
   "recent_station_id": "USC00221389",
   "recent_station_name": "CANTON 4 N, MS US",
-  "recent_period_start": "2026-09-24",
-  "recent_period_end": "2026-10-24",
+  "recent_period_start": "2026-10-01",
+  "recent_period_end": "2026-10-31",
   "scenarios": {
     "efficient": {
       "annual_kwh": 602.8,

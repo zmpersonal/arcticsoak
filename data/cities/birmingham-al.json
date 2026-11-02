@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013876",
   "noaa_station_name": "BIRMINGHAM AP, AL US",
-  "recent_30d_avg_f": 70.8,
+  "recent_30d_avg_f": 68.8,
   "recent_station_id": "USW00013876",
   "recent_station_name": "BIRMINGHAM AIRPORT, AL US",
-  "recent_period_start": "2026-09-24",
-  "recent_period_end": "2026-10-24",
+  "recent_period_start": "2026-10-01",
+  "recent_period_end": "2026-10-31",
   "scenarios": {
     "efficient": {
       "annual_kwh": 583.9,

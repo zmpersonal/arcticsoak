@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00004853",
   "noaa_station_name": "CLEVELAND BURKE AP, OH US",
-  "recent_30d_avg_f": 61.5,
+  "recent_30d_avg_f": 60.5,
   "recent_station_id": "USW00004853",
   "recent_station_name": "CLEVELAND BURKE LAKEFRONT AIRPORT, OH US",
-  "recent_period_start": "2026-09-24",
-  "recent_period_end": "2026-10-24",
+  "recent_period_start": "2026-10-01",
+  "recent_period_end": "2026-10-31",
   "scenarios": {
     "efficient": {
       "annual_kwh": 506.8,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00362574",
   "noaa_station_name": "EMSWORTH L/D OHIO RVR, PA US",
-  "recent_30d_avg_f": 58.0,
+  "recent_30d_avg_f": 56.9,
   "recent_station_id": "USW00014762",
   "recent_station_name": "PITTSBURGH ALLEGHENY CO AIRPORT, PA US",
-  "recent_period_start": "2026-09-24",
-  "recent_period_end": "2026-10-24",
+  "recent_period_start": "2026-10-01",
+  "recent_period_end": "2026-10-31",
   "scenarios": {
     "efficient": {
       "annual_kwh": 512.5,
