@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00014822",
   "noaa_station_name": "DETROIT CITY AP, MI US",
-  "recent_30d_avg_f": 58.8,
+  "recent_30d_avg_f": 57.9,
   "recent_station_id": "USW00014822",
   "recent_station_name": "DETROIT CITY AIRPORT, MI US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 503.3,

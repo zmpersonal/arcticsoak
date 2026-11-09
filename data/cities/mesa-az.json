@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00028499",
   "noaa_station_name": "TEMPE ASU, AZ US",
-  "recent_30d_avg_f": 75.7,
-  "recent_station_id": "USC00022782",
-  "recent_station_name": "EAST MESA, AZ US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_30d_avg_f": 75.3,
+  "recent_station_id": "USW00023183",
+  "recent_station_name": "PHOENIX AIRPORT, AZ US",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 683.1,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00410431",
   "noaa_station_name": "AUSTIN 6S, TX US",
-  "recent_30d_avg_f": 71.5,
-  "recent_station_id": "USC00410433",
-  "recent_station_name": "AUSTIN GREAT HILLS, TX US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_30d_avg_f": 72.6,
+  "recent_station_id": "USW00013958",
+  "recent_station_name": "AUSTIN CAMP MABRY, TX US",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 619.4,

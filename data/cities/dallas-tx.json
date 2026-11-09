@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013960",
   "noaa_station_name": "DALLAS LOVE FLD, TX US",
-  "recent_30d_avg_f": 73.1,
+  "recent_30d_avg_f": 71.7,
   "recent_station_id": "USW00013960",
   "recent_station_name": "DALLAS FAA AIRPORT, TX US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 627.1,

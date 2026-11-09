@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013866",
   "noaa_station_name": "CHARLESTON YEAGER AP, WV US",
-  "recent_30d_avg_f": 59.1,
-  "recent_station_id": "USC00467852",
-  "recent_station_name": "SAINT ALBANS, WV US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_30d_avg_f": 59.3,
+  "recent_station_id": "USW00013866",
+  "recent_station_name": "CHARLESTON WEST VIRGINIA INTERNATIONAL YEAGER AIRPORT, WV US",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 528.4,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00417947",
   "noaa_station_name": "SAN ANTONIO INCARNATE WORD, TX US",
-  "recent_30d_avg_f": 75.2,
+  "recent_30d_avg_f": 73.7,
   "recent_station_id": "USW00012970",
   "recent_station_name": "SAN ANTONIO STINSON MUNICIPAL AIRPORT, TX US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 631.3,

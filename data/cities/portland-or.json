@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00356749",
   "noaa_station_name": "PORTLAND KGW-TV, OR US",
-  "recent_30d_avg_f": 58.3,
+  "recent_30d_avg_f": 54.6,
   "recent_station_id": "USC00356749",
   "recent_station_name": "PORTLAND KGW TV, OR US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 493.4,

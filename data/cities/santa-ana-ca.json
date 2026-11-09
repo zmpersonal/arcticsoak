@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00047888",
   "noaa_station_name": "SANTA ANA FIRE STN, CA US",
-  "recent_30d_avg_f": 72.1,
-  "recent_station_id": "USW00003122",
-  "recent_station_name": "TORRANCE AIRPORT, CA US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_30d_avg_f": 70.2,
+  "recent_station_id": "USW00093184",
+  "recent_station_name": "SANTA ANA JOHN WAYNE AIRPORT, CA US",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 583.9,

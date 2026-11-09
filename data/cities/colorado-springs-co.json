@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093037",
   "noaa_station_name": "COLORADO SPRINGS MUNI AP, CO US",
-  "recent_30d_avg_f": 43.7,
-  "recent_station_id": "USC00057309",
-  "recent_station_name": "RUXTON PARK, CO US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_30d_avg_f": 53.4,
+  "recent_station_id": "USW00093037",
+  "recent_station_name": "COLORADO SPRINGS MUNICIPAL AIRPORT, CO US",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 498.2,

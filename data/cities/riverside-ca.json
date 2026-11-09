@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00047473",
   "noaa_station_name": "RIVERSIDE CITRUS EXP, CA US",
-  "recent_30d_avg_f": 73.3,
+  "recent_30d_avg_f": 68.0,
   "recent_station_id": "USW00003171",
   "recent_station_name": "RIVERSIDE MUNICIPAL AIRPORT, CA US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 602.1,

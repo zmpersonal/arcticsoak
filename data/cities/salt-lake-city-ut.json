@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00427606",
   "noaa_station_name": "SALT LAKE TRIAD CTR, UT US",
-  "recent_30d_avg_f": 55.4,
-  "recent_station_id": "USC00421446",
-  "recent_station_name": "CITY CREEK WATER PLANT, UT US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_30d_avg_f": 48.8,
+  "recent_station_id": "USC00425892",
+  "recent_station_name": "MOUNTAIN DELL DAM, UT US",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 531.2,

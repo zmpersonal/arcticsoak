@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093812",
   "noaa_station_name": "CINCINNATI LUNKEN AP, OH US",
-  "recent_30d_avg_f": 60.7,
+  "recent_30d_avg_f": 59.9,
   "recent_station_id": "USC00331516",
   "recent_station_name": "CHEVIOT 3 W, OH US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 524.8,

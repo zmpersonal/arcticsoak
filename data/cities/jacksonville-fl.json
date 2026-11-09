@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093837",
   "noaa_station_name": "JACKSONVILLE NAS, FL US",
-  "recent_30d_avg_f": 74.2,
+  "recent_30d_avg_f": 73.5,
   "recent_station_id": "USW00093837",
   "recent_station_name": "JACKSONVILLE NAS, FL US",
-  "recent_period_start": "2026-10-01",
-  "recent_period_end": "2026-10-31",
+  "recent_period_start": "2026-10-08",
+  "recent_period_end": "2026-11-07",
   "scenarios": {
     "efficient": {
       "annual_kwh": 648.4,
