@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093134",
   "noaa_station_name": "LOS ANGELES DWTN USC CAMPUS, CA US",
-  "recent_30d_avg_f": 69.6,
+  "recent_30d_avg_f": 69.9,
   "recent_station_id": "USW00093134",
   "recent_station_name": "LOS ANGELES DOWNTOWN USC, CA US",
-  "recent_period_start": "2026-10-08",
-  "recent_period_end": "2026-11-07",
+  "recent_period_start": "2026-10-15",
+  "recent_period_end": "2026-11-14",
   "scenarios": {
     "efficient": {
       "annual_kwh": 580.2,

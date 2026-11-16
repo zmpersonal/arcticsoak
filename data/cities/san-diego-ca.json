@@ -78,8 +78,8 @@
   "recent_30d_avg_f": 69.7,
   "recent_station_id": "USW00023188",
   "recent_station_name": "SAN DIEGO INTERNATIONAL AIRPORT, CA US",
-  "recent_period_start": "2026-10-08",
-  "recent_period_end": "2026-11-07",
+  "recent_period_start": "2026-10-15",
+  "recent_period_end": "2026-11-14",
   "scenarios": {
     "efficient": {
       "annual_kwh": 565.9,
