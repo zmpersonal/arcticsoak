@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00214884",
   "noaa_station_name": "LOWER ST ANTHONY FALLS, MN US",
-  "recent_30d_avg_f": 51.2,
-  "recent_station_id": "USC00214884",
-  "recent_station_name": "LOWER ST. ANTHONY FALLS, MN US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_30d_avg_f": 49.9,
+  "recent_station_id": "USW00014922",
+  "recent_station_name": "MINNEAPOLIS ST. PAUL INTERNATIONAL AIRPORT, MN US",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 494.7,

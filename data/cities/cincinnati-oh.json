@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093812",
   "noaa_station_name": "CINCINNATI LUNKEN AP, OH US",
-  "recent_30d_avg_f": 56.5,
-  "recent_station_id": "USC00331516",
-  "recent_station_name": "CHEVIOT 3 W, OH US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_30d_avg_f": 55.4,
+  "recent_station_id": "USW00093814",
+  "recent_station_name": "CINCINNATI NORTHERN KENTUCKY INTERNATIONAL AIRPORT, KY US",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 524.8,

@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00014742",
   "noaa_station_name": "BURLINGTON INTL AP, VT US",
-  "recent_30d_avg_f": 48.3,
+  "recent_30d_avg_f": 47.0,
   "recent_station_id": "USW00014742",
   "recent_station_name": "BURLINGTON INTERNATIONAL AIRPORT, VT US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 493.1,

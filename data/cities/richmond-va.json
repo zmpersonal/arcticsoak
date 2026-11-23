@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013740",
   "noaa_station_name": "RICHMOND INTL AP, VA US",
-  "recent_30d_avg_f": 58.3,
+  "recent_30d_avg_f": 56.6,
   "recent_station_id": "USW00013740",
   "recent_station_name": "RICHMOND INTERNATIONAL AIRPORT, VA US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 547.6,

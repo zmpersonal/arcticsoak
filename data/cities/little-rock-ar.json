@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013963",
   "noaa_station_name": "LITTLE ROCK AP ADAMS FLD, AR US",
-  "recent_30d_avg_f": 64.6,
-  "recent_station_id": "USC00030582",
-  "recent_station_name": "BENTON, AR US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_30d_avg_f": 61.8,
+  "recent_station_id": "USW00013963",
+  "recent_station_name": "LITTLE ROCK AIRPORT ADAMS FIELD, AR US",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 570.4,

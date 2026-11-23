@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USC00215586",
   "noaa_station_name": "MOORHEAD, MN US",
-  "recent_30d_avg_f": 46.7,
-  "recent_station_id": "USC00322860",
-  "recent_station_name": "FARGO 3 S, ND US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_30d_avg_f": 43.3,
+  "recent_station_id": "USW00014914",
+  "recent_station_name": "FARGO HECTOR INTERNATIONAL AIRPORT, ND US",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 486.0,

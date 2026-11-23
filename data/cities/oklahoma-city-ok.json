@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00013967",
   "noaa_station_name": "OKLAHOMA CITY WILL ROGERS AP, OK US",
-  "recent_30d_avg_f": 61.0,
+  "recent_30d_avg_f": 59.5,
   "recent_station_id": "USW00013967",
   "recent_station_name": "OKLAHOMA CITY WILL ROGERS WORLD AIRPORT, OK US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 562.6,

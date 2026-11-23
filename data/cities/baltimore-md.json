@@ -75,11 +75,11 @@
   ],
   "noaa_station_id": "USW00093784",
   "noaa_station_name": "MD SCI CTR BALTIMORE, MD US",
-  "recent_30d_avg_f": 59.6,
+  "recent_30d_avg_f": 57.4,
   "recent_station_id": "USW00093784",
   "recent_station_name": "MARYLAND SCIENCE CENTER, MD US",
-  "recent_period_start": "2026-10-15",
-  "recent_period_end": "2026-11-14",
+  "recent_period_start": "2026-10-22",
+  "recent_period_end": "2026-11-21",
   "scenarios": {
     "efficient": {
       "annual_kwh": 550.7,
